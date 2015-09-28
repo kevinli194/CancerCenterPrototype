@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06D8B10B1BB8EEF000A42ECC /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8B10A1BB8EEF000A42ECC /* MainMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		06D8B1111BB8EFE000A42ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D8B10F1BB8EFE000A42ECC /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		06D8B1131BB8F01800A42ECC /* AppointmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8B1121BB8F01800A42ECC /* AppointmentController.swift */; settings = {ASSET_TAGS = (); }; };
+		06D8B1151BB8F02400A42ECC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8B1141BB8F02400A42ECC /* MapViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
-		F11B92AF1BB3652200A37EE6 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AE1BB3652200A37EE6 /* FirstViewController.swift */; };
-		F11B92B11BB3652200A37EE6 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92B01BB3652200A37EE6 /* SecondViewController.swift */; };
-		F11B92B41BB3652200A37EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B21BB3652200A37EE6 /* Main.storyboard */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
-		F11B92B91BB3652200A37EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B71BB3652200A37EE6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06D8B10A1BB8EEF000A42ECC /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		06D8B1101BB8EFE000A42ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06D8B1121BB8F01800A42ECC /* AppointmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentController.swift; sourceTree = "<group>"; };
+		06D8B1141BB8F02400A42ECC /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		F11B92A91BB3652200A37EE6 /* CancerInstituteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CancerInstituteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F11B92AE1BB3652200A37EE6 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F11B92B01BB3652200A37EE6 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		F11B92B31BB3652200A37EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F11B92B81BB3652200A37EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F11B92BA1BB3652200A37EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,11 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */,
-				F11B92AE1BB3652200A37EE6 /* FirstViewController.swift */,
-				F11B92B01BB3652200A37EE6 /* SecondViewController.swift */,
-				F11B92B21BB3652200A37EE6 /* Main.storyboard */,
+				06D8B1121BB8F01800A42ECC /* AppointmentController.swift */,
+				06D8B1141BB8F02400A42ECC /* MapViewController.swift */,
+				06D8B10F1BB8EFE000A42ECC /* Main.storyboard */,
 				F11B92B51BB3652200A37EE6 /* Assets.xcassets */,
-				F11B92B71BB3652200A37EE6 /* LaunchScreen.storyboard */,
+				06D8B10A1BB8EEF000A42ECC /* MainMenuViewController.swift */,
 				F11B92BA1BB3652200A37EE6 /* Info.plist */,
 			);
 			path = CancerInstituteDemo;
@@ -124,9 +124,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11B92B91BB3652200A37EE6 /* LaunchScreen.storyboard in Resources */,
 				F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */,
-				F11B92B41BB3652200A37EE6 /* Main.storyboard in Resources */,
+				06D8B1111BB8EFE000A42ECC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,29 +136,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11B92B11BB3652200A37EE6 /* SecondViewController.swift in Sources */,
+				06D8B10B1BB8EEF000A42ECC /* MainMenuViewController.swift in Sources */,
+				06D8B1131BB8F01800A42ECC /* AppointmentController.swift in Sources */,
 				F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */,
-				F11B92AF1BB3652200A37EE6 /* FirstViewController.swift in Sources */,
+				06D8B1151BB8F02400A42ECC /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F11B92B21BB3652200A37EE6 /* Main.storyboard */ = {
+		06D8B10F1BB8EFE000A42ECC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F11B92B31BB3652200A37EE6 /* Base */,
+				06D8B1101BB8EFE000A42ECC /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F11B92B71BB3652200A37EE6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F11B92B81BB3652200A37EE6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -289,6 +281,7 @@
 				F11B92BF1BB3652200A37EE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,14 +1,14 @@
 //
-//  SecondViewController.swift
-//  CancerInstituteDemo
+//  FirstViewController.swift
+//  DCI
 //
-//  Created by Anna Benson on 9/23/15.
-//  Copyright © 2015 KAG. All rights reserved.
+//  Created by Georgia Tse on 9/24/15.
+//  Copyright © 2015 Georgia Tse. All rights reserved.
 //
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
