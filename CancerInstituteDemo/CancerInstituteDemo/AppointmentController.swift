@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  DCI
 //
 //  Created by Georgia Tse on 9/24/15.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor.purpleColor();
         // Do any additional setup after loading the view, typically from a nib.
     }
 
