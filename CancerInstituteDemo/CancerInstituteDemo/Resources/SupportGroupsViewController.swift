@@ -1,19 +1,18 @@
 //
-//  MainMenuViewController.swift
-//  DCI
+//  SupportGroupsViewController.swift
+//  CancerInstituteDemo
 //
-//  Created by Georgia Tse on 9/27/15.
-//  Copyright © 2015 Georgia Tse. All rights reserved.
+//  Created by Anna Benson on 10/4/15.
+//  Copyright © 2015 KAG. All rights reserved.
 //
 
 import UIKit
 
-class MainMenuViewController: UIViewController {
+class SupportGroupsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.view.backgroundColor = UIColor.blueColor();
+
         // Do any additional setup after loading the view.
     }
 
@@ -22,12 +21,7 @@ class MainMenuViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func Resource2Button(sender: AnyObject) {
-        tabBarController?.selectedIndex = 1
-        
-    }
-    
-    
+
     /*
     // MARK: - Navigation
 

@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06D8B10B1BB8EEF000A42ECC /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8B10A1BB8EEF000A42ECC /* MainMenuViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		06D8B1111BB8EFE000A42ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D8B10F1BB8EFE000A42ECC /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		06D8B1131BB8F01800A42ECC /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8B1121BB8F01800A42ECC /* MapController.swift */; settings = {ASSET_TAGS = (); }; };
 		06D8B1151BB8F02400A42ECC /* AppointmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8B1141BB8F02400A42ECC /* AppointmentController.swift */; settings = {ASSET_TAGS = (); }; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
+		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F34E1BC203C2006A3D23 /* SupportGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F34D1BC203C2006A3D23 /* SupportGroupsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F3501BC203FD006A3D23 /* EducationalClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F34F1BC203FD006A3D23 /* EducationalClassesViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F3521BC20465006A3D23 /* RestRenewRelaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3511BC20465006A3D23 /* RestRenewRelaxViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F3561BC204FA006A3D23 /* TravelLodgingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3551BC204FA006A3D23 /* TravelLodgingViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F3581BC20513006A3D23 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F35A1BC2053D006A3D23 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3591BC2053D006A3D23 /* CalendarViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F35C1BC20575006A3D23 /* SpecialEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F35B1BC20575006A3D23 /* SpecialEventsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F3601BC205C6006A3D23 /* PointsOfInterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F35F1BC205C6006A3D23 /* PointsOfInterestViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F3681BC22B01006A3D23 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1C0F36A1BC22B42006A3D23 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06D8B10A1BB8EEF000A42ECC /* MainMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		06D8B1101BB8EFE000A42ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06D8B1121BB8F01800A42ECC /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		06D8B1141BB8F02400A42ECC /* AppointmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentController.swift; sourceTree = "<group>"; };
@@ -24,6 +34,19 @@
 		F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11B92BA1BB3652200A37EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		F1C0F34D1BC203C2006A3D23 /* SupportGroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SupportGroupsViewController.swift; path = Resources/SupportGroupsViewController.swift; sourceTree = "<group>"; };
+		F1C0F34F1BC203FD006A3D23 /* EducationalClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EducationalClassesViewController.swift; path = Resources/EducationalClassesViewController.swift; sourceTree = "<group>"; };
+		F1C0F3511BC20465006A3D23 /* RestRenewRelaxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestRenewRelaxViewController.swift; path = Resources/RestRenewRelaxViewController.swift; sourceTree = "<group>"; };
+		F1C0F3551BC204FA006A3D23 /* TravelLodgingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelLodgingViewController.swift; path = Resources/TravelLodgingViewController.swift; sourceTree = "<group>"; };
+		F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Resources/SettingsViewController.swift; sourceTree = "<group>"; };
+		F1C0F3591BC2053D006A3D23 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalendarViewController.swift; path = Resources/CalendarViewController.swift; sourceTree = "<group>"; };
+		F1C0F35B1BC20575006A3D23 /* SpecialEventsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecialEventsViewController.swift; path = Resources/SpecialEventsViewController.swift; sourceTree = "<group>"; };
+		F1C0F35F1BC205C6006A3D23 /* PointsOfInterestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PointsOfInterestViewController.swift; path = Resources/PointsOfInterestViewController.swift; sourceTree = "<group>"; };
+		F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CancerInstituteDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +79,25 @@
 		F11B92AB1BB3652200A37EE6 /* CancerInstituteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				06D8B10F1BB8EFE000A42ECC /* Main.storyboard */,
+				F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */,
+				F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */,
 				F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */,
+				F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */,
 				06D8B1121BB8F01800A42ECC /* MapController.swift */,
 				06D8B1141BB8F02400A42ECC /* AppointmentController.swift */,
-				06D8B10F1BB8EFE000A42ECC /* Main.storyboard */,
 				F11B92B51BB3652200A37EE6 /* Assets.xcassets */,
-				06D8B10A1BB8EEF000A42ECC /* MainMenuViewController.swift */,
+				F1C0F35F1BC205C6006A3D23 /* PointsOfInterestViewController.swift */,
+				F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */,
+				F1C0F35B1BC20575006A3D23 /* SpecialEventsViewController.swift */,
+				F1C0F34D1BC203C2006A3D23 /* SupportGroupsViewController.swift */,
+				F1C0F3591BC2053D006A3D23 /* CalendarViewController.swift */,
+				F1C0F3551BC204FA006A3D23 /* TravelLodgingViewController.swift */,
+				F1C0F3511BC20465006A3D23 /* RestRenewRelaxViewController.swift */,
+				F1C0F34F1BC203FD006A3D23 /* EducationalClassesViewController.swift */,
+				F1C0F3451BC1E9B6006A3D23 /* Resources.swift */,
 				F11B92BA1BB3652200A37EE6 /* Info.plist */,
+				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
 			);
 			path = CancerInstituteDemo;
 			sourceTree = "<group>";
@@ -93,6 +128,7 @@
 		F11B92A11BB3652200A37EE6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = KAG;
 				TargetAttributes = {
@@ -136,10 +172,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06D8B10B1BB8EEF000A42ECC /* MainMenuViewController.swift in Sources */,
+				F1C0F3601BC205C6006A3D23 /* PointsOfInterestViewController.swift in Sources */,
+				F1C0F3681BC22B01006A3D23 /* ContactViewController.swift in Sources */,
+				F1C0F36A1BC22B42006A3D23 /* TodayViewController.swift in Sources */,
+				F1C0F3501BC203FD006A3D23 /* EducationalClassesViewController.swift in Sources */,
 				06D8B1131BB8F01800A42ECC /* MapController.swift in Sources */,
 				F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */,
+				F1C0F35C1BC20575006A3D23 /* SpecialEventsViewController.swift in Sources */,
+				F1C0F3521BC20465006A3D23 /* RestRenewRelaxViewController.swift in Sources */,
+				F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */,
+				F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */,
+				F1C0F34E1BC203C2006A3D23 /* SupportGroupsViewController.swift in Sources */,
 				06D8B1151BB8F02400A42ECC /* AppointmentController.swift in Sources */,
+				F1C0F3581BC20513006A3D23 /* SettingsViewController.swift in Sources */,
+				F1C0F35A1BC2053D006A3D23 /* CalendarViewController.swift in Sources */,
+				F1C0F3561BC204FA006A3D23 /* TravelLodgingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +291,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CancerInstituteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kag.CancerInstituteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CancerInstituteDemo/CancerInstituteDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -255,10 +305,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = CancerInstituteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kag.CancerInstituteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CancerInstituteDemo/CancerInstituteDemo-Bridging-Header.h";
 			};
 			name = Release;
 		};
