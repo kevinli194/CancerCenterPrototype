@@ -36,7 +36,7 @@ class SupportGroupsTableViewController: UITableViewController {
         
         return cell
     }
-    
+    /*
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         if indexPath.row == 0 {
             self.performSegueWithIdentifier("BloodSegue", sender: self)
@@ -64,7 +64,7 @@ class SupportGroupsTableViewController: UITableViewController {
         }
         
     }
-
+    */
     /*
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
