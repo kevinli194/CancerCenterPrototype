@@ -1,14 +1,14 @@
 //
-//  SupportGroupsViewController.swift
+//  BreastCancerViewController.swift
 //  CancerInstituteDemo
 //
-//  Created by Anna Benson on 10/4/15.
+//  Created by Anna Benson on 10/15/15.
 //  Copyright © 2015 KAG. All rights reserved.
 //
 
 import UIKit
 
-class SupportGroupsViewController: UIViewController {
+class BreastCancerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

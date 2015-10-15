@@ -10,11 +10,20 @@
 		06D8B1111BB8EFE000A42ECC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06D8B10F1BB8EFE000A42ECC /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 		06D8B1131BB8F01800A42ECC /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8B1121BB8F01800A42ECC /* MapController.swift */; settings = {ASSET_TAGS = (); }; };
 		06D8B1151BB8F02400A42ECC /* AppointmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8B1141BB8F02400A42ECC /* AppointmentController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10C9C071BCF81750012DB57 /* SupportGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C9C061BCF81750012DB57 /* SupportGroupsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10C9C091BCF82F60012DB57 /* SupportGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C9C081BCF82F60012DB57 /* SupportGroups.swift */; settings = {ASSET_TAGS = (); }; };
+		F10C9C0B1BCF87B90012DB57 /* BloodCancerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C9C0A1BCF87B90012DB57 /* BloodCancerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10C9C0F1BCF87FE0012DB57 /* CaregiverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C9C0E1BCF87FE0012DB57 /* CaregiverViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10C9C111BCF88170012DB57 /* GICancerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C9C101BCF88170012DB57 /* GICancerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10C9C151BCF88440012DB57 /* LungCacnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C9C141BCF88440012DB57 /* LungCacnerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10C9C191BCF886A0012DB57 /* MindBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C9C181BCF886A0012DB57 /* MindBodyViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10C9C1D1BCF88C90012DB57 /* GUCancerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C9C1C1BCF88C90012DB57 /* GUCancerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10C9C211BCF89230012DB57 /* ProstateCancerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C9C201BCF89230012DB57 /* ProstateCancerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F10C9C251BCF89540012DB57 /* BreastCancerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C9C241BCF89540012DB57 /* BreastCancerViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; settings = {ASSET_TAGS = (); }; };
 		F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		F1C0F34E1BC203C2006A3D23 /* SupportGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F34D1BC203C2006A3D23 /* SupportGroupsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		F1C0F3501BC203FD006A3D23 /* EducationalClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F34F1BC203FD006A3D23 /* EducationalClassesViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		F1C0F3521BC20465006A3D23 /* RestRenewRelaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3511BC20465006A3D23 /* RestRenewRelaxViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		F1C0F3561BC204FA006A3D23 /* TravelLodgingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3551BC204FA006A3D23 /* TravelLodgingViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -30,13 +39,22 @@
 		06D8B1101BB8EFE000A42ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06D8B1121BB8F01800A42ECC /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		06D8B1141BB8F02400A42ECC /* AppointmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentController.swift; sourceTree = "<group>"; };
+		F10C9C061BCF81750012DB57 /* SupportGroupsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportGroupsTableViewController.swift; sourceTree = "<group>"; };
+		F10C9C081BCF82F60012DB57 /* SupportGroups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportGroups.swift; sourceTree = "<group>"; };
+		F10C9C0A1BCF87B90012DB57 /* BloodCancerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BloodCancerViewController.swift; path = Resources/SupportGroups/BloodCancerViewController.swift; sourceTree = "<group>"; };
+		F10C9C0E1BCF87FE0012DB57 /* CaregiverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CaregiverViewController.swift; path = Resources/SupportGroups/CaregiverViewController.swift; sourceTree = "<group>"; };
+		F10C9C101BCF88170012DB57 /* GICancerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GICancerViewController.swift; path = Resources/SupportGroups/GICancerViewController.swift; sourceTree = "<group>"; };
+		F10C9C141BCF88440012DB57 /* LungCacnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LungCacnerViewController.swift; path = Resources/SupportGroups/LungCacnerViewController.swift; sourceTree = "<group>"; };
+		F10C9C181BCF886A0012DB57 /* MindBodyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MindBodyViewController.swift; path = Resources/SupportGroups/MindBodyViewController.swift; sourceTree = "<group>"; };
+		F10C9C1C1BCF88C90012DB57 /* GUCancerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GUCancerViewController.swift; path = Resources/SupportGroups/GUCancerViewController.swift; sourceTree = "<group>"; };
+		F10C9C201BCF89230012DB57 /* ProstateCancerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProstateCancerViewController.swift; path = Resources/SupportGroups/ProstateCancerViewController.swift; sourceTree = "<group>"; };
+		F10C9C241BCF89540012DB57 /* BreastCancerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BreastCancerViewController.swift; path = Resources/SupportGroups/BreastCancerViewController.swift; sourceTree = "<group>"; };
 		F11B92A91BB3652200A37EE6 /* CancerInstituteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CancerInstituteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11B92BA1BB3652200A37EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
-		F1C0F34D1BC203C2006A3D23 /* SupportGroupsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SupportGroupsViewController.swift; path = Resources/SupportGroupsViewController.swift; sourceTree = "<group>"; };
 		F1C0F34F1BC203FD006A3D23 /* EducationalClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EducationalClassesViewController.swift; path = Resources/EducationalClassesViewController.swift; sourceTree = "<group>"; };
 		F1C0F3511BC20465006A3D23 /* RestRenewRelaxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestRenewRelaxViewController.swift; path = Resources/RestRenewRelaxViewController.swift; sourceTree = "<group>"; };
 		F1C0F3551BC204FA006A3D23 /* TravelLodgingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelLodgingViewController.swift; path = Resources/TravelLodgingViewController.swift; sourceTree = "<group>"; };
@@ -80,22 +98,31 @@
 			isa = PBXGroup;
 			children = (
 				06D8B10F1BB8EFE000A42ECC /* Main.storyboard */,
+				F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */,
+				06D8B1141BB8F02400A42ECC /* AppointmentController.swift */,
 				F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */,
 				F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */,
-				F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */,
-				F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */,
 				06D8B1121BB8F01800A42ECC /* MapController.swift */,
-				06D8B1141BB8F02400A42ECC /* AppointmentController.swift */,
+				F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */,
 				F11B92B51BB3652200A37EE6 /* Assets.xcassets */,
 				F1C0F35F1BC205C6006A3D23 /* PointsOfInterestViewController.swift */,
 				F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */,
 				F1C0F35B1BC20575006A3D23 /* SpecialEventsViewController.swift */,
-				F1C0F34D1BC203C2006A3D23 /* SupportGroupsViewController.swift */,
+				F10C9C061BCF81750012DB57 /* SupportGroupsTableViewController.swift */,
+				F10C9C0A1BCF87B90012DB57 /* BloodCancerViewController.swift */,
+				F10C9C241BCF89540012DB57 /* BreastCancerViewController.swift */,
+				F10C9C201BCF89230012DB57 /* ProstateCancerViewController.swift */,
+				F10C9C0E1BCF87FE0012DB57 /* CaregiverViewController.swift */,
+				F10C9C101BCF88170012DB57 /* GICancerViewController.swift */,
+				F10C9C1C1BCF88C90012DB57 /* GUCancerViewController.swift */,
+				F10C9C141BCF88440012DB57 /* LungCacnerViewController.swift */,
+				F10C9C181BCF886A0012DB57 /* MindBodyViewController.swift */,
 				F1C0F3591BC2053D006A3D23 /* CalendarViewController.swift */,
 				F1C0F3551BC204FA006A3D23 /* TravelLodgingViewController.swift */,
 				F1C0F3511BC20465006A3D23 /* RestRenewRelaxViewController.swift */,
 				F1C0F34F1BC203FD006A3D23 /* EducationalClassesViewController.swift */,
 				F1C0F3451BC1E9B6006A3D23 /* Resources.swift */,
+				F10C9C081BCF82F60012DB57 /* SupportGroups.swift */,
 				F11B92BA1BB3652200A37EE6 /* Info.plist */,
 				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
 			);
@@ -172,17 +199,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10C9C0F1BCF87FE0012DB57 /* CaregiverViewController.swift in Sources */,
 				F1C0F3601BC205C6006A3D23 /* PointsOfInterestViewController.swift in Sources */,
 				F1C0F3681BC22B01006A3D23 /* ContactViewController.swift in Sources */,
 				F1C0F36A1BC22B42006A3D23 /* TodayViewController.swift in Sources */,
+				F10C9C191BCF886A0012DB57 /* MindBodyViewController.swift in Sources */,
+				F10C9C091BCF82F60012DB57 /* SupportGroups.swift in Sources */,
+				F10C9C251BCF89540012DB57 /* BreastCancerViewController.swift in Sources */,
+				F10C9C1D1BCF88C90012DB57 /* GUCancerViewController.swift in Sources */,
 				F1C0F3501BC203FD006A3D23 /* EducationalClassesViewController.swift in Sources */,
 				06D8B1131BB8F01800A42ECC /* MapController.swift in Sources */,
+				F10C9C071BCF81750012DB57 /* SupportGroupsTableViewController.swift in Sources */,
 				F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */,
 				F1C0F35C1BC20575006A3D23 /* SpecialEventsViewController.swift in Sources */,
+				F10C9C151BCF88440012DB57 /* LungCacnerViewController.swift in Sources */,
+				F10C9C0B1BCF87B90012DB57 /* BloodCancerViewController.swift in Sources */,
 				F1C0F3521BC20465006A3D23 /* RestRenewRelaxViewController.swift in Sources */,
 				F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */,
+				F10C9C111BCF88170012DB57 /* GICancerViewController.swift in Sources */,
+				F10C9C211BCF89230012DB57 /* ProstateCancerViewController.swift in Sources */,
 				F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */,
-				F1C0F34E1BC203C2006A3D23 /* SupportGroupsViewController.swift in Sources */,
 				06D8B1151BB8F02400A42ECC /* AppointmentController.swift in Sources */,
 				F1C0F3581BC20513006A3D23 /* SettingsViewController.swift in Sources */,
 				F1C0F35A1BC2053D006A3D23 /* CalendarViewController.swift in Sources */,

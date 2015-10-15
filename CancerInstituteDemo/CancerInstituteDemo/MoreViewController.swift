@@ -15,12 +15,10 @@ class MoreViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.resources = [Resource(item: "Calendar"), Resource(item: "Points of Interest"), Resource(item: "Support Groups"), Resource(item: "Educational Classes"), Resource(item: "Rest, Renew & Relax"), Resource(item: "Special Events"), Resource(item: "Travel & Lodging"), Resource(item: "Settings")]
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -39,11 +37,57 @@ class MoreViewController: UITableViewController {
         return cell
     }
     
-    /*
-    convenience init(identifier detailsCalendar: String?, source MoreViewController: UIViewController, destination CalendarViewController: UIViewController performHandler performHandler: () -> Void) {
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        if indexPath.row == 0 {
+            self.performSegueWithIdentifier("CalendarSegue", sender: self)
+        }
+        if indexPath.row == 1 {
+            self.performSegueWithIdentifier("POISegue", sender: self)
+        }
+        if indexPath.row == 2 {
+            self.performSegueWithIdentifier("SupportGroupsSegue", sender: self)
+        }
+        if indexPath.row == 3 {
+            self.performSegueWithIdentifier("EducationSegue", sender: self)
+        }
+        if indexPath.row == 4 {
+            self.performSegueWithIdentifier("RestSegue", sender: self)
+        }
+        if indexPath.row == 5 {
+            self.performSegueWithIdentifier("SpecialEventsSegue", sender: self)
+        }
+        if indexPath.row == 6 {
+            self.performSegueWithIdentifier("TravelSegue", sender: self)
+        }
+        if indexPath.row == 7 {
+            self.performSegueWithIdentifier("SettingsSegue", sender: self)
+        }
+        
     }
-    */
+    /*
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let cell = self.tableView.cellForRowAtIndexPath(indexPath)
+        if(cell?.textLabel?.text == "Calendar"){
+            cell?.targetForAction("CalendarSegue", withSender: self)
+        }
+        if(cell?.textLabel == "Calendar"){
+            cell?.targetForAction("CalendarSegue", withSender: self)
+        }
+    // cell = self.tableView.cellForRowAtIndexPath(indexPath)
+    //print ("You selected cell #\(cellnum)!")
+    }
+
+    override func tableView(tableView: UITableView, performAction action: Selector, forRowAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) {
+        let cell = self.tableView.cellForRowAtIndexPath(indexPath)
+        if(cell?.textLabel?.text == "Calendar"){
+            cell?.targetForAction("CalendarSegue", withSender: self)
+        }
+        if(cell?.textLabel == "Calendar"){
+            cell?.targetForAction("CalendarSegue", withSender: self)
+        }
+    }
     
+
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
         /*if let identifier = segue.identifier {
@@ -56,7 +100,7 @@ class MoreViewController: UITableViewController {
         if(segue.identifier == "detailsCalendar"){
             let vc = segue.destinationViewController as! CalendarViewController
             vc.presentingViewController
-            //vc.presentViewController(<#T##viewControllerToPresent: UIViewController##UIViewController#>, animated: <#T##Bool#>, completion: <#T##(() -> Void)?##(() -> Void)?##() -> Void#>)
+            //vc.presentViewController(viewControllerToPresent: UIViewController, animated: Bool, completion: (() -> Void)?)
             //indexpath = [Resource, indexPathforselectedRow]
         }
         
@@ -84,6 +128,10 @@ class MoreViewController: UITableViewController {
 
 */
 
+    /*
+    convenience init(identifier detailsCalendar: String?, source MoreViewController: UIViewController, destination CalendarViewController: UIViewController performHandler performHandler: () -> Void) {
+    }
+    */
 
     /*
     // MARK: - Navigation
@@ -94,5 +142,6 @@ class MoreViewController: UITableViewController {
         // Pass the selected object to the new view controller.
     }
     */
+*/
 
 }
