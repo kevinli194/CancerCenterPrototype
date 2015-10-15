@@ -83,6 +83,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06609F231BD0410C00981605 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */,
+				06D8B10F1BB8EFE000A42ECC /* Main.storyboard */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		06609F241BD0413400981605 /* MainMenuControllers */ = {
+			isa = PBXGroup;
+			children = (
+				06D8B1141BB8F02400A42ECC /* AppointmentController.swift */,
+				F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */,
+				F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */,
+				06D8B1121BB8F01800A42ECC /* MapController.swift */,
+				F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */,
+			);
+			name = MainMenuControllers;
+			sourceTree = "<group>";
+		};
 		41C0FB1A3F0B5755472574A3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,22 +142,17 @@
 		F11B92AB1BB3652200A37EE6 /* CancerInstituteDemo */ = {
 			isa = PBXGroup;
 			children = (
-				06D8B10F1BB8EFE000A42ECC /* Main.storyboard */,
-				06D8B1141BB8F02400A42ECC /* AppointmentController.swift */,
-				F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */,
-				F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */,
-				06D8B1121BB8F01800A42ECC /* MapController.swift */,
-				F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */,
+				06609F241BD0413400981605 /* MainMenuControllers */,
+				06609F231BD0410C00981605 /* Main */,
 				F11B92B51BB3652200A37EE6 /* Assets.xcassets */,
-				F1A96F491BD03A8D008446CE /* Resources */,
+				F1A96F491BD03A8D008446CE /* ResourcesControllers */,
 				F11B92BA1BB3652200A37EE6 /* Info.plist */,
-				F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */,
 				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
 			);
 			path = CancerInstituteDemo;
 			sourceTree = "<group>";
 		};
-		F1A96F491BD03A8D008446CE /* Resources */ = {
+		F1A96F491BD03A8D008446CE /* ResourcesControllers */ = {
 			isa = PBXGroup;
 			children = (
 				F1C0F35F1BC205C6006A3D23 /* PointsOfInterestViewController.swift */,
@@ -158,7 +174,7 @@
 				F10C9C061BCF81750012DB57 /* SupportGroupsTableViewController.swift */,
 				F1C0F35B1BC20575006A3D23 /* SpecialEventsViewController.swift */,
 			);
-			name = Resources;
+			name = ResourcesControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
