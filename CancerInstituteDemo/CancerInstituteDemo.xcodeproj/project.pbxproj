@@ -98,17 +98,25 @@
 			isa = PBXGroup;
 			children = (
 				06D8B10F1BB8EFE000A42ECC /* Main.storyboard */,
-				F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */,
 				06D8B1141BB8F02400A42ECC /* AppointmentController.swift */,
 				F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */,
 				F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */,
 				06D8B1121BB8F01800A42ECC /* MapController.swift */,
 				F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */,
 				F11B92B51BB3652200A37EE6 /* Assets.xcassets */,
+				F1A96F491BD03A8D008446CE /* Resources */,
+				F11B92BA1BB3652200A37EE6 /* Info.plist */,
+				F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */,
+				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
+			);
+			path = CancerInstituteDemo;
+			sourceTree = "<group>";
+		};
+		F1A96F491BD03A8D008446CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				F1C0F35F1BC205C6006A3D23 /* PointsOfInterestViewController.swift */,
 				F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */,
-				F1C0F35B1BC20575006A3D23 /* SpecialEventsViewController.swift */,
-				F10C9C061BCF81750012DB57 /* SupportGroupsTableViewController.swift */,
 				F10C9C0A1BCF87B90012DB57 /* BloodCancerViewController.swift */,
 				F10C9C241BCF89540012DB57 /* BreastCancerViewController.swift */,
 				F10C9C201BCF89230012DB57 /* ProstateCancerViewController.swift */,
@@ -123,10 +131,10 @@
 				F1C0F34F1BC203FD006A3D23 /* EducationalClassesViewController.swift */,
 				F1C0F3451BC1E9B6006A3D23 /* Resources.swift */,
 				F10C9C081BCF82F60012DB57 /* SupportGroups.swift */,
-				F11B92BA1BB3652200A37EE6 /* Info.plist */,
-				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
+				F10C9C061BCF81750012DB57 /* SupportGroupsTableViewController.swift */,
+				F1C0F35B1BC20575006A3D23 /* SpecialEventsViewController.swift */,
 			);
-			path = CancerInstituteDemo;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

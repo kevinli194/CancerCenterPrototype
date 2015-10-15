@@ -244,107 +244,10 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Root View Controller" id="uv1-Ae-SvV"/>
-                    <connections>
-                        <segue destination="82z-mS-E4U" kind="show" identifier="BloodSegue" id="mN5-rs-vd9"/>
-                        <segue destination="FJR-AX-oVE" kind="show" identifier="BreastSegue" id="eKs-td-bI9"/>
-                        <segue destination="A9I-QW-yK9" kind="show" identifier="CaregiverSegue" id="kvf-3G-Bon"/>
-                        <segue destination="viV-vu-Xsm" kind="show" identifier="GISegue" id="QZb-ee-bx8"/>
-                        <segue destination="EKs-i7-tNd" kind="show" identifier="GUSegue" id="Sh1-Bp-Ath"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="exT-fe-alj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2564" y="-5401"/>
-        </scene>
-        <!--Blood Cancer View Controller-->
-        <scene sceneID="vOs-wX-L6N">
-            <objects>
-                <viewController id="82z-mS-E4U" customClass="BloodCancerViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PSY-BE-1Ew"/>
-                        <viewControllerLayoutGuide type="bottom" id="K23-8q-AVS"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UZp-J6-9og">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="s3e-sT-JQ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3386" y="-6972"/>
-        </scene>
-        <!--Breast Cancer View Controller-->
-        <scene sceneID="Mw0-Kp-CjK">
-            <objects>
-                <viewController id="FJR-AX-oVE" customClass="BreastCancerViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8Td-7z-cXp"/>
-                        <viewControllerLayoutGuide type="bottom" id="Rm3-4l-pKo"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dlD-di-psB">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="69L-C2-MUG" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3386" y="-6323"/>
-        </scene>
-        <!--Caregiver View Controller-->
-        <scene sceneID="mpr-ZY-Oy5">
-            <objects>
-                <viewController id="A9I-QW-yK9" customClass="CaregiverViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="fBd-dz-ENC"/>
-                        <viewControllerLayoutGuide type="bottom" id="Str-aV-Rgx"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Lie-eY-Tkb">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AhG-vs-MuF" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3386" y="-5671"/>
-        </scene>
-        <!--Cancer View Controller-->
-        <scene sceneID="qaV-d0-XBS">
-            <objects>
-                <viewController id="EKs-i7-tNd" customClass="GUCancerViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="xqY-yJ-mmM"/>
-                        <viewControllerLayoutGuide type="bottom" id="609-gw-C2U"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="JzW-47-68r">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Xy2-kO-2Qh" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3386" y="-4373"/>
-        </scene>
-        <!--Cancer View Controller-->
-        <scene sceneID="wmX-61-HXq">
-            <objects>
-                <viewController id="viV-vu-Xsm" customClass="GICancerViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="bQK-cX-Cm1"/>
-                        <viewControllerLayoutGuide type="bottom" id="Rjb-Fb-XOX"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Xqk-Jc-6j8">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="8wi-sr-kUc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3386" y="-5021"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mkn-AA-CPa">
