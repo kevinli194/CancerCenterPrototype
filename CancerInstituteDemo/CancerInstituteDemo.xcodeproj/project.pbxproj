@@ -33,12 +33,16 @@
 		F1C0F3601BC205C6006A3D23 /* PointsOfInterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F35F1BC205C6006A3D23 /* PointsOfInterestViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		F1C0F3681BC22B01006A3D23 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		F1C0F36A1BC22B42006A3D23 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FED57ED6D10C154DE7FAE4AF /* Pods_CancerInstituteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		06D8B1101BB8EFE000A42ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06D8B1121BB8F01800A42ECC /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		06D8B1141BB8F02400A42ECC /* AppointmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentController.swift; sourceTree = "<group>"; };
+		6BF8ED8034DB39B4F8EF216F /* Pods-CancerInstituteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CancerInstituteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9E4493ACC11DA87670C4DE /* Pods-CancerInstituteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F10C9C061BCF81750012DB57 /* SupportGroupsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportGroupsTableViewController.swift; sourceTree = "<group>"; };
 		F10C9C081BCF82F60012DB57 /* SupportGroups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportGroups.swift; sourceTree = "<group>"; };
 		F10C9C0A1BCF87B90012DB57 /* BloodCancerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BloodCancerViewController.swift; path = Resources/SupportGroups/BloodCancerViewController.swift; sourceTree = "<group>"; };
@@ -72,17 +76,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED57ED6D10C154DE7FAE4AF /* Pods_CancerInstituteDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41C0FB1A3F0B5755472574A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BF8ED8034DB39B4F8EF216F /* Pods-CancerInstituteDemo.debug.xcconfig */,
+				EE9E4493ACC11DA87670C4DE /* Pods-CancerInstituteDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C029A8E3902C8FCACC67C878 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F11B92A01BB3652200A37EE6 = {
 			isa = PBXGroup;
 			children = (
 				F11B92AB1BB3652200A37EE6 /* CancerInstituteDemo */,
 				F11B92AA1BB3652200A37EE6 /* Products */,
+				41C0FB1A3F0B5755472574A3 /* Pods */,
+				C029A8E3902C8FCACC67C878 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F11B92BD1BB3652200A37EE6 /* Build configuration list for PBXNativeTarget "CancerInstituteDemo" */;
 			buildPhases = (
+				57638B204B7D2BAEB7584A6E /* Check Pods Manifest.lock */,
 				F11B92A51BB3652200A37EE6 /* Sources */,
 				F11B92A61BB3652200A37EE6 /* Frameworks */,
 				F11B92A71BB3652200A37EE6 /* Resources */,
+				571E44D920F97418E1FDA99F /* Embed Pods Frameworks */,
+				683C0F20710CC149107174AC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -201,6 +228,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		571E44D920F97418E1FDA99F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57638B204B7D2BAEB7584A6E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		683C0F20710CC149107174AC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F11B92A51BB3652200A37EE6 /* Sources */ = {
@@ -333,6 +408,7 @@
 		};
 		F11B92BE1BB3652200A37EE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BF8ED8034DB39B4F8EF216F /* Pods-CancerInstituteDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -347,6 +423,7 @@
 		};
 		F11B92BF1BB3652200A37EE6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE9E4493ACC11DA87670C4DE /* Pods-CancerInstituteDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
