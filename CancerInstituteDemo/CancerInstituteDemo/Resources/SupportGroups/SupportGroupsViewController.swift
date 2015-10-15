@@ -1,5 +1,5 @@
 //
-//  BreastCancerViewController.swift
+//  SupportGroupsViewController.swift
 //  CancerInstituteDemo
 //
 //  Created by Anna Benson on 10/15/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BreastCancerViewController: UIViewController {
+class SupportGroupsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +20,10 @@ class BreastCancerViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //@interface CarDetailViewController : UIViewController
+    
+    //@property (strong, nonatomic) NSArray *carDetailModel;
     
 
     /*
