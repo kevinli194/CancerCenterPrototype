@@ -251,13 +251,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <animations/>
                                 </tableViewCellContentView>
-<<<<<<< HEAD
                                 <connections>
                                     <segue destination="7c2-5w-WQd" kind="show" id="g3P-02-naA"/>
                                 </connections>
-=======
                                 <animations/>
->>>>>>> b9bfea1010739e14e69e9946a9e1b357ee37ab97
                             </tableViewCell>
                         </prototypes>
                         <connections>
