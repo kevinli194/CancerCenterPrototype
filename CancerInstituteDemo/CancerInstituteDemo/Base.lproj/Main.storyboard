@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B17c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Map-->
@@ -97,7 +98,7 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="etU-P9-DwI" id="IQK-po-miR">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <animations/>
                                 </tableViewCellContentView>
@@ -247,14 +248,14 @@
                                 <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b8Y-eq-9G9" id="7f6-NI-CfX">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <animations/>
                                 </tableViewCellContentView>
+                                <animations/>
                                 <connections>
                                     <segue destination="7c2-5w-WQd" kind="show" id="g3P-02-naA"/>
                                 </connections>
-                                <animations/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -341,14 +342,6 @@
                     <view key="view" contentMode="scaleToFill" id="yqR-mW-xBF">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Calendar" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0Vo-7P-Rb2">
-                                <rect key="frame" x="44" y="252" width="97" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -402,25 +395,84 @@
             </objects>
             <point key="canvasLocation" x="364" y="-2184"/>
         </scene>
-        <!--Today-->
+        <!--Today's Events-->
         <scene sceneID="BBn-m2-wSQ">
             <objects>
                 <viewController id="hlV-WX-Grb" customClass="TodayViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="TBG-eg-5Za"/>
-                        <viewControllerLayoutGuide type="bottom" id="pnw-Lz-kfH"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Uir-fC-1cq">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="208" sectionHeaderHeight="28" sectionFooterHeight="28" id="LMb-Tr-3qg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Today" image="calendar" id="Wol-oa-k58"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EventCell" rowHeight="208" id="d4C-or-YHo" customClass="TodayEventCell" customModule="CancerInstituteDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="92" width="600" height="208"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="d4C-or-YHo" id="mz5-tp-j21">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="207"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tdU-az-DZ5" customClass="CardView" customModule="CancerInstituteDemo" customModuleProvider="target">
+                                            <rect key="frame" x="8" y="0.0" width="584" height="199"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jw0-3H-Vz4">
+                                                    <rect key="frame" x="8" y="0.0" width="322" height="191"/>
+                                                </imageView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Event Name" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sQT-NL-InB">
+                                                    <rect key="frame" x="344" y="0.0" width="232" height="34"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="232" id="n8g-91-cMq"/>
+                                                        <constraint firstAttribute="height" constant="34" id="qQE-SO-u7q"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VCl-eP-2Nl">
+                                                    <rect key="frame" x="340" y="42" width="240" height="128"/>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="Jw0-3H-Vz4" firstAttribute="top" secondItem="sQT-NL-InB" secondAttribute="top" id="QT5-6V-xtV"/>
+                                                <constraint firstItem="sQT-NL-InB" firstAttribute="centerX" secondItem="VCl-eP-2Nl" secondAttribute="centerX" id="RML-KV-yEW"/>
+                                                <constraint firstItem="sQT-NL-InB" firstAttribute="trailing" secondItem="tdU-az-DZ5" secondAttribute="trailingMargin" id="ZIR-Ng-YEP"/>
+                                                <constraint firstItem="sQT-NL-InB" firstAttribute="top" secondItem="tdU-az-DZ5" secondAttribute="top" id="m47-Mk-V8V"/>
+                                                <constraint firstItem="VCl-eP-2Nl" firstAttribute="leading" secondItem="Jw0-3H-Vz4" secondAttribute="trailing" constant="10" id="mcp-3V-V2p"/>
+                                                <constraint firstItem="VCl-eP-2Nl" firstAttribute="top" secondItem="sQT-NL-InB" secondAttribute="bottom" constant="8" symbolic="YES" id="q5e-NG-OG0"/>
+                                                <constraint firstAttribute="bottom" secondItem="VCl-eP-2Nl" secondAttribute="bottom" constant="29" id="qn1-Jw-NtT"/>
+                                                <constraint firstItem="Jw0-3H-Vz4" firstAttribute="leading" secondItem="tdU-az-DZ5" secondAttribute="leadingMargin" id="sHZ-y3-gDA"/>
+                                                <constraint firstItem="Jw0-3H-Vz4" firstAttribute="bottom" secondItem="tdU-az-DZ5" secondAttribute="bottomMargin" id="t4k-Ot-rvw"/>
+                                                <constraint firstItem="sQT-NL-InB" firstAttribute="leading" secondItem="Jw0-3H-Vz4" secondAttribute="trailing" constant="14" id="xMf-EE-urI"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="tdU-az-DZ5" firstAttribute="top" secondItem="mz5-tp-j21" secondAttribute="top" id="KKj-63-nI1"/>
+                                        <constraint firstItem="tdU-az-DZ5" firstAttribute="leading" secondItem="mz5-tp-j21" secondAttribute="leadingMargin" id="YSJ-3U-oxQ"/>
+                                        <constraint firstItem="tdU-az-DZ5" firstAttribute="trailing" secondItem="mz5-tp-j21" secondAttribute="trailingMargin" id="iNe-3q-E1G"/>
+                                        <constraint firstItem="tdU-az-DZ5" firstAttribute="bottom" secondItem="mz5-tp-j21" secondAttribute="bottomMargin" id="sVD-s5-vKH"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="eventDetails" destination="VCl-eP-2Nl" id="wdo-jD-fpK"/>
+                                    <outlet property="eventImage" destination="Jw0-3H-Vz4" id="aku-T1-qSt"/>
+                                    <outlet property="eventName" destination="sQT-NL-InB" id="u6W-R7-fDA"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <sections/>
+                        <connections>
+                            <outlet property="dataSource" destination="hlV-WX-Grb" id="LKz-L3-TUD"/>
+                            <outlet property="delegate" destination="hlV-WX-Grb" id="39K-yh-RRX"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Today's Events" id="iwf-nD-nKD"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y57-2Y-CKd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="313" y="-283"/>
+            <point key="canvasLocation" x="1125" y="-283"/>
         </scene>
         <!--Appointment-->
         <scene sceneID="wg7-f3-ORb">
@@ -456,7 +508,7 @@
                     <connections>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
-                        <segue destination="hlV-WX-Grb" kind="relationship" relationship="viewControllers" id="DT9-9j-P7q"/>
+                        <segue destination="ZKK-P7-UnF" kind="relationship" relationship="viewControllers" id="DT9-9j-P7q"/>
                         <segue destination="UAI-H7-gbj" kind="relationship" relationship="viewControllers" id="c4d-09-FTq"/>
                         <segue destination="7ff-qa-XVk" kind="relationship" relationship="viewControllers" id="YAe-I6-qCu"/>
                     </connections>
@@ -464,6 +516,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-547" y="-339"/>
+        </scene>
+        <!--Today-->
+        <scene sceneID="uOk-sL-kue">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZKK-P7-UnF" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Today" image="calendar" id="Wol-oa-k58"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="kVw-xa-5Fx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hlV-WX-Grb" kind="relationship" relationship="rootViewController" id="hPA-lx-a3Y"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UQr-c0-gBC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313" y="-283"/>
         </scene>
     </scenes>
     <resources>

@@ -4,18 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-CancerInstituteDemo.xcscheme</key>
+		<key>CVCalendar.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>RKCardView.xcscheme</key>
+		<key>Pods-CancerInstituteDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>BA14B622689766F6B8A4F42FD9DE552F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C3910AB5FA0C2F00D7AB0698D01A7FE3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

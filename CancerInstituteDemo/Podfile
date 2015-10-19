@@ -2,7 +2,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target 'CancerInstituteDemo' do
-pod 'RKCardView'
+pod 'CVCalendar', '~> 1.2.7'
 
 end
 
