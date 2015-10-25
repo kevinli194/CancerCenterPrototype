@@ -45,6 +45,7 @@ class TodayViewController: UIViewController, UITableViewDelegate, UITableViewDat
         // Set the second row text label to the secondRowLabel data in our current array item
         cell.eventName.text = tableData[indexPath.row].eventName
         //Set image
+        cell.eventImage.contentMode = .ScaleAspectFill
         cell.eventImage.image = UIImage(named: tableData[indexPath.row].eventImage)
         // Return our new cell for display
         return cell

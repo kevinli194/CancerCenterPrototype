@@ -1,10 +1,10 @@
 PODS:
-  - CVCalendar (1.2.7)
+  - Alamofire (3.1.0)
 
 DEPENDENCIES:
-  - CVCalendar (~> 1.2.7)
+  - Alamofire (~> 3.0)
 
 SPEC CHECKSUMS:
-  CVCalendar: 1ae6ee62dd7fd4c6a6703a43c641e11dfd32276e
+  Alamofire: 415bd7f56197722978759078486689f7ef913dce
 
 COCOAPODS: 0.39.0
