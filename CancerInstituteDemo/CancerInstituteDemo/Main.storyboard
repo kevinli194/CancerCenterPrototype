@@ -315,7 +315,7 @@
             </objects>
             <point key="canvasLocation" x="1121" y="-2184"/>
         </scene>
-        <!--Rest Table View Controller-->
+        <!--Rest, Renew, & Relax-->
         <scene sceneID="v00-ge-6Sg">
             <objects>
                 <tableViewController id="0ED-kf-NLN" customClass="RestTableViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -331,16 +331,22 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfA-xd-s2O">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfA-xd-s2O">
                                             <rect key="frame" x="8" y="8" width="584" height="27.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstItem="GfA-xd-s2O" firstAttribute="top" secondItem="Ibq-sy-LRM" secondAttribute="topMargin" id="1NT-QS-dys"/>
+                                        <constraint firstItem="GfA-xd-s2O" firstAttribute="trailing" secondItem="Ibq-sy-LRM" secondAttribute="trailingMargin" id="EfN-fO-Hn7"/>
+                                        <constraint firstItem="GfA-xd-s2O" firstAttribute="bottom" secondItem="Ibq-sy-LRM" secondAttribute="bottomMargin" id="Jq4-4Z-HOu"/>
+                                        <constraint firstItem="GfA-xd-s2O" firstAttribute="leading" secondItem="Ibq-sy-LRM" secondAttribute="leadingMargin" id="JxA-TW-S9n"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="restLabel" destination="GfA-xd-s2O" id="LFX-IA-c03"/>
+                                    <outlet property="restLabel" destination="GfA-xd-s2O" id="jew-rA-FUQ"/>
                                     <segue destination="gS1-Fp-2mo" kind="show" identifier="ShowRestDetails" action="showDetailViewController:sender:" id="IBc-CV-AnB"/>
                                 </connections>
                             </tableViewCell>
@@ -350,16 +356,16 @@
                             <outlet property="delegate" destination="0ED-kf-NLN" id="koJ-Gz-ABJ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="j3j-bX-evM"/>
+                    <navigationItem key="navigationItem" title="Rest, Renew, &amp; Relax" id="j3j-bX-evM"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="08t-VB-upU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2733" y="-4111"/>
+            <point key="canvasLocation" x="2671" y="-4111"/>
         </scene>
-        <!--Rest Details View Controller-->
+        <!--Rest Detail View Controller-->
         <scene sceneID="B9m-o3-pRh">
             <objects>
-                <viewController id="gS1-Fp-2mo" customClass="RestDetailsViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gS1-Fp-2mo" customClass="RestDetailViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="iPQ-h3-eTN"/>
                         <viewControllerLayoutGuide type="bottom" id="z8U-ac-y28"/>
@@ -368,21 +374,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zw1-cb-F8c">
-                                <rect key="frame" x="279" y="290" width="42" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Kc-EM-EYv">
+                                <rect key="frame" x="20" y="72" width="240" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NZ-TD-12M">
+                                <rect key="frame" x="20" y="101" width="240" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pv2-kf-knz">
+                                <rect key="frame" x="20" y="130" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="zw1-cb-F8c" firstAttribute="centerY" secondItem="aLe-PL-rz3" secondAttribute="centerY" id="Ohj-hE-mb1"/>
-                            <constraint firstItem="zw1-cb-F8c" firstAttribute="centerX" secondItem="aLe-PL-rz3" secondAttribute="centerX" id="Pjl-Js-vPH"/>
-                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="restTitle" destination="zw1-cb-F8c" id="fSX-9f-ONg"/>
+                        <outlet property="curDescription" destination="4Kc-EM-EYv" id="VP6-s3-ktk"/>
+                        <outlet property="curImage" destination="Pv2-kf-knz" id="3sc-0g-IbI"/>
+                        <outlet property="curTitle" destination="4Kc-EM-EYv" id="Lyo-6Z-hNo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H9Q-IA-oRU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -441,7 +454,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vIt-R9-ck3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2733" y="-3469"/>
+            <point key="canvasLocation" x="1921" y="-3461"/>
         </scene>
         <!--Settings View Controller-->
         <scene sceneID="V8J-9m-nu5">
@@ -693,7 +706,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eVZ-Jm-0X4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2733" y="-4753"/>
+            <point key="canvasLocation" x="1921" y="-4749"/>
         </scene>
         <!--Calendar View Controller-->
         <scene sceneID="hOr-3s-3jL">
