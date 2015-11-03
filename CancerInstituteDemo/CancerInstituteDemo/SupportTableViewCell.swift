@@ -10,6 +10,8 @@ import UIKit
 
 class SupportTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var supportLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

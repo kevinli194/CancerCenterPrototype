@@ -12,12 +12,28 @@
 		133F80251783DC2219755974 /* Pods_CancerInstituteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D84CE5249E6BE9502D92E851 /* Pods_CancerInstituteDemo.framework */; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
+		F12949D81BE9174B0096F52D /* RestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12949D71BE9174B0096F52D /* RestDetailViewController.swift */; };
 		F1432A101BD58A6400C72A7B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1432A0F1BD58A6400C72A7B /* Launch Screen.storyboard */; };
 		F14374DD1BE8C6BD0070FDD0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F14374D81BE8C6BD0070FDD0 /* 1.jpg */; };
 		F14374DE1BE8C6BD0070FDD0 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F14374D91BE8C6BD0070FDD0 /* 2.jpg */; };
 		F14374DF1BE8C6BD0070FDD0 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F14374DA1BE8C6BD0070FDD0 /* 5.jpg */; };
 		F14374E01BE8C6BD0070FDD0 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F14374DB1BE8C6BD0070FDD0 /* 3.jpg */; };
 		F14374E11BE8C6BD0070FDD0 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F14374DC1BE8C6BD0070FDD0 /* 4.jpg */; };
+		F14374E41BE8CA830070FDD0 /* EducationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374E31BE8CA830070FDD0 /* EducationTableViewController.swift */; };
+		F14374E61BE8CA990070FDD0 /* EducationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374E51BE8CA990070FDD0 /* EducationTableViewCell.swift */; };
+		F14374E81BE8CAC40070FDD0 /* EducationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374E71BE8CAC40070FDD0 /* EducationDetailViewController.swift */; };
+		F14374EA1BE8CD2D0070FDD0 /* TravelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374E91BE8CD2D0070FDD0 /* TravelTableViewController.swift */; };
+		F14374EC1BE8D22E0070FDD0 /* POITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374EB1BE8D22E0070FDD0 /* POITableViewController.swift */; };
+		F14374EE1BE8D2540070FDD0 /* SupportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374ED1BE8D2540070FDD0 /* SupportTableViewController.swift */; };
+		F14374F01BE8D2780070FDD0 /* SpecialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374EF1BE8D2780070FDD0 /* SpecialTableViewController.swift */; };
+		F14374F21BE8D2A20070FDD0 /* POIDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374F11BE8D2A20070FDD0 /* POIDetailViewController.swift */; };
+		F14374F41BE8D2B50070FDD0 /* SpecialDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374F31BE8D2B50070FDD0 /* SpecialDetailViewController.swift */; };
+		F14374F61BE8D2C70070FDD0 /* SupportDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374F51BE8D2C70070FDD0 /* SupportDetailViewController.swift */; };
+		F14374F81BE8D2E10070FDD0 /* TravelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374F71BE8D2E10070FDD0 /* TravelDetailViewController.swift */; };
+		F14374FA1BE8D3830070FDD0 /* POITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374F91BE8D3830070FDD0 /* POITableViewCell.swift */; };
+		F14374FC1BE8D3930070FDD0 /* SpecialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374FB1BE8D3930070FDD0 /* SpecialTableViewCell.swift */; };
+		F14374FE1BE8D39E0070FDD0 /* SupportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374FD1BE8D39E0070FDD0 /* SupportTableViewCell.swift */; };
+		F14375001BE8D3A80070FDD0 /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374FF1BE8D3A80070FDD0 /* TravelTableViewCell.swift */; };
 		F197E7A81BE06E64008FD965 /* WhiteLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F197E7A71BE06E64008FD965 /* WhiteLogo.png */; };
 		F197E7AA1BE07927008FD965 /* search.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F197E7A91BE07927008FD965 /* search.jpg */; };
 		F199B2D81BE728DF007C8D4E /* Duke Sky Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F199B2D31BE728DF007C8D4E /* Duke Sky Blue.png */; };
@@ -27,7 +43,6 @@
 		F199B2DC1BE728DF007C8D4E /* Duke Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = F199B2D71BE728DF007C8D4E /* Duke Yellow.png */; };
 		F199B3041BE75C52007C8D4E /* RestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199B3031BE75C52007C8D4E /* RestTableViewController.swift */; };
 		F199B3061BE75CC8007C8D4E /* RestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199B3051BE75CC8007C8D4E /* RestTableViewCell.swift */; };
-		F199B30E1BE76435007C8D4E /* RestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199B30D1BE76435007C8D4E /* RestDetailViewController.swift */; };
 		F199B3121BE76FDF007C8D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F199B3111BE76FDF007C8D4E /* Main.storyboard */; };
 		F1A96F4E1BD0525C008446CE /* 003Kopie.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A96F4D1BD0525C008446CE /* 003Kopie.png */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
@@ -48,12 +63,28 @@
 		F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11B92BA1BB3652200A37EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12949D71BE9174B0096F52D /* RestDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestDetailViewController.swift; sourceTree = "<group>"; };
 		F1432A0F1BD58A6400C72A7B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F14374D81BE8C6BD0070FDD0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		F14374D91BE8C6BD0070FDD0 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		F14374DA1BE8C6BD0070FDD0 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		F14374DB1BE8C6BD0070FDD0 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		F14374DC1BE8C6BD0070FDD0 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		F14374E31BE8CA830070FDD0 /* EducationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationTableViewController.swift; sourceTree = "<group>"; };
+		F14374E51BE8CA990070FDD0 /* EducationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationTableViewCell.swift; sourceTree = "<group>"; };
+		F14374E71BE8CAC40070FDD0 /* EducationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationDetailViewController.swift; sourceTree = "<group>"; };
+		F14374E91BE8CD2D0070FDD0 /* TravelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelTableViewController.swift; sourceTree = "<group>"; };
+		F14374EB1BE8D22E0070FDD0 /* POITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POITableViewController.swift; sourceTree = "<group>"; };
+		F14374ED1BE8D2540070FDD0 /* SupportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportTableViewController.swift; sourceTree = "<group>"; };
+		F14374EF1BE8D2780070FDD0 /* SpecialTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialTableViewController.swift; sourceTree = "<group>"; };
+		F14374F11BE8D2A20070FDD0 /* POIDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIDetailViewController.swift; sourceTree = "<group>"; };
+		F14374F31BE8D2B50070FDD0 /* SpecialDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialDetailViewController.swift; sourceTree = "<group>"; };
+		F14374F51BE8D2C70070FDD0 /* SupportDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportDetailViewController.swift; sourceTree = "<group>"; };
+		F14374F71BE8D2E10070FDD0 /* TravelDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelDetailViewController.swift; sourceTree = "<group>"; };
+		F14374F91BE8D3830070FDD0 /* POITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POITableViewCell.swift; sourceTree = "<group>"; };
+		F14374FB1BE8D3930070FDD0 /* SpecialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialTableViewCell.swift; sourceTree = "<group>"; };
+		F14374FD1BE8D39E0070FDD0 /* SupportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportTableViewCell.swift; sourceTree = "<group>"; };
+		F14374FF1BE8D3A80070FDD0 /* TravelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
 		F197E7A71BE06E64008FD965 /* WhiteLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteLogo.png; sourceTree = "<group>"; };
 		F197E7A91BE07927008FD965 /* search.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search.jpg; sourceTree = "<group>"; };
 		F199B2D31BE728DF007C8D4E /* Duke Sky Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Sky Blue.png"; sourceTree = "<group>"; };
@@ -63,7 +94,6 @@
 		F199B2D71BE728DF007C8D4E /* Duke Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Yellow.png"; sourceTree = "<group>"; };
 		F199B3031BE75C52007C8D4E /* RestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestTableViewController.swift; sourceTree = "<group>"; };
 		F199B3051BE75CC8007C8D4E /* RestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestTableViewCell.swift; sourceTree = "<group>"; };
-		F199B30D1BE76435007C8D4E /* RestDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestDetailViewController.swift; sourceTree = "<group>"; };
 		F199B3111BE76FDF007C8D4E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F1A96F4D1BD0525C008446CE /* 003Kopie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003Kopie.png; sourceTree = "<group>"; };
 		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
@@ -181,12 +211,27 @@
 		F1A96F491BD03A8D008446CE /* ResourcesControllers */ = {
 			isa = PBXGroup;
 			children = (
-				F1C0F3451BC1E9B6006A3D23 /* Resources.swift */,
-				F199B3031BE75C52007C8D4E /* RestTableViewController.swift */,
-				F199B30D1BE76435007C8D4E /* RestDetailViewController.swift */,
-				F199B3051BE75CC8007C8D4E /* RestTableViewCell.swift */,
 				F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */,
 				F1C0F3591BC2053D006A3D23 /* CalendarViewController.swift */,
+				F1C0F3451BC1E9B6006A3D23 /* Resources.swift */,
+				F199B3031BE75C52007C8D4E /* RestTableViewController.swift */,
+				F12949D71BE9174B0096F52D /* RestDetailViewController.swift */,
+				F199B3051BE75CC8007C8D4E /* RestTableViewCell.swift */,
+				F14374E31BE8CA830070FDD0 /* EducationTableViewController.swift */,
+				F14374E71BE8CAC40070FDD0 /* EducationDetailViewController.swift */,
+				F14374E51BE8CA990070FDD0 /* EducationTableViewCell.swift */,
+				F14374EB1BE8D22E0070FDD0 /* POITableViewController.swift */,
+				F14374F11BE8D2A20070FDD0 /* POIDetailViewController.swift */,
+				F14374F91BE8D3830070FDD0 /* POITableViewCell.swift */,
+				F14374EF1BE8D2780070FDD0 /* SpecialTableViewController.swift */,
+				F14374F31BE8D2B50070FDD0 /* SpecialDetailViewController.swift */,
+				F14374FB1BE8D3930070FDD0 /* SpecialTableViewCell.swift */,
+				F14374ED1BE8D2540070FDD0 /* SupportTableViewController.swift */,
+				F14374F51BE8D2C70070FDD0 /* SupportDetailViewController.swift */,
+				F14374FD1BE8D39E0070FDD0 /* SupportTableViewCell.swift */,
+				F14374E91BE8CD2D0070FDD0 /* TravelTableViewController.swift */,
+				F14374F71BE8D2E10070FDD0 /* TravelDetailViewController.swift */,
+				F14374FF1BE8D3A80070FDD0 /* TravelTableViewCell.swift */,
 			);
 			name = ResourcesControllers;
 			sourceTree = "<group>";
@@ -327,17 +372,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1C0F3681BC22B01006A3D23 /* ContactViewController.swift in Sources */,
+				F12949D81BE9174B0096F52D /* RestDetailViewController.swift in Sources */,
+				F14374EC1BE8D22E0070FDD0 /* POITableViewController.swift in Sources */,
 				F1C0F36A1BC22B42006A3D23 /* TodayViewController.swift in Sources */,
 				F199B3041BE75C52007C8D4E /* RestTableViewController.swift in Sources */,
+				F14374FA1BE8D3830070FDD0 /* POITableViewCell.swift in Sources */,
+				F14374F01BE8D2780070FDD0 /* SpecialTableViewController.swift in Sources */,
 				06D8B1131BB8F01800A42ECC /* MapController.swift in Sources */,
+				F14374E81BE8CAC40070FDD0 /* EducationDetailViewController.swift in Sources */,
+				F14374F61BE8D2C70070FDD0 /* SupportDetailViewController.swift in Sources */,
+				F14374FE1BE8D39E0070FDD0 /* SupportTableViewCell.swift in Sources */,
 				F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */,
 				F199B3061BE75CC8007C8D4E /* RestTableViewCell.swift in Sources */,
-				F199B30E1BE76435007C8D4E /* RestDetailViewController.swift in Sources */,
 				F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */,
+				F14374F81BE8D2E10070FDD0 /* TravelDetailViewController.swift in Sources */,
+				F14374E61BE8CA990070FDD0 /* EducationTableViewCell.swift in Sources */,
 				F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */,
+				F14374EE1BE8D2540070FDD0 /* SupportTableViewController.swift in Sources */,
+				F14374F21BE8D2A20070FDD0 /* POIDetailViewController.swift in Sources */,
 				06D8B1151BB8F02400A42ECC /* AppointmentController.swift in Sources */,
 				F1C0F3581BC20513006A3D23 /* SettingsViewController.swift in Sources */,
+				F14374E41BE8CA830070FDD0 /* EducationTableViewController.swift in Sources */,
+				F14375001BE8D3A80070FDD0 /* TravelTableViewCell.swift in Sources */,
+				F14374F41BE8D2B50070FDD0 /* SpecialDetailViewController.swift in Sources */,
 				F1C0F35A1BC2053D006A3D23 /* CalendarViewController.swift in Sources */,
+				F14374EA1BE8CD2D0070FDD0 /* TravelTableViewController.swift in Sources */,
+				F14374FC1BE8D3930070FDD0 /* SpecialTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

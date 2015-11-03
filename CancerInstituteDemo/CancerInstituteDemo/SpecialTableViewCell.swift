@@ -10,6 +10,8 @@ import UIKit
 
 class SpecialTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var specialLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

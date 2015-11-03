@@ -10,26 +10,24 @@ import UIKit
 
 class SupportDetailViewController: UIViewController {
 
+    var myTitle: String?
+    var myDescription: String?
+    var myImage: String?
+    
+    @IBOutlet weak var curTitle: UILabel!
+    @IBOutlet weak var curDescription: UILabel!
+    @IBOutlet weak var curImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        curTitle.text = myTitle
+        curDescription.text = myDescription
+        curImage.image = UIImage(named: myImage!)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
-    */
 
 }

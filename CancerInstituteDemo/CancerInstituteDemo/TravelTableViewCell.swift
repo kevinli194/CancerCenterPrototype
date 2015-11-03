@@ -1,3 +1,4 @@
+
 //
 //  TravelTableViewCell.swift
 //  CancerInstituteDemo
@@ -10,6 +11,8 @@ import UIKit
 
 class TravelTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var travelLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
