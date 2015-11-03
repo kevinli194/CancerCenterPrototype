@@ -1,5 +1,5 @@
 //
-//  RestDetailViewController.swift
+//  TravelDetailViewController.swift
 //  CancerInstituteDemo
 //
 //  Created by Anna Benson on 11/3/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RestDetailViewController: UIViewController {
+class TravelDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
