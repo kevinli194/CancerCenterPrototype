@@ -10,9 +10,20 @@ import UIKit
 
 class SpecialTableViewController: UITableViewController {
 
-    var specialTitles = ["Special Events", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-    var specialDescriptions = ["Special Events", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-    var specialImages = ["1.jpg", "2.jpg","3.jpg","4.jpg","5.jpg"]
+    var specialTitles = ["CRUSH colorectal Cancer 5K & Fun Walk", "Spring For Support 5K", "Spa Day", "Strike Out Sarcoma 5K & Fun Walk", "Komen Race For The Cure", "Pink Ribbon Yoga Retreat", "Gail Parkins Memorial Ovarian Cancer Walk & 5K", "Boyette Family Farm Corn Maze", "Making Strides Against Breast Cancer", "Light The Night", "Tree of Hope Lighting Ceremony"]
+    var specialDescriptions = [
+        "Held March 14 at the American Tobacco Trail in Durham, NC. For more information, visit sites.duke.edu",
+        "Held March 28 at Southpoint Mall in Durham, NC. For more information, visit Springforsupport5k.org",
+        "Held June 5 in the Duke Cancer Center. For more information, visit sites.duke.edu/dukecancerinstitute",
+        "Held Jun 13 at the Durham Athletic Park. For more information, visit sites.duke.edu/dukecancerinstitute",
+        "Held June 14 at RTP in Morrisville, NC. For more information, visit Komennctc.org",
+        "Held August 7 through August 10 at the Trinity Center. For more information, visit Yogaretreat.com",
+        "Held September 12 at Sanderson High School in Raleigh, NC. For more information, visit ovarianawareness.org",
+        "Held October 1 through Oct. 31 in Clayton, NC.",
+        "Held October 2 in the Noth Hills Mall in Raleigh, NC. For more information, visit Makingstrides.acsevents.org",
+        "Held October 10 in Durham, NC. For more information, visit lightthenight.org",
+        "Held in December in the Duke Cancer Center. For more information, visit sites.duke.edu/dukecancerinstitute"]
+    var specialImages = ["CrushColorectal5K.png", "Spring4Support.png","default.png","5KSarcoma.png", "default.png", "default.png", "default.png", "default.png", "default.png", "LightNight.png", "candles.png"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

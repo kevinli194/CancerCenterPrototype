@@ -10,9 +10,15 @@ import UIKit
 
 class EducationTableViewController: UITableViewController {
 
-    var educationTitles = ["Education", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-    var educationDescriptions = ["Education", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-    var educationImages = ["1.jpg", "2.jpg","3.jpg","4.jpg","5.jpg"]
+    var educationTitles = ["Chemotherapy Education Class", "Options For Breast Reconstruction", "Cancer Nutrition Virtual Class", "Quitting Smoking", "Diabetes Education", "Free Legal Services"]
+    var educationDescriptions = [
+        "Will you be starting chemotherapy in the near future? Do you have questions about the possible side effects? Or do you just want more information about your treatment? Our Chemotherapy Education Class can address these questions and more. This class is led by a nurse or pharmacist and includes a Q&A time. Registration is not required. Family and friends are welcome.",
+        "Jo Ann Garofalo, RN, CPSN, Division of Plastic and Reconstructive Surgery, leads this monthly informational class on breast reconstructive surgery after mastectomy. The class is small and private. However, it is open to anyone wanting more information on options at Duke.",
+        "This 30-minute virtual class covers symptom management during treatment, eating problems, weight loss, how to manage symptoms and recommended diets to keep you well-nourished and hydrated. This class is available daily from 8 to 4 p.m.",
+        "A certified tobacco treatment specialist nurse discusses techniques and programs to help you quit smoking.",
+        "The Diabetes Education Class helps patients reduce risks and complications to improve the cancer treatment out-come. Walk-ins are alway welcome.",
+        "Duke Law offers free legal services to Duke’s cancer patients. Services include assistance in drafting legal documents: power of attorney, healthcare power of attorney, living will and HIPAA release forms. For times or to schedule an appointment, please call 919.613.7278."]
+    var educationImages = ["Education-Chemo.png", "default.png", "default.png", "default.png", "default.png", "LegalServices.png"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

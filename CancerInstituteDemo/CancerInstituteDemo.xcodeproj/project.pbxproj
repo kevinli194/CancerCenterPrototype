@@ -13,6 +13,23 @@
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
 		F12949D81BE9174B0096F52D /* RestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12949D71BE9174B0096F52D /* RestDetailViewController.swift */; };
+		F12949E51BE948DF0096F52D /* LegalServices.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949D91BE948DF0096F52D /* LegalServices.png */; };
+		F12949E61BE948DF0096F52D /* Education-Chemo.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949DA1BE948DF0096F52D /* Education-Chemo.png */; };
+		F12949E71BE948DF0096F52D /* doctors.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949DB1BE948DF0096F52D /* doctors.png */; };
+		F12949E81BE948DF0096F52D /* Spring4Support.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949DC1BE948DF0096F52D /* Spring4Support.png */; };
+		F12949E91BE948DF0096F52D /* CrushColorectal5K.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949DD1BE948DF0096F52D /* CrushColorectal5K.png */; };
+		F12949EA1BE948DF0096F52D /* gym.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949DE1BE948DF0096F52D /* gym.png */; };
+		F12949EB1BE948DF0096F52D /* RooftopGarden.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949DF1BE948DF0096F52D /* RooftopGarden.png */; };
+		F12949EC1BE948DF0096F52D /* QuietRoom.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949E01BE948DF0096F52D /* QuietRoom.png */; };
+		F12949ED1BE948DF0096F52D /* 5KSarcoma.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949E11BE948DF0096F52D /* 5KSarcoma.png */; };
+		F12949EE1BE948DF0096F52D /* candles.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949E21BE948DF0096F52D /* candles.png */; };
+		F12949EF1BE948DF0096F52D /* Boutique.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949E31BE948DF0096F52D /* Boutique.png */; };
+		F12949F01BE948DF0096F52D /* PetTherapy.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949E41BE948DF0096F52D /* PetTherapy.png */; };
+		F12949F21BE949460096F52D /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949F11BE949460096F52D /* default.png */; };
+		F12949F51BE94B1A0096F52D /* DukeChapel.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949F31BE94B1A0096F52D /* DukeChapel.png */; };
+		F12949F61BE94B1A0096F52D /* CommonAreas.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949F41BE94B1A0096F52D /* CommonAreas.png */; };
+		F12949F81BE94D6E0096F52D /* LightNight.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949F71BE94D6E0096F52D /* LightNight.png */; };
+		F12949FA1BE94FCD0096F52D /* BlueGradiant.png in Resources */ = {isa = PBXBuildFile; fileRef = F12949F91BE94FCD0096F52D /* BlueGradiant.png */; };
 		F1432A101BD58A6400C72A7B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1432A0F1BD58A6400C72A7B /* Launch Screen.storyboard */; };
 		F14374DD1BE8C6BD0070FDD0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F14374D81BE8C6BD0070FDD0 /* 1.jpg */; };
 		F14374DE1BE8C6BD0070FDD0 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F14374D91BE8C6BD0070FDD0 /* 2.jpg */; };
@@ -35,7 +52,6 @@
 		F14374FE1BE8D39E0070FDD0 /* SupportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374FD1BE8D39E0070FDD0 /* SupportTableViewCell.swift */; };
 		F14375001BE8D3A80070FDD0 /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F14374FF1BE8D3A80070FDD0 /* TravelTableViewCell.swift */; };
 		F197E7A81BE06E64008FD965 /* WhiteLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F197E7A71BE06E64008FD965 /* WhiteLogo.png */; };
-		F197E7AA1BE07927008FD965 /* search.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F197E7A91BE07927008FD965 /* search.jpg */; };
 		F199B2D81BE728DF007C8D4E /* Duke Sky Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F199B2D31BE728DF007C8D4E /* Duke Sky Blue.png */; };
 		F199B2D91BE728DF007C8D4E /* Duke Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = F199B2D41BE728DF007C8D4E /* Duke Orange.png */; };
 		F199B2DA1BE728DF007C8D4E /* Duke Red.png in Resources */ = {isa = PBXBuildFile; fileRef = F199B2D51BE728DF007C8D4E /* Duke Red.png */; };
@@ -44,7 +60,6 @@
 		F199B3041BE75C52007C8D4E /* RestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199B3031BE75C52007C8D4E /* RestTableViewController.swift */; };
 		F199B3061BE75CC8007C8D4E /* RestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F199B3051BE75CC8007C8D4E /* RestTableViewCell.swift */; };
 		F199B3121BE76FDF007C8D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F199B3111BE76FDF007C8D4E /* Main.storyboard */; };
-		F1A96F4E1BD0525C008446CE /* 003Kopie.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A96F4D1BD0525C008446CE /* 003Kopie.png */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
 		F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */; };
 		F1C0F3581BC20513006A3D23 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */; };
@@ -64,6 +79,23 @@
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11B92BA1BB3652200A37EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F12949D71BE9174B0096F52D /* RestDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestDetailViewController.swift; sourceTree = "<group>"; };
+		F12949D91BE948DF0096F52D /* LegalServices.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LegalServices.png; sourceTree = "<group>"; };
+		F12949DA1BE948DF0096F52D /* Education-Chemo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Education-Chemo.png"; sourceTree = "<group>"; };
+		F12949DB1BE948DF0096F52D /* doctors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = doctors.png; sourceTree = "<group>"; };
+		F12949DC1BE948DF0096F52D /* Spring4Support.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spring4Support.png; sourceTree = "<group>"; };
+		F12949DD1BE948DF0096F52D /* CrushColorectal5K.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CrushColorectal5K.png; sourceTree = "<group>"; };
+		F12949DE1BE948DF0096F52D /* gym.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gym.png; sourceTree = "<group>"; };
+		F12949DF1BE948DF0096F52D /* RooftopGarden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RooftopGarden.png; sourceTree = "<group>"; };
+		F12949E01BE948DF0096F52D /* QuietRoom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuietRoom.png; sourceTree = "<group>"; };
+		F12949E11BE948DF0096F52D /* 5KSarcoma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5KSarcoma.png; sourceTree = "<group>"; };
+		F12949E21BE948DF0096F52D /* candles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = candles.png; sourceTree = "<group>"; };
+		F12949E31BE948DF0096F52D /* Boutique.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Boutique.png; sourceTree = "<group>"; };
+		F12949E41BE948DF0096F52D /* PetTherapy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PetTherapy.png; sourceTree = "<group>"; };
+		F12949F11BE949460096F52D /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		F12949F31BE94B1A0096F52D /* DukeChapel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DukeChapel.png; sourceTree = "<group>"; };
+		F12949F41BE94B1A0096F52D /* CommonAreas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CommonAreas.png; sourceTree = "<group>"; };
+		F12949F71BE94D6E0096F52D /* LightNight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LightNight.png; sourceTree = "<group>"; };
+		F12949F91BE94FCD0096F52D /* BlueGradiant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueGradiant.png; sourceTree = "<group>"; };
 		F1432A0F1BD58A6400C72A7B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F14374D81BE8C6BD0070FDD0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		F14374D91BE8C6BD0070FDD0 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
@@ -86,7 +118,6 @@
 		F14374FD1BE8D39E0070FDD0 /* SupportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportTableViewCell.swift; sourceTree = "<group>"; };
 		F14374FF1BE8D3A80070FDD0 /* TravelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelTableViewCell.swift; sourceTree = "<group>"; };
 		F197E7A71BE06E64008FD965 /* WhiteLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteLogo.png; sourceTree = "<group>"; };
-		F197E7A91BE07927008FD965 /* search.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = search.jpg; sourceTree = "<group>"; };
 		F199B2D31BE728DF007C8D4E /* Duke Sky Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Sky Blue.png"; sourceTree = "<group>"; };
 		F199B2D41BE728DF007C8D4E /* Duke Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Orange.png"; sourceTree = "<group>"; };
 		F199B2D51BE728DF007C8D4E /* Duke Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Red.png"; sourceTree = "<group>"; };
@@ -95,7 +126,6 @@
 		F199B3031BE75C52007C8D4E /* RestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestTableViewController.swift; sourceTree = "<group>"; };
 		F199B3051BE75CC8007C8D4E /* RestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestTableViewCell.swift; sourceTree = "<group>"; };
 		F199B3111BE76FDF007C8D4E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F1A96F4D1BD0525C008446CE /* 003Kopie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 003Kopie.png; sourceTree = "<group>"; };
 		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Resources/SettingsViewController.swift; sourceTree = "<group>"; };
@@ -123,8 +153,6 @@
 				F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */,
 				F1432A0F1BD58A6400C72A7B /* Launch Screen.storyboard */,
 				F199B3111BE76FDF007C8D4E /* Main.storyboard */,
-				F197E7A91BE07927008FD965 /* search.jpg */,
-				F197E7A71BE06E64008FD965 /* WhiteLogo.png */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -198,12 +226,29 @@
 				F14374DA1BE8C6BD0070FDD0 /* 5.jpg */,
 				F14374DB1BE8C6BD0070FDD0 /* 3.jpg */,
 				F14374DC1BE8C6BD0070FDD0 /* 4.jpg */,
-				F1A96F4D1BD0525C008446CE /* 003Kopie.png */,
+				F197E7A71BE06E64008FD965 /* WhiteLogo.png */,
+				F12949F91BE94FCD0096F52D /* BlueGradiant.png */,
 				F199B2D31BE728DF007C8D4E /* Duke Sky Blue.png */,
 				F199B2D41BE728DF007C8D4E /* Duke Orange.png */,
 				F199B2D51BE728DF007C8D4E /* Duke Red.png */,
 				F199B2D61BE728DF007C8D4E /* Duke Green.png */,
 				F199B2D71BE728DF007C8D4E /* Duke Yellow.png */,
+				F12949D91BE948DF0096F52D /* LegalServices.png */,
+				F12949DA1BE948DF0096F52D /* Education-Chemo.png */,
+				F12949DB1BE948DF0096F52D /* doctors.png */,
+				F12949DC1BE948DF0096F52D /* Spring4Support.png */,
+				F12949DD1BE948DF0096F52D /* CrushColorectal5K.png */,
+				F12949DE1BE948DF0096F52D /* gym.png */,
+				F12949DF1BE948DF0096F52D /* RooftopGarden.png */,
+				F12949E01BE948DF0096F52D /* QuietRoom.png */,
+				F12949E11BE948DF0096F52D /* 5KSarcoma.png */,
+				F12949E21BE948DF0096F52D /* candles.png */,
+				F12949E31BE948DF0096F52D /* Boutique.png */,
+				F12949E41BE948DF0096F52D /* PetTherapy.png */,
+				F12949F11BE949460096F52D /* default.png */,
+				F12949F31BE94B1A0096F52D /* DukeChapel.png */,
+				F12949F41BE94B1A0096F52D /* CommonAreas.png */,
+				F12949F71BE94D6E0096F52D /* LightNight.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -297,22 +342,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F12949E51BE948DF0096F52D /* LegalServices.png in Resources */,
 				F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */,
+				F12949F21BE949460096F52D /* default.png in Resources */,
 				F14374DD1BE8C6BD0070FDD0 /* 1.jpg in Resources */,
 				F14374DE1BE8C6BD0070FDD0 /* 2.jpg in Resources */,
 				F1432A101BD58A6400C72A7B /* Launch Screen.storyboard in Resources */,
+				F12949E81BE948DF0096F52D /* Spring4Support.png in Resources */,
+				F12949EE1BE948DF0096F52D /* candles.png in Resources */,
+				F12949E91BE948DF0096F52D /* CrushColorectal5K.png in Resources */,
 				F199B2DC1BE728DF007C8D4E /* Duke Yellow.png in Resources */,
+				F12949ED1BE948DF0096F52D /* 5KSarcoma.png in Resources */,
 				F199B3121BE76FDF007C8D4E /* Main.storyboard in Resources */,
 				F14374DF1BE8C6BD0070FDD0 /* 5.jpg in Resources */,
 				F14374E11BE8C6BD0070FDD0 /* 4.jpg in Resources */,
 				F14374E01BE8C6BD0070FDD0 /* 3.jpg in Resources */,
 				F199B2DA1BE728DF007C8D4E /* Duke Red.png in Resources */,
+				F12949EC1BE948DF0096F52D /* QuietRoom.png in Resources */,
+				F12949F51BE94B1A0096F52D /* DukeChapel.png in Resources */,
 				F199B2D91BE728DF007C8D4E /* Duke Orange.png in Resources */,
+				F12949F81BE94D6E0096F52D /* LightNight.png in Resources */,
+				F12949E71BE948DF0096F52D /* doctors.png in Resources */,
+				F12949FA1BE94FCD0096F52D /* BlueGradiant.png in Resources */,
 				F199B2DB1BE728DF007C8D4E /* Duke Green.png in Resources */,
-				F197E7AA1BE07927008FD965 /* search.jpg in Resources */,
+				F12949F61BE94B1A0096F52D /* CommonAreas.png in Resources */,
 				F199B2D81BE728DF007C8D4E /* Duke Sky Blue.png in Resources */,
-				F1A96F4E1BD0525C008446CE /* 003Kopie.png in Resources */,
+				F12949E61BE948DF0096F52D /* Education-Chemo.png in Resources */,
+				F12949F01BE948DF0096F52D /* PetTherapy.png in Resources */,
+				F12949EF1BE948DF0096F52D /* Boutique.png in Resources */,
 				F197E7A81BE06E64008FD965 /* WhiteLogo.png in Resources */,
+				F12949EB1BE948DF0096F52D /* RooftopGarden.png in Resources */,
+				F12949EA1BE948DF0096F52D /* gym.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

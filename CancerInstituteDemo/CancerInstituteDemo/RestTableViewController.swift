@@ -10,9 +10,14 @@ import UIKit
 
 class RestTableViewController: UITableViewController {
 
-    var restTitles = ["Buckingham Palace", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-    var restDescriptions = ["Buckingham Palace", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-    var restImages = ["1.jpg", "2.jpg","3.jpg","4.jpg","5.jpg"]
+    var restTitles = ["Spiritual Self Care", "Open Meditation", "Write For You", "Tai Chi", "Pet Therapy"]
+    var restDescriptions = [
+        "Spiritual Self Care is a chaplain-led group for spiritual self-care planning. Sessions include reflection on spiritual health and wellness, tools for spiritual-emotional resilience/coping and care planning. Sessions are also available in-clinic, inpatient or by phone. For inquiries, contact Annette Olsen, Chaplain, at 919.684.2843 or email at annette.olsen@duke.edu.",
+        "Facilitated drop-in sessions are open to persons of diverse religious and philosophical beliefs. All experience levels are welcome. Sessions include an introduction to a technique, practice period and closing. For more information or inquires, call Annette Olsen, Chaplain, at 919.684.2843 or email at annette.olsen@duke.edu.",
+        "Discover how journaling can help you express emotions and thoughts, reduce anxiety, promote healthy creativity and help organize your life. Hosted by Arts & Health at Duke, participants receive complimentary journals, poetry packets and more. Write For You is held in the Level 0 Conference Room. Drop-ins are welcome. For more information, call 919.613.6601 or email katja. hill@duke.edu.",
+        "Tai Chi is a holistic health practice that brings the mind and body together with slow, graceful, flowing movements performed in a meditative manner. Tai Chi is held in the Quiet Room. Registration is not required. Drop-ins are welcome. For more information, email Kristy.everette@duke.edu.",
+        "The Pets At Duke Therapy Program is routinely available in our lobbies. To learn more about Pets At Duke or to schedule an appointment, email kristy.everette@duke.edu."]
+    var restImages = ["QuietRoom.png", "QuietRoom.png", "default.png", "default.png", "PetTherapy.png"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

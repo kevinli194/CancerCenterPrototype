@@ -10,9 +10,9 @@ import UIKit
 
 class TravelTableViewController: UITableViewController {
 
-    var travelTitles = ["Travel", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-    var travelDescriptions = ["Travel and lodge", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-    var travelImages = ["1.jpg", "2.jpg","3.jpg","4.jpg","5.jpg"]
+    var travelTitles = [""]
+    var travelDescriptions = [""]
+    var travelImages = [""]
     
     override func viewDidLoad() {
         super.viewDidLoad()

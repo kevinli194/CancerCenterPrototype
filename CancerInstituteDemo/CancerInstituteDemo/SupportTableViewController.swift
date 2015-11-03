@@ -10,9 +10,17 @@ import UIKit
 
 class SupportTableViewController: UITableViewController {
 
-    var supportTitles = ["Support", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-    var supportDescriptions = ["Buckingham Palace", "The Eiffel Tower", "The Grand Canyon", "Windsor Castle", "Empire State Building"]
-    var supportImages = ["1.jpg", "2.jpg","3.jpg","4.jpg","5.jpg"]
+    var supportTitles = ["Blood Cancers", "Breast and Gyn Cancers", "Caregiver", "GI and Pancreatic Cancer", "GU Cancers", "Lung Cancer", "Prostate Cancer", "Mind-Body Approaches to Coping", "KidsCan!"]
+    var supportDescriptions = [
+        "This support group is for families and individuals experiencing leukemia, lymphoma, and multiple myeloma.",
+        "Individuals with breast and gynecologic cancer are invited to join this support group.",
+        "Caregivers of patients with cancer are invited to join this support group.",
+        "This support group is for gastrointestinal and pancreatic cancer patients and their family members.",
+        "This group is for patients and families coping with lung cancer.",
+        "This support group is for prostate cancer patients and their families. Meetings are usually held on the fourth Monday of every month.",
+        "Patients with cancer are invited to participate in a class to learn mind-body approaches to coping with cancer.",
+        "KidsCan! is a program designed to support children, ages 4 to 18, who have a parent or significant caregiver living with  diagnosis of cancer. Kids groups focus on issues, such as understanding cancer, changes in the family, feelings, self-care ,memories, cooperation, love and family. A simultaneous group is also available for parents. To register, please call 919.684.2913 ore-mail Jean.Hartford.Todd@duke.edu."]
+    var supportImages = ["default.png", "default.png", "default.png", "default.png", "default.png", "default.png", "default.png", "default.png", "default.png",]
     
     override func viewDidLoad() {
         super.viewDidLoad()
