@@ -10,9 +10,12 @@ import UIKit
 
 class SupportGroupsViewController: UIViewController {
 
+    var SupportTitle: String?
+    @IBOutlet weak var mySupportGroup: UILabel!
+//    @IBOutlet weak var myTitle: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 

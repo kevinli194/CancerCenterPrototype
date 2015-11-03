@@ -10,25 +10,38 @@ import UIKit
 
 class ContactViewController: UIViewController {
     
-    @IBAction func callGeorgia(sender: UIButton) {
-        let url:NSURL = NSURL(string:"tel://4042478954")!
+    @IBOutlet weak var box1: UIImageView!
+    @IBOutlet weak var box2: UIImageView!
+    @IBOutlet weak var box3: UIImageView!
+    
+    @IBAction func callTriage(sender: AnyObject) {
+        let url:NSURL = NSURL(string: "tel://9196686608")!
         UIApplication.sharedApplication().openURL(url)
     }
 
-    @IBAction func callJon(sender: UIButton) {
-        let url:NSURL = NSURL(string:"tel://5183690814")!
+    @IBAction func callResourceCenter(sender: AnyObject) {
+        let url:NSURL = NSURL(string:"tel://9196846955")!
         UIApplication.sharedApplication().openURL(url)
     }
     
+    @IBAction func callConcierge(sender: AnyObject) {
+        let url:NSURL = NSURL(string:"tel://9196814947")!
+        UIApplication.sharedApplication().openURL(url)
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "trees.png")!)
-        // Do any additional setup after loading the view.
+        box1.layer.cornerRadius = 10
+        box1.clipsToBounds = true
+        box2.layer.cornerRadius = 10
+        box2.clipsToBounds = true
+        box3.layer.cornerRadius = 10
+        box3.clipsToBounds = true
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
 

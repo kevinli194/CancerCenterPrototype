@@ -1,0 +1,65 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/build/Debug-iphonesimulator/Pods_CancerInstituteDemo.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-CancerInstituteDemo-umbrella.h",
+          'external-contents': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_CancerInstituteDemo-Swift.h",
+          'external-contents': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/build/Debug-iphonesimulator/Pods_CancerInstituteDemo.framework/Headers/Pods_CancerInstituteDemo-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/build/Debug-iphonesimulator/Pods_CancerInstituteDemo.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/build/Pods.build/Debug-iphonesimulator/Pods-CancerInstituteDemo.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/build/Debug-iphonesimulator/RKCardView.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RKCardView-Swift.h",
+          'external-contents': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/build/Debug-iphonesimulator/RKCardView.framework/Headers/RKCardView-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "RKCardView-umbrella.h",
+          'external-contents': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/Pods/Target Support Files/RKCardView/RKCardView-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "RKCardView.h",
+          'external-contents': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/Pods/RKCardView/RKCard/RKCard/RKCardView.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/build/Debug-iphonesimulator/RKCardView.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/annabenson/Documents/CancerCenter/CancerInstituteDemo/build/Pods.build/Debug-iphonesimulator/RKCardView.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
