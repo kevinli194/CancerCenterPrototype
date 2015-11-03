@@ -24,6 +24,9 @@ class TravelDetailViewController: UIViewController {
         curTitle.text = myTitle
         curDescription.text = myDescription
         curImage.image = UIImage(named: myImage!)
+        
+        curImage.layer.cornerRadius = curImage.frame.size.width/2
+        curImage.clipsToBounds = true
     }
     
     override func didReceiveMemoryWarning() {

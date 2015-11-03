@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -453,23 +454,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Kc-EM-EYv">
-                                <rect key="frame" x="20" y="72" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlueGradiant.png" translatesAutoresizingMaskIntoConstraints="NO" id="hf5-VB-VRJ">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Kc-EM-EYv">
+                                <rect key="frame" x="20" y="72" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="22" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NZ-TD-12M">
-                                <rect key="frame" x="20" y="101" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1NZ-TD-12M">
+                                <rect key="frame" x="20" y="101" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pv2-kf-knz">
-                                <rect key="frame" x="20" y="130" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pv2-kf-knz">
+                                <rect key="frame" x="189" y="298" width="222" height="222"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hf5-VB-VRJ" firstAttribute="leading" secondItem="aLe-PL-rz3" secondAttribute="leadingMargin" constant="-20" id="GwM-d5-fRx"/>
+                            <constraint firstItem="z8U-ac-y28" firstAttribute="top" secondItem="hf5-VB-VRJ" secondAttribute="bottom" id="UXG-L6-dIm"/>
+                            <constraint firstItem="Pv2-kf-knz" firstAttribute="centerX" secondItem="aLe-PL-rz3" secondAttribute="centerX" id="hCv-JE-2Kv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hf5-VB-VRJ" secondAttribute="trailing" constant="-20" id="kGs-Ht-Dmh"/>
+                            <constraint firstItem="hf5-VB-VRJ" firstAttribute="top" secondItem="iPQ-h3-eTN" secondAttribute="bottom" id="uWS-Od-Btw"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="curDescription" destination="1NZ-TD-12M" id="pOv-le-GOE"/>
@@ -493,23 +516,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5A-Ie-LBf">
-                                <rect key="frame" x="20" y="72" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlueGradiant.png" translatesAutoresizingMaskIntoConstraints="NO" id="J9G-G1-Bu3">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5A-Ie-LBf">
+                                <rect key="frame" x="20" y="72" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="22" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNB-9O-E9c">
-                                <rect key="frame" x="20" y="101" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kNB-9O-E9c">
+                                <rect key="frame" x="20" y="101" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JVU-05-U3Q">
-                                <rect key="frame" x="20" y="130" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JVU-05-U3Q">
+                                <rect key="frame" x="189" y="277" width="222" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JVU-05-U3Q" secondAttribute="height" multiplier="1:1" id="dDM-ZR-YAa"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="J9G-G1-Bu3" firstAttribute="top" secondItem="kjl-fR-pRN" secondAttribute="bottom" id="PKj-dD-vcV"/>
+                            <constraint firstItem="JVU-05-U3Q" firstAttribute="centerX" secondItem="uOI-zO-W1n" secondAttribute="centerX" id="cle-iC-ef0"/>
+                            <constraint firstItem="jSL-1e-jI3" firstAttribute="top" secondItem="J9G-G1-Bu3" secondAttribute="bottom" id="jto-5A-MV1"/>
+                            <constraint firstItem="J9G-G1-Bu3" firstAttribute="leading" secondItem="uOI-zO-W1n" secondAttribute="leadingMargin" constant="-20" id="kbt-By-pUg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="J9G-G1-Bu3" secondAttribute="trailing" constant="-20" id="myo-o6-Bmb"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="curDescription" destination="kNB-9O-E9c" id="xGF-P8-fcP"/>
@@ -580,23 +628,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJ7-6Z-qAK">
-                                <rect key="frame" x="20" y="72" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlueGradiant.png" translatesAutoresizingMaskIntoConstraints="NO" id="6ap-ck-0dA">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJ7-6Z-qAK">
+                                <rect key="frame" x="20" y="72" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="22" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmD-ah-y3E">
-                                <rect key="frame" x="20" y="101" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmD-ah-y3E">
+                                <rect key="frame" x="20" y="101" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pjx-RH-MbI">
-                                <rect key="frame" x="20" y="130" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pjx-RH-MbI">
+                                <rect key="frame" x="189" y="290" width="222" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pjx-RH-MbI" secondAttribute="height" multiplier="1:1" id="hkf-SH-ktn"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6ap-ck-0dA" firstAttribute="top" secondItem="zvw-UA-XEy" secondAttribute="bottom" id="1rd-JS-aKO"/>
+                            <constraint firstItem="pjx-RH-MbI" firstAttribute="centerX" secondItem="vLe-KX-mWz" secondAttribute="centerX" id="B76-fd-JLt"/>
+                            <constraint firstItem="6ap-ck-0dA" firstAttribute="leading" secondItem="vLe-KX-mWz" secondAttribute="leadingMargin" constant="-20" id="SWh-YE-UoB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6ap-ck-0dA" secondAttribute="trailing" constant="-20" id="gfZ-j4-N7d"/>
+                            <constraint firstItem="rsU-kd-Pj0" firstAttribute="top" secondItem="6ap-ck-0dA" secondAttribute="bottom" id="pDb-Kf-Qta"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="curDescription" destination="fmD-ah-y3E" id="Xz2-G3-NlR"/>
@@ -768,23 +841,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3h-mb-YBR">
-                                <rect key="frame" x="20" y="72" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlueGradiant.png" translatesAutoresizingMaskIntoConstraints="NO" id="WaL-Ti-Dem">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3h-mb-YBR">
+                                <rect key="frame" x="20" y="72" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="22" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2s-G2-1L9">
-                                <rect key="frame" x="20" y="101" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2s-G2-1L9">
+                                <rect key="frame" x="20" y="142" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37e-0g-c6w">
-                                <rect key="frame" x="20" y="130" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mSe-lg-NIN">
+                                <rect key="frame" x="20" y="101" width="560" height="30"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Level 0 Conference Room">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="GillSans-LightItalic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-ThinItalic" family="Helvetica Neue" pointSize="14"/>
+                                    <rect key="frame" x="20" y="146" width="240" height="30"/>
+                                </variation>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="37e-0g-c6w">
+                                <rect key="frame" x="189" y="291" width="222" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="37e-0g-c6w" secondAttribute="height" multiplier="1:1" id="rNb-zf-acG"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WaL-Ti-Dem" firstAttribute="top" secondItem="0M2-Kt-Txg" secondAttribute="bottom" id="1P8-xy-v7r"/>
+                            <constraint firstItem="01Z-Q4-Ij9" firstAttribute="top" secondItem="WaL-Ti-Dem" secondAttribute="bottom" id="Ndh-5m-oBz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="WaL-Ti-Dem" secondAttribute="trailing" constant="-20" id="T3g-69-t1b"/>
+                            <constraint firstItem="37e-0g-c6w" firstAttribute="centerX" secondItem="YNC-ma-zQV" secondAttribute="centerX" id="UNC-YC-UAz"/>
+                            <constraint firstItem="WaL-Ti-Dem" firstAttribute="leading" secondItem="YNC-ma-zQV" secondAttribute="leadingMargin" constant="-20" id="id2-ip-Ohb"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="curDescription" destination="l2s-G2-1L9" id="SUz-PH-0QT"/>
@@ -937,23 +1052,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6a-SY-LHz">
-                                <rect key="frame" x="20" y="72" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlueGradiant.png" translatesAutoresizingMaskIntoConstraints="NO" id="z1F-eH-Jw6">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="voQ-u4-iM2">
+                                <rect key="frame" x="20" y="101" width="560" height="30"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Patient Resource Center">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="16" name="GillSans-LightItalic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-ThinItalic" family="Helvetica Neue" pointSize="14"/>
+                                    <rect key="frame" x="20" y="146" width="240" height="30"/>
+                                </variation>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y6a-SY-LHz">
+                                <rect key="frame" x="20" y="72" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="22" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9e-h2-Rrk">
-                                <rect key="frame" x="20" y="101" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X9e-h2-Rrk">
+                                <rect key="frame" x="20" y="145" width="560" height="21"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Yc-sY-aXA">
-                                <rect key="frame" x="20" y="130" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Yc-sY-aXA">
+                                <rect key="frame" x="189" y="300" width="222" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="1Yc-sY-aXA" secondAttribute="height" multiplier="1:1" id="Wh1-dM-hOX"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="z1F-eH-Jw6" secondAttribute="trailing" constant="-20" id="1t3-09-nHz"/>
+                            <constraint firstItem="z1F-eH-Jw6" firstAttribute="top" secondItem="Hiv-Vt-EIJ" secondAttribute="bottom" id="8GZ-bq-Zz2"/>
+                            <constraint firstItem="1Yc-sY-aXA" firstAttribute="centerX" secondItem="70r-ah-X2J" secondAttribute="centerX" id="M03-vq-qWs"/>
+                            <constraint firstItem="OQq-ap-gjt" firstAttribute="top" secondItem="z1F-eH-Jw6" secondAttribute="bottom" id="ada-Fh-q2Y"/>
+                            <constraint firstItem="z1F-eH-Jw6" firstAttribute="leading" secondItem="70r-ah-X2J" secondAttribute="leadingMargin" constant="-20" id="ofZ-sb-mbx"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="curDescription" destination="X9e-h2-Rrk" id="aCe-bo-cCw"/>
@@ -1060,23 +1217,55 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eiv-8Z-S5G">
-                                <rect key="frame" x="20" y="72" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BlueGradiant.png" translatesAutoresizingMaskIntoConstraints="NO" id="7wI-0H-Tj8">
+                                <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eiv-8Z-S5G">
+                                <rect key="frame" x="20" y="124" width="560" height="25.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="22" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1W-2w-o63">
-                                <rect key="frame" x="20" y="101" width="240" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B1W-2w-o63">
+                                <rect key="frame" x="20" y="166" width="560" height="118"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S93-0J-DED">
-                                <rect key="frame" x="20" y="130" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="S93-0J-DED">
+                                <rect key="frame" x="189" y="297" width="222" height="222"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="S93-0J-DED" secondAttribute="height" multiplier="1:1" id="YF0-Zu-quW"/>
+                                    <constraint firstAttribute="height" constant="222" id="gDo-Eu-moH"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eiv-8Z-S5G" firstAttribute="trailing" secondItem="PvQ-tm-nVG" secondAttribute="trailingMargin" id="5ZZ-hZ-pdH"/>
+                            <constraint firstItem="S93-0J-DED" firstAttribute="centerX" secondItem="PvQ-tm-nVG" secondAttribute="centerX" id="8OK-qZ-obO"/>
+                            <constraint firstItem="7wI-0H-Tj8" firstAttribute="top" secondItem="SOM-03-eg1" secondAttribute="bottom" id="AhK-9p-B1I"/>
+                            <constraint firstItem="eiv-8Z-S5G" firstAttribute="top" secondItem="SOM-03-eg1" secondAttribute="bottom" constant="60" id="FNb-6x-YyK"/>
+                            <constraint firstItem="eiv-8Z-S5G" firstAttribute="leading" secondItem="PvQ-tm-nVG" secondAttribute="leadingMargin" id="JbQ-wp-E2J"/>
+                            <constraint firstItem="7wI-0H-Tj8" firstAttribute="leading" secondItem="PvQ-tm-nVG" secondAttribute="leadingMargin" constant="-20" id="Kfw-to-lLV"/>
+                            <constraint firstItem="S93-0J-DED" firstAttribute="centerX" secondItem="B1W-2w-o63" secondAttribute="centerX" id="Op7-Yb-IMQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7wI-0H-Tj8" secondAttribute="trailing" constant="-20" id="Owb-8j-eXi"/>
+                            <constraint firstItem="3f9-1j-b2D" firstAttribute="top" secondItem="7wI-0H-Tj8" secondAttribute="bottom" id="SME-f2-RbA"/>
+                            <constraint firstItem="S93-0J-DED" firstAttribute="top" secondItem="B1W-2w-o63" secondAttribute="bottom" constant="13" id="cyf-gt-ZbJ"/>
+                            <constraint firstItem="3f9-1j-b2D" firstAttribute="top" secondItem="S93-0J-DED" secondAttribute="bottom" constant="32" id="mfp-on-DfG"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="curDescription" destination="B1W-2w-o63" id="wnH-Vz-n60"/>
@@ -1188,6 +1377,7 @@
     </scenes>
     <resources>
         <image name="003Kopie.png" width="2500" height="2500"/>
+        <image name="BlueGradiant.png" width="1920" height="1080"/>
         <image name="Duke Orange.png" width="120" height="64"/>
         <image name="Duke Site Plan_F3" width="9402" height="7829"/>
         <image name="Duke Sky Blue.png" width="124" height="56"/>

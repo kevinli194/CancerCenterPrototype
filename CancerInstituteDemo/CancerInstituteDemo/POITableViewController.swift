@@ -11,8 +11,8 @@ import UIKit
 class POITableViewController: UITableViewController {
     
     var POITitles = ["Roottop Garden", "Belk Boutique", "Café", "Quiet Room", "Duke Bookstore", "Resource Center", "Retail Pharmacy", "Common Areas", "Duke Chapel"]
-    var POIDescriptions = [""]
-    var POIImages = ["RooftopGarden.png", "Boutique.png", "default.png", "QuietRoom.png", "default.png", "default.png", "CommonAreas.png", "DukeChapel.png"]
+    var POIDescriptions = ["", "", "", "", "", "", "", "", ""]
+    var POIImages = ["RooftopGarden.png", "Boutique.png", "default.png", "QuietRoom.png", "default.png", "default.png", "default.png", "CommonAreas.png", "DukeChapel.png"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
