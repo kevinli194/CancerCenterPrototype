@@ -15,6 +15,7 @@
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
 		F1432A101BD58A6400C72A7B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1432A0F1BD58A6400C72A7B /* Launch Screen.storyboard */; };
+		F14374D71BE8BD570070FDD0 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F14374D61BE8BD570070FDD0 /* 1.jpg */; };
 		F152D2E11BDEADAF00A99C2B /* POITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F152D2E01BDEADAF00A99C2B /* POITableViewController.swift */; };
 		F152D2E31BDEAE0000A99C2B /* POI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F152D2E21BDEAE0000A99C2B /* POI.swift */; };
 		F1961C181BE8662E0049FF0B /* RestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1961C171BE8662E0049FF0B /* RestViewController.swift */; };
@@ -59,6 +60,7 @@
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11B92BA1BB3652200A37EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1432A0F1BD58A6400C72A7B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F14374D61BE8BD570070FDD0 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		F152D2E01BDEADAF00A99C2B /* POITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = POITableViewController.swift; path = Resources/POITableViewController.swift; sourceTree = "<group>"; };
 		F152D2E21BDEAE0000A99C2B /* POI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POI.swift; sourceTree = "<group>"; };
 		F1961C171BE8662E0049FF0B /* RestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		F1A96F491BD03A8D008446CE /* ResourcesControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F14374D61BE8BD570070FDD0 /* 1.jpg */,
 				F199B3031BE75C52007C8D4E /* RestTableViewController.swift */,
 				F1961C171BE8662E0049FF0B /* RestViewController.swift */,
 				F199B30D1BE76435007C8D4E /* RestDetailsViewController.swift */,
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */,
+				F14374D71BE8BD570070FDD0 /* 1.jpg in Resources */,
 				F1432A101BD58A6400C72A7B /* Launch Screen.storyboard in Resources */,
 				F199B2DC1BE728DF007C8D4E /* Duke Yellow.png in Resources */,
 				F199B3121BE76FDF007C8D4E /* Main.storyboard in Resources */,
