@@ -47,11 +47,15 @@ class TodayViewController: UIViewController, UITableViewDelegate, UITableViewDat
         //Set image
         cell.eventImage.contentMode = .ScaleAspectFill
         cell.eventImage.image = UIImage(named: tableData[indexPath.row].eventImage)
+
         // Return our new cell for display
         return cell
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        let mapViewControllerObejct = self.storyboard?.instantiateViewControllerWithIdentifier("Calendar") as? CalendarViewController
+        self.navigationController?.pushViewController(mapViewControllerObejct!, animated: true)
         
     }
     
