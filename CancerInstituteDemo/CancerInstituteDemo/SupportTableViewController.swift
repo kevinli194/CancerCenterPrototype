@@ -16,6 +16,7 @@ class SupportTableViewController: UITableViewController {
         "Individuals with breast and gynecologic cancer are invited to join this support group.",
         "Caregivers of patients with cancer are invited to join this support group.",
         "This support group is for gastrointestinal and pancreatic cancer patients and their family members.",
+        "This support group is for patients with genitourinary cancers and their family members.",
         "This group is for patients and families coping with lung cancer.",
         "This support group is for prostate cancer patients and their families. Meetings are usually held on the fourth Monday of every month.",
         "Patients with cancer are invited to participate in a class to learn mind-body approaches to coping with cancer.",
