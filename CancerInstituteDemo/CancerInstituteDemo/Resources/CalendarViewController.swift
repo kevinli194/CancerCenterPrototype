@@ -7,18 +7,40 @@
 //
 
 import UIKit
+import CVCalendar
 
-class CalendarViewController: UIViewController{
+class CalendarViewController: UIViewController, CVCalendarViewDelegate, CVCalendarMenuViewDelegate {
     
+    
+    @IBOutlet weak var menuView: CVCalendarMenuView!
+
+    @IBOutlet weak var calendarView: CVCalendarView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    
+    //MARK: Functions that conform to CVCalendarViewDelegate
+    func presentationMode() -> CalendarMode {
+        return CalendarMode.MonthView
+    }
+    func firstWeekday() -> Weekday {
+        return Weekday.Sunday
+    }
+    
+    
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        calendarView.commitCalendarViewUpdate()
+        menuView.commitMenuViewUpdate()
     }
     
 
