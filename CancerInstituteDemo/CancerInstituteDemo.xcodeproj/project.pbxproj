@@ -46,12 +46,10 @@
 		06D8B1101BB8EFE000A42ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06D8B1121BB8F01800A42ECC /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		06D8B1141BB8F02400A42ECC /* AppointmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentController.swift; sourceTree = "<group>"; };
+		31223F4E1BE9AA2100527532 /* pet_therapy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pet_therapy.jpg; sourceTree = "<group>"; };
+		31223F501BE9AA3C00527532 /* writing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = writing.jpg; sourceTree = "<group>"; };
 		31449D711BD56272002D4C20 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		31449D731BD5681C002D4C20 /* TodayEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayEventCell.swift; sourceTree = "<group>"; };
-		31449D781BD5755D002D4C20 /* cancer_sample.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cancer_sample.JPG; path = ../../../cancer_sample.JPG; sourceTree = "<group>"; };
-		31449D7E1BD5776D002D4C20 /* writing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = writing.jpg; path = ../../../writing.jpg; sourceTree = "<group>"; };
-		31449D801BD57777002D4C20 /* taichi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = taichi.png; path = ../../../taichi.png; sourceTree = "<group>"; };
-		31449D821BD577D8002D4C20 /* meditation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meditation.png; path = ../../../meditation.png; sourceTree = "<group>"; };
 		6BF8ED8034DB39B4F8EF216F /* Pods-CancerInstituteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CancerInstituteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9E4493ACC11DA87670C4DE /* Pods-CancerInstituteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -129,10 +127,8 @@
 		31449D771BD574F4002D4C20 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				31449D821BD577D8002D4C20 /* meditation.png */,
-				31449D7E1BD5776D002D4C20 /* writing.jpg */,
-				31449D801BD57777002D4C20 /* taichi.png */,
-				31449D781BD5755D002D4C20 /* cancer_sample.JPG */,
+				31223F501BE9AA3C00527532 /* writing.jpg */,
+				31223F4E1BE9AA2100527532 /* pet_therapy.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -272,12 +268,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31223F4F1BE9AA2100527532 /* pet_therapy.jpg in Resources */,
 				F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */,
-				31449D831BD577D8002D4C20 /* meditation.png in Resources */,
+				31223F511BE9AA3C00527532 /* writing.jpg in Resources */,
 				06D8B1111BB8EFE000A42ECC /* Main.storyboard in Resources */,
-				31449D7F1BD5776D002D4C20 /* writing.jpg in Resources */,
-				31449D791BD5755D002D4C20 /* cancer_sample.JPG in Resources */,
-				31449D811BD57777002D4C20 /* taichi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
