@@ -15,8 +15,13 @@ class CalendarViewController: UIViewController, CVCalendarViewDelegate, CVCalend
     @IBOutlet weak var menuView: CVCalendarMenuView!
 
     @IBOutlet weak var calendarView: CVCalendarView!
+   
+    
+    @IBOutlet weak var eventDescription: UITextView!
+    var displayText = ""
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         // Do any additional setup after loading the view.
     }
@@ -29,6 +34,9 @@ class CalendarViewController: UIViewController, CVCalendarViewDelegate, CVCalend
         return Weekday.Sunday
     }
     
+    func displayData(data: String) {
+        displayText = data;
+    }
     
    
     override func didReceiveMemoryWarning() {
@@ -41,6 +49,8 @@ class CalendarViewController: UIViewController, CVCalendarViewDelegate, CVCalend
         
         calendarView.commitCalendarViewUpdate()
         menuView.commitMenuViewUpdate()
+        eventDescription.text = displayText
+        
     }
     
 

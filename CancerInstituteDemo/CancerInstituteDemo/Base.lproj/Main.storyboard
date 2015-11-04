@@ -361,11 +361,19 @@
                                     <outlet property="calendarDelegate" destination="4dB-xB-hnV" id="FNG-pb-eJr"/>
                                 </connections>
                             </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Event Description" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf5-7x-QQx">
+                                <rect key="frame" x="180" y="449" width="240" height="33"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ETM-w4-5qf" firstAttribute="top" secondItem="yqR-mW-xBF" secondAttribute="top" constant="135" id="0AC-dd-lp1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mf5-7x-QQx" secondAttribute="trailing" constant="160" id="3H8-28-K5T"/>
+                            <constraint firstItem="Mf5-7x-QQx" firstAttribute="top" secondItem="ETM-w4-5qf" secondAttribute="bottom" id="9Om-vw-55C"/>
+                            <constraint firstItem="Mf5-7x-QQx" firstAttribute="leading" secondItem="yqR-mW-xBF" secondAttribute="leadingMargin" constant="160" id="GVc-W8-R2A"/>
                             <constraint firstAttribute="leadingMargin" secondItem="ETM-w4-5qf" secondAttribute="leading" id="MoZ-Au-qWv"/>
                             <constraint firstItem="GFR-yH-lRv" firstAttribute="top" secondItem="ETM-w4-5qf" secondAttribute="bottom" constant="102" id="XPd-eX-HDO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ETM-w4-5qf" secondAttribute="trailing" id="YHk-QM-Qoy"/>
@@ -373,10 +381,12 @@
                             <constraint firstAttribute="leadingMargin" secondItem="hNj-An-Abl" secondAttribute="leading" id="lyI-3K-hCs"/>
                             <constraint firstItem="hNj-An-Abl" firstAttribute="top" secondItem="8EC-4T-9du" secondAttribute="bottom" constant="8" id="svs-Tu-2Id"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hNj-An-Abl" secondAttribute="trailing" id="uoJ-WS-cMM"/>
+                            <constraint firstItem="Mf5-7x-QQx" firstAttribute="centerX" secondItem="yqR-mW-xBF" secondAttribute="centerX" id="uxb-7v-pJo"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="calendarView" destination="ETM-w4-5qf" id="O79-Gm-ZuZ"/>
+                        <outlet property="eventDescription" destination="Mf5-7x-QQx" id="We0-1Q-GGp"/>
                         <outlet property="menuView" destination="hNj-An-Abl" id="l4H-w8-yty"/>
                     </connections>
                 </viewController>
