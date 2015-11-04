@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "Pods-CancerInstituteDemo/RKCardView.framework"
+  install_framework "Pods-CancerInstituteDemo/Alamofire.framework"
+  install_framework "Pods-CancerInstituteDemo/CVCalendar.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "Pods-CancerInstituteDemo/RKCardView.framework"
+  install_framework "Pods-CancerInstituteDemo/Alamofire.framework"
+  install_framework "Pods-CancerInstituteDemo/CVCalendar.framework"
 fi

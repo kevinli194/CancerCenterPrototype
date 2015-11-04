@@ -1,10 +1,13 @@
 PODS:
-  - RKCardView (0.1.0)
+  - Alamofire (3.1.1)
+  - CVCalendar (1.2.7)
 
 DEPENDENCIES:
-  - RKCardView
+  - Alamofire (~> 3.0)
+  - CVCalendar (~> 1.2.7)
 
 SPEC CHECKSUMS:
-  RKCardView: 80c09d833031dd8506eb4dcbaa820038065c2519
+  Alamofire: 9b0a7188b961a03914a99304488bd226b0e46c0e
+  CVCalendar: 1ae6ee62dd7fd4c6a6703a43c641e11dfd32276e
 
 COCOAPODS: 0.39.0
