@@ -362,7 +362,7 @@
                                 </connections>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Event Description" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf5-7x-QQx">
-                                <rect key="frame" x="180" y="449" width="240" height="33"/>
+                                <rect key="frame" x="0.0" y="449" width="600" height="33"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -372,17 +372,24 @@
                         <constraints>
                             <constraint firstItem="ETM-w4-5qf" firstAttribute="top" secondItem="yqR-mW-xBF" secondAttribute="top" constant="135" id="0AC-dd-lp1"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Mf5-7x-QQx" secondAttribute="trailing" constant="160" id="3H8-28-K5T"/>
-                            <constraint firstItem="Mf5-7x-QQx" firstAttribute="top" secondItem="ETM-w4-5qf" secondAttribute="bottom" id="9Om-vw-55C"/>
                             <constraint firstItem="Mf5-7x-QQx" firstAttribute="leading" secondItem="yqR-mW-xBF" secondAttribute="leadingMargin" constant="160" id="GVc-W8-R2A"/>
                             <constraint firstAttribute="leadingMargin" secondItem="ETM-w4-5qf" secondAttribute="leading" id="MoZ-Au-qWv"/>
                             <constraint firstItem="GFR-yH-lRv" firstAttribute="top" secondItem="ETM-w4-5qf" secondAttribute="bottom" constant="102" id="XPd-eX-HDO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ETM-w4-5qf" secondAttribute="trailing" id="YHk-QM-Qoy"/>
                             <constraint firstItem="ETM-w4-5qf" firstAttribute="top" secondItem="hNj-An-Abl" secondAttribute="bottom" id="ZsH-A3-DmC"/>
+                            <constraint firstItem="Mf5-7x-QQx" firstAttribute="top" secondItem="ETM-w4-5qf" secondAttribute="bottom" id="bic-8m-2Yx"/>
+                            <constraint firstItem="Mf5-7x-QQx" firstAttribute="centerX" secondItem="yqR-mW-xBF" secondAttribute="centerX" id="hFk-Dt-Q3r"/>
                             <constraint firstAttribute="leadingMargin" secondItem="hNj-An-Abl" secondAttribute="leading" id="lyI-3K-hCs"/>
+                            <constraint firstItem="Mf5-7x-QQx" firstAttribute="width" secondItem="yqR-mW-xBF" secondAttribute="width" id="n2X-HN-XQY"/>
                             <constraint firstItem="hNj-An-Abl" firstAttribute="top" secondItem="8EC-4T-9du" secondAttribute="bottom" constant="8" id="svs-Tu-2Id"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hNj-An-Abl" secondAttribute="trailing" id="uoJ-WS-cMM"/>
-                            <constraint firstItem="Mf5-7x-QQx" firstAttribute="centerX" secondItem="yqR-mW-xBF" secondAttribute="centerX" id="uxb-7v-pJo"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="3H8-28-K5T"/>
+                                <exclude reference="GVc-W8-R2A"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="calendarView" destination="ETM-w4-5qf" id="O79-Gm-ZuZ"/>
@@ -471,10 +478,10 @@
                                                         <constraint firstAttribute="height" constant="34" id="qQE-SO-u7q"/>
                                                     </constraints>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" text="Event Details" translatesAutoresizingMaskIntoConstraints="NO" id="VCl-eP-2Nl">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCl-eP-2Nl">
                                                     <rect key="frame" x="172" y="26" width="240" height="31"/>
                                                     <animations/>
                                                     <constraints>

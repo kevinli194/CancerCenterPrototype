@@ -12,6 +12,10 @@
 		06D8B1151BB8F02400A42ECC /* AppointmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8B1141BB8F02400A42ECC /* AppointmentController.swift */; };
 		31449D721BD56272002D4C20 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31449D711BD56272002D4C20 /* CardView.swift */; };
 		31449D741BD5681C002D4C20 /* TodayEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31449D731BD5681C002D4C20 /* TodayEventCell.swift */; };
+		318AECEF1BEAA4C3004F6E38 /* writing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECEE1BEAA4C3004F6E38 /* writing.jpg */; settings = {ASSET_TAGS = (); }; };
+		318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF01BEAA4C9004F6E38 /* spiritual.jpg */; settings = {ASSET_TAGS = (); }; };
+		318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF21BEAA4D5004F6E38 /* taichi.jpg */; settings = {ASSET_TAGS = (); }; };
+		318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */; settings = {ASSET_TAGS = (); }; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
@@ -27,10 +31,12 @@
 		06D8B1101BB8EFE000A42ECC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06D8B1121BB8F01800A42ECC /* MapController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
 		06D8B1141BB8F02400A42ECC /* AppointmentController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentController.swift; sourceTree = "<group>"; };
-		31223F4E1BE9AA2100527532 /* pet_therapy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pet_therapy.jpg; sourceTree = "<group>"; };
-		31223F501BE9AA3C00527532 /* writing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = writing.jpg; sourceTree = "<group>"; };
 		31449D711BD56272002D4C20 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		31449D731BD5681C002D4C20 /* TodayEventCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayEventCell.swift; sourceTree = "<group>"; };
+		318AECEE1BEAA4C3004F6E38 /* writing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = writing.jpg; sourceTree = "<group>"; };
+		318AECF01BEAA4C9004F6E38 /* spiritual.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spiritual.jpg; sourceTree = "<group>"; };
+		318AECF21BEAA4D5004F6E38 /* taichi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taichi.jpg; sourceTree = "<group>"; };
+		318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pet_therapy.jpg; sourceTree = "<group>"; };
 		6BF8ED8034DB39B4F8EF216F /* Pods-CancerInstituteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CancerInstituteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9E4493ACC11DA87670C4DE /* Pods-CancerInstituteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -93,8 +99,10 @@
 		31449D771BD574F4002D4C20 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				31223F501BE9AA3C00527532 /* writing.jpg */,
-				31223F4E1BE9AA2100527532 /* pet_therapy.jpg */,
+				318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */,
+				318AECEE1BEAA4C3004F6E38 /* writing.jpg */,
+				318AECF21BEAA4D5004F6E38 /* taichi.jpg */,
+				318AECF01BEAA4C9004F6E38 /* spiritual.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -220,7 +228,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */,
+				318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */,
+				318AECEF1BEAA4C3004F6E38 /* writing.jpg in Resources */,
+				318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */,
 				06D8B1111BB8EFE000A42ECC /* Main.storyboard in Resources */,
+				318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
