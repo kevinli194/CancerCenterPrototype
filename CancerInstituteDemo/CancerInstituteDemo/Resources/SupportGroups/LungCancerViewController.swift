@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LungCacnerViewController: UIViewController {
+class LungCancerViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
