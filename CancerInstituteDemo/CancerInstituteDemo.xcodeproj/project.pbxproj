@@ -12,10 +12,10 @@
 		06D8B1151BB8F02400A42ECC /* AppointmentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06D8B1141BB8F02400A42ECC /* AppointmentController.swift */; };
 		31449D721BD56272002D4C20 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31449D711BD56272002D4C20 /* CardView.swift */; };
 		31449D741BD5681C002D4C20 /* TodayEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31449D731BD5681C002D4C20 /* TodayEventCell.swift */; };
-		318AECEF1BEAA4C3004F6E38 /* writing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECEE1BEAA4C3004F6E38 /* writing.jpg */; settings = {ASSET_TAGS = (); }; };
-		318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF01BEAA4C9004F6E38 /* spiritual.jpg */; settings = {ASSET_TAGS = (); }; };
-		318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF21BEAA4D5004F6E38 /* taichi.jpg */; settings = {ASSET_TAGS = (); }; };
-		318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */; settings = {ASSET_TAGS = (); }; };
+		318AECEF1BEAA4C3004F6E38 /* writing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECEE1BEAA4C3004F6E38 /* writing.jpg */; };
+		318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF01BEAA4C9004F6E38 /* spiritual.jpg */; };
+		318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF21BEAA4D5004F6E38 /* taichi.jpg */; };
+		318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
@@ -24,6 +24,24 @@
 		F1C0F35A1BC2053D006A3D23 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3591BC2053D006A3D23 /* CalendarViewController.swift */; };
 		F1C0F3681BC22B01006A3D23 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */; };
 		F1C0F36A1BC22B42006A3D23 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */; };
+		F1F59D311BF14FC50078CA5C /* RestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D301BF14FC50078CA5C /* RestTableViewController.swift */; };
+		F1F59D331BF14FEE0078CA5C /* RestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D321BF14FEE0078CA5C /* RestDetailViewController.swift */; };
+		F1F59D351BF1500F0078CA5C /* RestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D341BF1500F0078CA5C /* RestTableViewCell.swift */; };
+		F1F59D371BF1503D0078CA5C /* EducationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D361BF1503D0078CA5C /* EducationTableViewController.swift */; };
+		F1F59D391BF150630078CA5C /* EducationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D381BF150630078CA5C /* EducationDetailViewController.swift */; };
+		F1F59D3B1BF150890078CA5C /* EducationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D3A1BF150890078CA5C /* EducationTableViewCell.swift */; };
+		F1F59D3D1BF150AC0078CA5C /* POITableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D3C1BF150AC0078CA5C /* POITableViewController.swift */; };
+		F1F59D3F1BF150CA0078CA5C /* POIDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D3E1BF150CA0078CA5C /* POIDetailViewController.swift */; };
+		F1F59D411BF150E90078CA5C /* POITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D401BF150E90078CA5C /* POITableViewCell.swift */; };
+		F1F59D431BF151290078CA5C /* SpecialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D421BF151290078CA5C /* SpecialTableViewController.swift */; };
+		F1F59D451BF151490078CA5C /* SpecialDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D441BF151490078CA5C /* SpecialDetailViewController.swift */; };
+		F1F59D471BF151780078CA5C /* SpecialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D461BF151780078CA5C /* SpecialTableViewCell.swift */; };
+		F1F59D491BF151960078CA5C /* SupportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D481BF151960078CA5C /* SupportTableViewController.swift */; };
+		F1F59D4B1BF151B40078CA5C /* SupportDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D4A1BF151B40078CA5C /* SupportDetailViewController.swift */; };
+		F1F59D4D1BF151D00078CA5C /* SupportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D4C1BF151D00078CA5C /* SupportTableViewCell.swift */; };
+		F1F59D4F1BF151F60078CA5C /* TravelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D4E1BF151F60078CA5C /* TravelTableViewController.swift */; };
+		F1F59D511BF152110078CA5C /* TravelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D501BF152110078CA5C /* TravelDetailViewController.swift */; };
+		F1F59D531BF1522C0078CA5C /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D521BF1522C0078CA5C /* TravelTableViewCell.swift */; };
 		FED57ED6D10C154DE7FAE4AF /* Pods_CancerInstituteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +69,24 @@
 		F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CancerInstituteDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F1F59D301BF14FC50078CA5C /* RestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestTableViewController.swift; path = Resources/RestTableViewController.swift; sourceTree = "<group>"; };
+		F1F59D321BF14FEE0078CA5C /* RestDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestDetailViewController.swift; path = Resources/RestDetailViewController.swift; sourceTree = "<group>"; };
+		F1F59D341BF1500F0078CA5C /* RestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestTableViewCell.swift; path = Resources/RestTableViewCell.swift; sourceTree = "<group>"; };
+		F1F59D361BF1503D0078CA5C /* EducationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EducationTableViewController.swift; path = Resources/EducationTableViewController.swift; sourceTree = "<group>"; };
+		F1F59D381BF150630078CA5C /* EducationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EducationDetailViewController.swift; path = Resources/EducationDetailViewController.swift; sourceTree = "<group>"; };
+		F1F59D3A1BF150890078CA5C /* EducationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationTableViewCell.swift; sourceTree = "<group>"; };
+		F1F59D3C1BF150AC0078CA5C /* POITableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = POITableViewController.swift; path = Resources/POITableViewController.swift; sourceTree = "<group>"; };
+		F1F59D3E1BF150CA0078CA5C /* POIDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = POIDetailViewController.swift; path = Resources/POIDetailViewController.swift; sourceTree = "<group>"; };
+		F1F59D401BF150E90078CA5C /* POITableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = POITableViewCell.swift; path = Resources/POITableViewCell.swift; sourceTree = "<group>"; };
+		F1F59D421BF151290078CA5C /* SpecialTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecialTableViewController.swift; path = Resources/SpecialTableViewController.swift; sourceTree = "<group>"; };
+		F1F59D441BF151490078CA5C /* SpecialDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpecialDetailViewController.swift; path = Resources/SpecialDetailViewController.swift; sourceTree = "<group>"; };
+		F1F59D461BF151780078CA5C /* SpecialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpecialTableViewCell.swift; sourceTree = "<group>"; };
+		F1F59D481BF151960078CA5C /* SupportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SupportTableViewController.swift; path = Resources/SupportTableViewController.swift; sourceTree = "<group>"; };
+		F1F59D4A1BF151B40078CA5C /* SupportDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SupportDetailViewController.swift; path = Resources/SupportDetailViewController.swift; sourceTree = "<group>"; };
+		F1F59D4C1BF151D00078CA5C /* SupportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SupportTableViewCell.swift; path = Resources/SupportTableViewCell.swift; sourceTree = "<group>"; };
+		F1F59D4E1BF151F60078CA5C /* TravelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelTableViewController.swift; path = Resources/TravelTableViewController.swift; sourceTree = "<group>"; };
+		F1F59D501BF152110078CA5C /* TravelDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelDetailViewController.swift; path = Resources/TravelDetailViewController.swift; sourceTree = "<group>"; };
+		F1F59D521BF1522C0078CA5C /* TravelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelTableViewCell.swift; path = Resources/TravelTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,12 +182,12 @@
 		F11B92AB1BB3652200A37EE6 /* CancerInstituteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F11B92BA1BB3652200A37EE6 /* Info.plist */,
+				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
 				06609F241BD0413400981605 /* MainMenuControllers */,
 				06609F231BD0410C00981605 /* Main */,
 				F11B92B51BB3652200A37EE6 /* Assets.xcassets */,
 				F1A96F491BD03A8D008446CE /* ResourcesControllers */,
-				F11B92BA1BB3652200A37EE6 /* Info.plist */,
-				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
 			);
 			path = CancerInstituteDemo;
 			sourceTree = "<group>";
@@ -162,6 +198,24 @@
 				F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */,
 				F1C0F3591BC2053D006A3D23 /* CalendarViewController.swift */,
 				F1C0F3451BC1E9B6006A3D23 /* Resources.swift */,
+				F1F59D301BF14FC50078CA5C /* RestTableViewController.swift */,
+				F1F59D321BF14FEE0078CA5C /* RestDetailViewController.swift */,
+				F1F59D341BF1500F0078CA5C /* RestTableViewCell.swift */,
+				F1F59D361BF1503D0078CA5C /* EducationTableViewController.swift */,
+				F1F59D381BF150630078CA5C /* EducationDetailViewController.swift */,
+				F1F59D3A1BF150890078CA5C /* EducationTableViewCell.swift */,
+				F1F59D3C1BF150AC0078CA5C /* POITableViewController.swift */,
+				F1F59D3E1BF150CA0078CA5C /* POIDetailViewController.swift */,
+				F1F59D401BF150E90078CA5C /* POITableViewCell.swift */,
+				F1F59D421BF151290078CA5C /* SpecialTableViewController.swift */,
+				F1F59D441BF151490078CA5C /* SpecialDetailViewController.swift */,
+				F1F59D461BF151780078CA5C /* SpecialTableViewCell.swift */,
+				F1F59D481BF151960078CA5C /* SupportTableViewController.swift */,
+				F1F59D4A1BF151B40078CA5C /* SupportDetailViewController.swift */,
+				F1F59D4C1BF151D00078CA5C /* SupportTableViewCell.swift */,
+				F1F59D4E1BF151F60078CA5C /* TravelTableViewController.swift */,
+				F1F59D501BF152110078CA5C /* TravelDetailViewController.swift */,
+				F1F59D521BF1522C0078CA5C /* TravelTableViewCell.swift */,
 			);
 			name = ResourcesControllers;
 			sourceTree = "<group>";
@@ -292,14 +346,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1C0F3681BC22B01006A3D23 /* ContactViewController.swift in Sources */,
+				F1F59D311BF14FC50078CA5C /* RestTableViewController.swift in Sources */,
 				F1C0F36A1BC22B42006A3D23 /* TodayViewController.swift in Sources */,
+				F1F59D331BF14FEE0078CA5C /* RestDetailViewController.swift in Sources */,
+				F1F59D411BF150E90078CA5C /* POITableViewCell.swift in Sources */,
+				F1F59D451BF151490078CA5C /* SpecialDetailViewController.swift in Sources */,
+				F1F59D491BF151960078CA5C /* SupportTableViewController.swift in Sources */,
+				F1F59D371BF1503D0078CA5C /* EducationTableViewController.swift in Sources */,
+				F1F59D531BF1522C0078CA5C /* TravelTableViewCell.swift in Sources */,
 				31449D741BD5681C002D4C20 /* TodayEventCell.swift in Sources */,
+				F1F59D4D1BF151D00078CA5C /* SupportTableViewCell.swift in Sources */,
+				F1F59D511BF152110078CA5C /* TravelDetailViewController.swift in Sources */,
 				06D8B1131BB8F01800A42ECC /* MapController.swift in Sources */,
+				F1F59D4B1BF151B40078CA5C /* SupportDetailViewController.swift in Sources */,
 				F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */,
+				F1F59D471BF151780078CA5C /* SpecialTableViewCell.swift in Sources */,
+				F1F59D3F1BF150CA0078CA5C /* POIDetailViewController.swift in Sources */,
 				31449D721BD56272002D4C20 /* CardView.swift in Sources */,
 				F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */,
 				F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */,
 				06D8B1151BB8F02400A42ECC /* AppointmentController.swift in Sources */,
+				F1F59D4F1BF151F60078CA5C /* TravelTableViewController.swift in Sources */,
+				F1F59D391BF150630078CA5C /* EducationDetailViewController.swift in Sources */,
+				F1F59D351BF1500F0078CA5C /* RestTableViewCell.swift in Sources */,
+				F1F59D3D1BF150AC0078CA5C /* POITableViewController.swift in Sources */,
+				F1F59D431BF151290078CA5C /* SpecialTableViewController.swift in Sources */,
+				F1F59D3B1BF150890078CA5C /* EducationTableViewCell.swift in Sources */,
 				F1C0F3581BC20513006A3D23 /* SettingsViewController.swift in Sources */,
 				F1C0F35A1BC2053D006A3D23 /* CalendarViewController.swift in Sources */,
 			);
@@ -411,7 +483,7 @@
 				INFOPLIST_FILE = CancerInstituteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kag.CancerInstituteDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CancerInstituteDemo;
 				SWIFT_OBJC_BRIDGING_HEADER = "CancerInstituteDemo/CancerInstituteDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -426,7 +498,7 @@
 				INFOPLIST_FILE = CancerInstituteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kag.CancerInstituteDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CancerInstituteDemo;
 				SWIFT_OBJC_BRIDGING_HEADER = "CancerInstituteDemo/CancerInstituteDemo-Bridging-Header.h";
 			};
 			name = Release;
