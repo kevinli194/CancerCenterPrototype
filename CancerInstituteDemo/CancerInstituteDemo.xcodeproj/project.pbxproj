@@ -42,6 +42,28 @@
 		F1F59D4F1BF151F60078CA5C /* TravelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D4E1BF151F60078CA5C /* TravelTableViewController.swift */; };
 		F1F59D511BF152110078CA5C /* TravelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D501BF152110078CA5C /* TravelDetailViewController.swift */; };
 		F1F59D531BF1522C0078CA5C /* TravelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D521BF1522C0078CA5C /* TravelTableViewCell.swift */; };
+		F1F59D6B1BF156A00078CA5C /* boutique.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D551BF156A00078CA5C /* boutique.jpg */; };
+		F1F59D6C1BF156A00078CA5C /* chapel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D561BF156A00078CA5C /* chapel.jpg */; };
+		F1F59D6D1BF156A00078CA5C /* chemoEducation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D571BF156A00078CA5C /* chemoEducation.jpg */; };
+		F1F59D6E1BF156A00078CA5C /* commonArea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D581BF156A00078CA5C /* commonArea.jpg */; };
+		F1F59D6F1BF156A00078CA5C /* crushColorectal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D591BF156A00078CA5C /* crushColorectal.jpg */; };
+		F1F59D701BF156A00078CA5C /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5A1BF156A00078CA5C /* default.jpg */; };
+		F1F59D711BF156A00078CA5C /* doctor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5B1BF156A00078CA5C /* doctor.jpg */; };
+		F1F59D721BF156A00078CA5C /* Duke Green.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5C1BF156A00078CA5C /* Duke Green.png */; };
+		F1F59D731BF156A00078CA5C /* Duke Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5D1BF156A00078CA5C /* Duke Orange.png */; };
+		F1F59D741BF156A00078CA5C /* Duke Red.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5E1BF156A00078CA5C /* Duke Red.png */; };
+		F1F59D751BF156A00078CA5C /* Duke Sky Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5F1BF156A00078CA5C /* Duke Sky Blue.png */; };
+		F1F59D761BF156A00078CA5C /* Duke Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D601BF156A00078CA5C /* Duke Yellow.png */; };
+		F1F59D771BF156A00078CA5C /* lawServices.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D611BF156A00078CA5C /* lawServices.jpg */; };
+		F1F59D781BF156A00078CA5C /* mainEntrance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D621BF156A00078CA5C /* mainEntrance.jpg */; };
+		F1F59D791BF156A00078CA5C /* petTherapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D631BF156A00078CA5C /* petTherapy.jpg */; };
+		F1F59D7A1BF156A00078CA5C /* quietRoom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D641BF156A00078CA5C /* quietRoom.jpg */; };
+		F1F59D7B1BF156A00078CA5C /* rooftopGarden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D651BF156A00078CA5C /* rooftopGarden.jpg */; };
+		F1F59D7C1BF156A00078CA5C /* spaDay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D661BF156A00078CA5C /* spaDay.jpg */; };
+		F1F59D7D1BF156A00078CA5C /* springSupport.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D671BF156A00078CA5C /* springSupport.png */; };
+		F1F59D7E1BF156A00078CA5C /* strikeoutSarcoma.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D681BF156A00078CA5C /* strikeoutSarcoma.png */; };
+		F1F59D7F1BF156A00078CA5C /* treeHope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D691BF156A00078CA5C /* treeHope.jpg */; };
+		F1F59D801BF156A00078CA5C /* whiteLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D6A1BF156A00078CA5C /* whiteLogo.png */; };
 		FED57ED6D10C154DE7FAE4AF /* Pods_CancerInstituteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +109,28 @@
 		F1F59D4E1BF151F60078CA5C /* TravelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelTableViewController.swift; path = Resources/TravelTableViewController.swift; sourceTree = "<group>"; };
 		F1F59D501BF152110078CA5C /* TravelDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelDetailViewController.swift; path = Resources/TravelDetailViewController.swift; sourceTree = "<group>"; };
 		F1F59D521BF1522C0078CA5C /* TravelTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TravelTableViewCell.swift; path = Resources/TravelTableViewCell.swift; sourceTree = "<group>"; };
+		F1F59D551BF156A00078CA5C /* boutique.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boutique.jpg; sourceTree = "<group>"; };
+		F1F59D561BF156A00078CA5C /* chapel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chapel.jpg; sourceTree = "<group>"; };
+		F1F59D571BF156A00078CA5C /* chemoEducation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chemoEducation.jpg; sourceTree = "<group>"; };
+		F1F59D581BF156A00078CA5C /* commonArea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = commonArea.jpg; sourceTree = "<group>"; };
+		F1F59D591BF156A00078CA5C /* crushColorectal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crushColorectal.jpg; sourceTree = "<group>"; };
+		F1F59D5A1BF156A00078CA5C /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		F1F59D5B1BF156A00078CA5C /* doctor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doctor.jpg; sourceTree = "<group>"; };
+		F1F59D5C1BF156A00078CA5C /* Duke Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Green.png"; sourceTree = "<group>"; };
+		F1F59D5D1BF156A00078CA5C /* Duke Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Orange.png"; sourceTree = "<group>"; };
+		F1F59D5E1BF156A00078CA5C /* Duke Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Red.png"; sourceTree = "<group>"; };
+		F1F59D5F1BF156A00078CA5C /* Duke Sky Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Sky Blue.png"; sourceTree = "<group>"; };
+		F1F59D601BF156A00078CA5C /* Duke Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Yellow.png"; sourceTree = "<group>"; };
+		F1F59D611BF156A00078CA5C /* lawServices.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lawServices.jpg; sourceTree = "<group>"; };
+		F1F59D621BF156A00078CA5C /* mainEntrance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainEntrance.jpg; sourceTree = "<group>"; };
+		F1F59D631BF156A00078CA5C /* petTherapy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petTherapy.jpg; sourceTree = "<group>"; };
+		F1F59D641BF156A00078CA5C /* quietRoom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quietRoom.jpg; sourceTree = "<group>"; };
+		F1F59D651BF156A00078CA5C /* rooftopGarden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rooftopGarden.jpg; sourceTree = "<group>"; };
+		F1F59D661BF156A00078CA5C /* spaDay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spaDay.jpg; sourceTree = "<group>"; };
+		F1F59D671BF156A00078CA5C /* springSupport.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = springSupport.png; sourceTree = "<group>"; };
+		F1F59D681BF156A00078CA5C /* strikeoutSarcoma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strikeoutSarcoma.png; sourceTree = "<group>"; };
+		F1F59D691BF156A00078CA5C /* treeHope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = treeHope.jpg; sourceTree = "<group>"; };
+		F1F59D6A1BF156A00078CA5C /* whiteLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteLogo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,10 +228,11 @@
 			children = (
 				F11B92BA1BB3652200A37EE6 /* Info.plist */,
 				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
-				06609F241BD0413400981605 /* MainMenuControllers */,
-				06609F231BD0410C00981605 /* Main */,
 				F11B92B51BB3652200A37EE6 /* Assets.xcassets */,
+				06609F231BD0410C00981605 /* Main */,
+				06609F241BD0413400981605 /* MainMenuControllers */,
 				F1A96F491BD03A8D008446CE /* ResourcesControllers */,
+				F1F59D541BF153780078CA5C /* Images */,
 			);
 			path = CancerInstituteDemo;
 			sourceTree = "<group>";
@@ -218,6 +263,35 @@
 				F1F59D521BF1522C0078CA5C /* TravelTableViewCell.swift */,
 			);
 			name = ResourcesControllers;
+			sourceTree = "<group>";
+		};
+		F1F59D541BF153780078CA5C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F1F59D6A1BF156A00078CA5C /* whiteLogo.png */,
+				F1F59D5C1BF156A00078CA5C /* Duke Green.png */,
+				F1F59D5D1BF156A00078CA5C /* Duke Orange.png */,
+				F1F59D5E1BF156A00078CA5C /* Duke Red.png */,
+				F1F59D5F1BF156A00078CA5C /* Duke Sky Blue.png */,
+				F1F59D601BF156A00078CA5C /* Duke Yellow.png */,
+				F1F59D551BF156A00078CA5C /* boutique.jpg */,
+				F1F59D561BF156A00078CA5C /* chapel.jpg */,
+				F1F59D571BF156A00078CA5C /* chemoEducation.jpg */,
+				F1F59D581BF156A00078CA5C /* commonArea.jpg */,
+				F1F59D591BF156A00078CA5C /* crushColorectal.jpg */,
+				F1F59D5A1BF156A00078CA5C /* default.jpg */,
+				F1F59D5B1BF156A00078CA5C /* doctor.jpg */,
+				F1F59D611BF156A00078CA5C /* lawServices.jpg */,
+				F1F59D621BF156A00078CA5C /* mainEntrance.jpg */,
+				F1F59D631BF156A00078CA5C /* petTherapy.jpg */,
+				F1F59D641BF156A00078CA5C /* quietRoom.jpg */,
+				F1F59D651BF156A00078CA5C /* rooftopGarden.jpg */,
+				F1F59D661BF156A00078CA5C /* spaDay.jpg */,
+				F1F59D671BF156A00078CA5C /* springSupport.png */,
+				F1F59D681BF156A00078CA5C /* strikeoutSarcoma.png */,
+				F1F59D691BF156A00078CA5C /* treeHope.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,12 +355,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F59D781BF156A00078CA5C /* mainEntrance.jpg in Resources */,
+				F1F59D731BF156A00078CA5C /* Duke Orange.png in Resources */,
+				F1F59D6B1BF156A00078CA5C /* boutique.jpg in Resources */,
+				F1F59D6E1BF156A00078CA5C /* commonArea.jpg in Resources */,
+				F1F59D761BF156A00078CA5C /* Duke Yellow.png in Resources */,
+				F1F59D771BF156A00078CA5C /* lawServices.jpg in Resources */,
+				F1F59D741BF156A00078CA5C /* Duke Red.png in Resources */,
 				F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */,
 				318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */,
 				318AECEF1BEAA4C3004F6E38 /* writing.jpg in Resources */,
+				F1F59D751BF156A00078CA5C /* Duke Sky Blue.png in Resources */,
+				F1F59D7C1BF156A00078CA5C /* spaDay.jpg in Resources */,
+				F1F59D721BF156A00078CA5C /* Duke Green.png in Resources */,
+				F1F59D7E1BF156A00078CA5C /* strikeoutSarcoma.png in Resources */,
+				F1F59D801BF156A00078CA5C /* whiteLogo.png in Resources */,
 				318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */,
+				F1F59D7A1BF156A00078CA5C /* quietRoom.jpg in Resources */,
 				06D8B1111BB8EFE000A42ECC /* Main.storyboard in Resources */,
+				F1F59D7B1BF156A00078CA5C /* rooftopGarden.jpg in Resources */,
+				F1F59D791BF156A00078CA5C /* petTherapy.jpg in Resources */,
+				F1F59D6F1BF156A00078CA5C /* crushColorectal.jpg in Resources */,
+				F1F59D6C1BF156A00078CA5C /* chapel.jpg in Resources */,
+				F1F59D7D1BF156A00078CA5C /* springSupport.png in Resources */,
 				318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */,
+				F1F59D711BF156A00078CA5C /* doctor.jpg in Resources */,
+				F1F59D6D1BF156A00078CA5C /* chemoEducation.jpg in Resources */,
+				F1F59D701BF156A00078CA5C /* default.jpg in Resources */,
+				F1F59D7F1BF156A00078CA5C /* treeHope.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,7 +18,7 @@ class EducationTableViewController: UITableViewController {
         "A certified tobacco treatment specialist nurse discusses techniques and programs to help you quit smoking.",
         "The Diabetes Education Class helps patients reduce risks and complications to improve the cancer treatment out-come. Walk-ins are alway welcome.",
         "Duke Law offers free legal services to Duke’s cancer patients. Services include assistance in drafting legal documents: power of attorney, healthcare power of attorney, living will and HIPAA release forms. For times or to schedule an appointment, please call 919.613.7278."]
-    var educationImages = ["chemo.jpg", "default.jpg", "default.jpg", "default.jpg", "default.jpg", "law.jpg"]
+    var educationImages = ["chemoEducation.jpg", "default.jpg", "default.jpg", "default.jpg", "default.jpg", "lawServices.jpg"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -23,7 +23,7 @@ class SpecialTableViewController: UITableViewController {
         "Held October 2 in the Noth Hills Mall in Raleigh, NC. For more information, visit Makingstrides.acsevents.org",
         "Held October 10 in Durham, NC. For more information, visit lightthenight.org",
         "Held in December in the Duke Cancer Center. For more information, visit sites.duke.edu/dukecancerinstitute"]
-    var specialImages = ["crush5K.jpg", "springsupport.jpg","default.jpg","strikeout.png", "default.jpg", "default.jpg", "default.jpg", "default.jpg", "default.jpg", "default.jpg", "candles.jpg"]
+    var specialImages = ["crushColorectal.jpg", "springSupport.png","default.jpg","strikeoutSarcoma.png", "default.jpg", "default.jpg", "default.jpg", "default.jpg", "default.jpg", "default.jpg", "treeHope.jpg"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
