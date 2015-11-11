@@ -6,6 +6,7 @@
 //  Copyright © 2015 KAG. All rights reserved.
 //
 
+
 import UIKit
 
 class EducationDetailViewController: UIViewController {
@@ -20,7 +21,7 @@ class EducationDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         curTitle.text = myTitle
         curDescription.text = myDescription
         curImage.image = UIImage(named: myImage!)

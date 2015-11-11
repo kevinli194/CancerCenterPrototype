@@ -18,6 +18,7 @@
 		318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
+		F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
 		F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */; };
 		F1C0F3581BC20513006A3D23 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */; };
@@ -84,6 +85,7 @@
 		F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11B92BA1BB3652200A37EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient.jpg; sourceTree = "<group>"; };
 		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Resources/SettingsViewController.swift; sourceTree = "<group>"; };
@@ -268,6 +270,7 @@
 		F1F59D541BF153780078CA5C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */,
 				F1F59D6A1BF156A00078CA5C /* whiteLogo.png */,
 				F1F59D5C1BF156A00078CA5C /* Duke Green.png */,
 				F1F59D5D1BF156A00078CA5C /* Duke Orange.png */,
@@ -365,6 +368,7 @@
 				F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */,
 				318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */,
 				318AECEF1BEAA4C3004F6E38 /* writing.jpg in Resources */,
+				F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */,
 				F1F59D751BF156A00078CA5C /* Duke Sky Blue.png in Resources */,
 				F1F59D7C1BF156A00078CA5C /* spaDay.jpg in Resources */,
 				F1F59D721BF156A00078CA5C /* Duke Green.png in Resources */,

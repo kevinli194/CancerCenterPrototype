@@ -21,7 +21,7 @@ class TravelDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         curTitle.text = myTitle
         curDescription.text = myDescription
         curImage.image = UIImage(named: myImage!)

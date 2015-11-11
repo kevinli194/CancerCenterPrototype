@@ -21,14 +21,19 @@ class SpecialDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         curTitle.text = myTitle
         curDescription.text = myDescription
         curImage.image = UIImage(named: myImage!)
+        
+        curImage.layer.cornerRadius = curImage.frame.size.width/2
+        curImage.clipsToBounds = true
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    
     
 }
