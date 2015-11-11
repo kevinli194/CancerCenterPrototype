@@ -10,9 +10,11 @@ import UIKit
 
 class ContactViewController: UIViewController {
     
+    
     @IBOutlet weak var box1: UIImageView!
     @IBOutlet weak var box2: UIImageView!
     @IBOutlet weak var box3: UIImageView!
+    
     
     @IBAction func callTriage(sender: AnyObject) {
         let url:NSURL = NSURL(string: "tel://9196686608")!
@@ -28,6 +30,7 @@ class ContactViewController: UIViewController {
         let url:NSURL = NSURL(string:"tel://9196814947")!
         UIApplication.sharedApplication().openURL(url)
     }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()

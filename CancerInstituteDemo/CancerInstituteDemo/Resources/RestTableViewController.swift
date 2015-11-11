@@ -17,7 +17,7 @@ class RestTableViewController: UITableViewController {
         "Discover how journaling can help you express emotions and thoughts, reduce anxiety, promote healthy creativity and help organize your life. Hosted by Arts & Health at Duke, participants receive complimentary journals, poetry packets and more. Write For You is held in the Level 0 Conference Room. Drop-ins are welcome. For more information, call 919.613.6601 or email katja. hill@duke.edu.",
         "Tai Chi is a holistic health practice that brings the mind and body together with slow, graceful, flowing movements performed in a meditative manner. Tai Chi is held in the Quiet Room. Registration is not required. Drop-ins are welcome. For more information, email Kristy.everette@duke.edu.",
         "The Pets At Duke Therapy Program is routinely available in our lobbies. To learn more about Pets At Duke or to schedule an appointment, email kristy.everette@duke.edu."]
-    var restImages = ["quietRoom.jpg", "quietRoom.jpg", "default.jpg", "default.jpg", "petTherapy.jpg"]
+    var restImages = ["quietRoom.jpg", "quietRoom.jpg", "writeForYou.jpg", "default.jpg", "petTherapy.jpg"]
     
     override func viewDidLoad() {
         super.viewDidLoad()

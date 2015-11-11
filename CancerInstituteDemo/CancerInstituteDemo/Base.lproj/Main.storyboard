@@ -18,19 +18,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Duke Site Plan_F3" translatesAutoresizingMaskIntoConstraints="NO" id="OKw-V0-U1B">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="550"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Duke Site Plan_F3" translatesAutoresizingMaskIntoConstraints="NO" id="OKw-V0-U1B">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                                 <animations/>
                                 <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OKw-V0-U1B" secondAttribute="height" multiplier="600:551" id="im0-0i-qDW"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="OKw-V0-U1B" secondAttribute="bottom" constant="1" id="N79-hU-jLQ"/>
-                            <constraint firstItem="OKw-V0-U1B" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="dNw-SC-KMa"/>
-                            <constraint firstItem="OKw-V0-U1B" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="kDh-c6-6bj"/>
-                            <constraint firstAttribute="trailing" secondItem="OKw-V0-U1B" secondAttribute="trailing" id="zmZ-q7-KTm"/>
+                            <constraint firstItem="OKw-V0-U1B" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="FkJ-TF-eAV"/>
+                            <constraint firstItem="OKw-V0-U1B" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="topMargin" id="XHI-s2-OCK"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="OKw-V0-U1B" secondAttribute="bottom" id="hBa-XK-d4c"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map30px" id="acW-dT-cKf"/>
@@ -50,16 +52,143 @@
                     <view key="view" contentMode="scaleToFill" id="40g-wF-NIJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Duke Orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="995-gU-S0b">
+                                <rect key="frame" x="20" y="370" width="560" height="167"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Duke Yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="rbB-7w-HMZ">
+                                <rect key="frame" x="20" y="20" width="560" height="167"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Duke Red.png" translatesAutoresizingMaskIntoConstraints="NO" id="oc9-Jo-kWa">
+                                <rect key="frame" x="20" y="195" width="560" height="167"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" misplaced="YES" text="Oncology Triage Service" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DP0-1n-jp5">
+                                <rect key="frame" x="20" y="20" width="560" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcV-5d-gIa">
+                                <rect key="frame" x="20" y="145" width="560" height="42"/>
+                                <state key="normal" title="(919) 668-6608"/>
+                                <connections>
+                                    <action selector="callTriage:" destination="UAI-H7-gbj" eventType="touchUpInside" id="Uwi-Yu-9mC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="sLs-W4-FdG">
+                                <rect key="frame" x="20" y="63" width="560" height="82"/>
+                                <string key="text">Need medical advice or health support? The Oncology Triage Service is available for assistance Monday though Friday, from 8am to 5pm.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.99781013257575757" green="0.99781013257575757" blue="0.99781013257575757" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" misplaced="YES" text="Resource Center" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FfS-aR-l8c">
+                                <rect key="frame" x="20" y="195" width="560" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcM-ol-VJa">
+                                <rect key="frame" x="20" y="320" width="560" height="42"/>
+                                <state key="normal" title="(919) 684-6955"/>
+                                <connections>
+                                    <action selector="callResourceCenter:" destination="UAI-H7-gbj" eventType="touchUpInside" id="Vvb-5b-2Zv"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="zcb-Ga-GkO">
+                                <rect key="frame" x="20" y="238" width="560" height="82"/>
+                                <string key="text">Questions about all of the resources we offer at the Duke Cancer Institute? The Resource Center is available for assistance Monday though Friday, from 8am to 4pm.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.99781013259999995" green="0.99781013259999995" blue="0.99781013259999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" misplaced="YES" text="Parking Serives" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Of-vw-tTJ">
+                                <rect key="frame" x="20" y="370" width="560" height="43"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tF9-4e-RIJ">
+                                <rect key="frame" x="20" y="495" width="560" height="42"/>
+                                <state key="normal" title="(919) 681-4947"/>
+                                <connections>
+                                    <action selector="callConcierge:" destination="UAI-H7-gbj" eventType="touchUpInside" id="ntO-Xo-MIU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Qri-L8-wr7">
+                                <rect key="frame" x="20" y="413" width="560" height="82"/>
+                                <string key="text">Need assistance parking? Contact the concierge services or valet parking services. Valet parking is available Monday though Friday, 7am to 10pm, and Saturday through Sunday 10am to 6pm. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.99781013259999995" green="0.99781013259999995" blue="0.99781013259999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="995-gU-S0b" firstAttribute="top" secondItem="oc9-Jo-kWa" secondAttribute="bottom" constant="8" id="1G4-gl-H2b"/>
+                            <constraint firstItem="rbB-7w-HMZ" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="1To-Az-bnl"/>
+                            <constraint firstItem="995-gU-S0b" firstAttribute="width" secondItem="rbB-7w-HMZ" secondAttribute="width" id="20l-0L-8vL"/>
+                            <constraint firstItem="zcb-Ga-GkO" firstAttribute="centerY" secondItem="oc9-Jo-kWa" secondAttribute="centerY" id="27Q-fk-ai9"/>
+                            <constraint firstItem="rbB-7w-HMZ" firstAttribute="centerY" secondItem="sLs-W4-FdG" secondAttribute="centerY" id="3tN-RT-auB"/>
+                            <constraint firstItem="rbB-7w-HMZ" firstAttribute="top" secondItem="sVb-jV-hVr" secondAttribute="bottom" id="5KM-6I-1ec"/>
+                            <constraint firstItem="oc9-Jo-kWa" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="5hE-HG-Kmj"/>
+                            <constraint firstItem="sLs-W4-FdG" firstAttribute="top" secondItem="DP0-1n-jp5" secondAttribute="bottom" id="8yW-na-zw1"/>
+                            <constraint firstItem="tF9-4e-RIJ" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="9Jw-vt-hH3"/>
+                            <constraint firstItem="1Of-vw-tTJ" firstAttribute="top" secondItem="995-gU-S0b" secondAttribute="top" id="9O3-Yi-AcX"/>
+                            <constraint firstItem="zcb-Ga-GkO" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="AAL-OB-KrD"/>
+                            <constraint firstItem="DP0-1n-jp5" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="F1S-SX-j0b"/>
+                            <constraint firstItem="FfS-aR-l8c" firstAttribute="top" secondItem="oc9-Jo-kWa" secondAttribute="top" id="FUh-SC-u5Z"/>
+                            <constraint firstItem="Qri-L8-wr7" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="FuE-nb-dZh"/>
+                            <constraint firstItem="rbB-7w-HMZ" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="HRr-Uv-tnB"/>
+                            <constraint firstItem="xcM-ol-VJa" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="Hv1-EA-W3N"/>
+                            <constraint firstItem="rcV-5d-gIa" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="IQU-TW-il2"/>
+                            <constraint firstItem="995-gU-S0b" firstAttribute="height" secondItem="rbB-7w-HMZ" secondAttribute="height" id="MvO-IM-OSn"/>
+                            <constraint firstItem="sLs-W4-FdG" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="Nmm-nX-TPB"/>
+                            <constraint firstItem="sLs-W4-FdG" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="OM8-Rl-Yuo"/>
+                            <constraint firstItem="oc9-Jo-kWa" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="PD0-fF-yhT"/>
+                            <constraint firstItem="Qri-L8-wr7" firstAttribute="centerY" secondItem="995-gU-S0b" secondAttribute="centerY" id="Ptg-1c-ftE"/>
+                            <constraint firstItem="FfS-aR-l8c" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="R8N-qe-K26"/>
+                            <constraint firstItem="DP0-1n-jp5" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="Sa6-Zb-mzw"/>
+                            <constraint firstItem="oc9-Jo-kWa" firstAttribute="width" secondItem="rbB-7w-HMZ" secondAttribute="width" id="Vml-Pg-be0"/>
+                            <constraint firstItem="oc9-Jo-kWa" firstAttribute="top" secondItem="rbB-7w-HMZ" secondAttribute="bottom" constant="8" id="W5T-TV-0bl"/>
+                            <constraint firstItem="FfS-aR-l8c" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="XBg-Y8-Fdo"/>
+                            <constraint firstItem="1Of-vw-tTJ" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="ZpK-SN-v8x"/>
+                            <constraint firstItem="oc9-Jo-kWa" firstAttribute="top" secondItem="rbB-7w-HMZ" secondAttribute="bottom" constant="8" id="aOO-fa-qSr"/>
+                            <constraint firstItem="xcM-ol-VJa" firstAttribute="bottom" secondItem="oc9-Jo-kWa" secondAttribute="bottom" id="bGT-p9-7nm"/>
+                            <constraint firstItem="xcM-ol-VJa" firstAttribute="top" secondItem="zcb-Ga-GkO" secondAttribute="bottom" id="bjS-Px-o6d"/>
+                            <constraint firstItem="zcb-Ga-GkO" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="cMN-SZ-Hok"/>
+                            <constraint firstItem="odi-iC-qQa" firstAttribute="top" secondItem="995-gU-S0b" secondAttribute="bottom" constant="14" id="cPX-vT-SY3"/>
+                            <constraint firstItem="Qri-L8-wr7" firstAttribute="top" secondItem="1Of-vw-tTJ" secondAttribute="bottom" id="do4-6e-edO"/>
+                            <constraint firstItem="1Of-vw-tTJ" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="eKY-vv-BNh"/>
+                            <constraint firstItem="DP0-1n-jp5" firstAttribute="top" secondItem="sVb-jV-hVr" secondAttribute="bottom" id="efR-I8-f01"/>
+                            <constraint firstItem="rbB-7w-HMZ" firstAttribute="bottom" secondItem="rcV-5d-gIa" secondAttribute="bottom" id="fQZ-Hg-uFG"/>
+                            <constraint firstItem="rcV-5d-gIa" firstAttribute="top" secondItem="sLs-W4-FdG" secondAttribute="bottom" id="fwf-Ps-0MW"/>
+                            <constraint firstItem="rcV-5d-gIa" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="hs4-Lp-ifa"/>
+                            <constraint firstItem="995-gU-S0b" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="lJk-TW-9sJ"/>
+                            <constraint firstItem="tF9-4e-RIJ" firstAttribute="top" secondItem="Qri-L8-wr7" secondAttribute="bottom" id="mnY-zP-X0r"/>
+                            <constraint firstItem="tF9-4e-RIJ" firstAttribute="bottom" secondItem="995-gU-S0b" secondAttribute="bottom" id="nkY-mK-eAB"/>
+                            <constraint firstItem="995-gU-S0b" firstAttribute="top" secondItem="oc9-Jo-kWa" secondAttribute="bottom" constant="8" id="sje-bn-Jb3"/>
+                            <constraint firstItem="zcb-Ga-GkO" firstAttribute="top" secondItem="FfS-aR-l8c" secondAttribute="bottom" id="tWg-Xq-XaY"/>
+                            <constraint firstItem="Qri-L8-wr7" firstAttribute="leading" secondItem="40g-wF-NIJ" secondAttribute="leadingMargin" id="tmV-RS-2Fx"/>
+                            <constraint firstItem="oc9-Jo-kWa" firstAttribute="height" secondItem="rbB-7w-HMZ" secondAttribute="height" id="wbz-rO-gBM"/>
+                            <constraint firstItem="tF9-4e-RIJ" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="wwB-4n-8V2"/>
+                            <constraint firstItem="995-gU-S0b" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="ynU-5D-6iG"/>
+                            <constraint firstItem="xcM-ol-VJa" firstAttribute="trailing" secondItem="40g-wF-NIJ" secondAttribute="trailingMargin" id="z2U-Au-BFh"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Contact" image="contact" id="HZo-tl-lMb"/>
+                    <connections>
+                        <outlet property="box1" destination="rbB-7w-HMZ" id="Ve1-RX-2Y7"/>
+                        <outlet property="box2" destination="oc9-Jo-kWa" id="PTm-YT-PqD"/>
+                        <outlet property="box3" destination="995-gU-S0b" id="v1b-JY-XIf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lWa-Rm-oYA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="960" y="512"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Resources-->
         <scene sceneID="Dxk-Nq-cPz">
             <objects>
                 <tableViewController id="Mi0-8F-mHQ" customClass="MoreViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -85,7 +214,7 @@
                             <outlet property="delegate" destination="Mi0-8F-mHQ" id="2yu-3E-aid"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Oip-xA-DpL"/>
+                    <navigationItem key="navigationItem" title="Resources" id="Oip-xA-DpL"/>
                     <connections>
                         <segue destination="4dB-xB-hnV" kind="show" identifier="CalendarSegue" id="ohU-eD-iCf"/>
                         <segue destination="sAV-QM-7MK" kind="show" identifier="SettingsSegue" id="7qw-yZ-VWp"/>
@@ -101,7 +230,7 @@
             </objects>
             <point key="canvasLocation" x="1121" y="-2184"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Support Groups-->
         <scene sceneID="6kH-RA-HOC">
             <objects>
                 <tableViewController id="gX2-va-kmA" customClass="SupportTableViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -142,7 +271,7 @@
                             <outlet property="delegate" destination="gX2-va-kmA" id="lTb-xm-Vak"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="lqn-5K-VP0"/>
+                    <navigationItem key="navigationItem" title="Support Groups" id="lqn-5K-VP0"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wU4-fq-fA5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -364,7 +493,7 @@
             </objects>
             <point key="canvasLocation" x="1921" y="-2184"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Points of Interest-->
         <scene sceneID="ekE-os-z8D">
             <objects>
                 <tableViewController id="ThM-z5-4Ts" customClass="POITableViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -405,7 +534,7 @@
                             <outlet property="delegate" destination="ThM-z5-4Ts" id="za7-4a-WdJ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="hgs-KX-ZPk"/>
+                    <navigationItem key="navigationItem" title="Points of Interest" id="hgs-KX-ZPk"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j4n-AQ-zMc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -428,7 +557,7 @@
             </objects>
             <point key="canvasLocation" x="2585" y="-6035"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Educational Classes-->
         <scene sceneID="h8K-1M-nYM">
             <objects>
                 <tableViewController id="Thm-vz-gUF" customClass="EducationTableViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -469,7 +598,7 @@
                             <outlet property="delegate" destination="Thm-vz-gUF" id="7Nl-NQ-vgz"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Wmg-R2-Ihn"/>
+                    <navigationItem key="navigationItem" title="Educational Classes" id="Wmg-R2-Ihn"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BCm-Ra-ZQE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -492,7 +621,7 @@
             </objects>
             <point key="canvasLocation" x="2585" y="-4749"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Rest, Renew & Relax-->
         <scene sceneID="HvD-CO-wKe">
             <objects>
                 <tableViewController id="c2N-9I-doN" customClass="RestTableViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -533,7 +662,7 @@
                             <outlet property="delegate" destination="c2N-9I-doN" id="n0m-gW-Pv9"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Azc-LU-8SD"/>
+                    <navigationItem key="navigationItem" title="Rest, Renew &amp; Relax" id="Azc-LU-8SD"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iTv-2u-1Jf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -556,7 +685,7 @@
             </objects>
             <point key="canvasLocation" x="2585" y="-4107"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Travel & Lodging-->
         <scene sceneID="pmO-kW-EhG">
             <objects>
                 <tableViewController id="HTH-pb-Ixo" customClass="TravelTableViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -597,13 +726,13 @@
                             <outlet property="delegate" destination="HTH-pb-Ixo" id="kZ9-aT-aFD"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="wLM-qn-Pig"/>
+                    <navigationItem key="navigationItem" title="Travel &amp; Lodging" id="wLM-qn-Pig"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K3B-Fp-zYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3245" y="-2819"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Special Events-->
         <scene sceneID="RnX-HZ-TuL">
             <objects>
                 <tableViewController id="m2K-dS-4OK" customClass="SpecialTableViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
@@ -644,7 +773,7 @@
                             <outlet property="delegate" destination="m2K-dS-4OK" id="pgN-0d-qvL"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Bsy-9q-Kv8"/>
+                    <navigationItem key="navigationItem" title="Special Events" id="Bsy-9q-Kv8"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bcx-Gt-j9D" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1226,7 +1355,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Duke Orange.png" width="120" height="64"/>
+        <image name="Duke Red.png" width="126" height="64"/>
         <image name="Duke Site Plan_F3" width="9402" height="7829"/>
+        <image name="Duke Yellow.png" width="126" height="68"/>
         <image name="calendar" width="30" height="30"/>
         <image name="clock" width="30" height="30"/>
         <image name="contact" width="30" height="30"/>

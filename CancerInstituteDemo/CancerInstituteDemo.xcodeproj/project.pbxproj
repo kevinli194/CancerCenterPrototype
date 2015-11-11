@@ -20,6 +20,7 @@
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
 		F18C34541BF3020700D81897 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18C34531BF3020700D81897 /* Launch Screen.storyboard */; };
 		F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */; };
+		F1BFF1251BF317ED00328712 /* writeForYou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1BFF1241BF317ED00328712 /* writeForYou.jpg */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
 		F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */; };
 		F1C0F3581BC20513006A3D23 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */; };
@@ -88,6 +89,7 @@
 		F11B92BA1BB3652200A37EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F18C34531BF3020700D81897 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient.jpg; sourceTree = "<group>"; };
+		F1BFF1241BF317ED00328712 /* writeForYou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = writeForYou.jpg; sourceTree = "<group>"; };
 		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 		F1C0F3571BC20513006A3D23 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = Resources/SettingsViewController.swift; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 				F1F59D671BF156A00078CA5C /* springSupport.png */,
 				F1F59D681BF156A00078CA5C /* strikeoutSarcoma.png */,
 				F1F59D691BF156A00078CA5C /* treeHope.jpg */,
+				F1BFF1241BF317ED00328712 /* writeForYou.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -386,6 +389,7 @@
 				F1F59D6F1BF156A00078CA5C /* crushColorectal.jpg in Resources */,
 				F1F59D6C1BF156A00078CA5C /* chapel.jpg in Resources */,
 				F1F59D7D1BF156A00078CA5C /* springSupport.png in Resources */,
+				F1BFF1251BF317ED00328712 /* writeForYou.jpg in Resources */,
 				318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */,
 				F1F59D711BF156A00078CA5C /* doctor.jpg in Resources */,
 				F1F59D6D1BF156A00078CA5C /* chemoEducation.jpg in Resources */,
