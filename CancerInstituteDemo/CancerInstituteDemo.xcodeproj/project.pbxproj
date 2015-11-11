@@ -18,6 +18,7 @@
 		318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
+		F18C34541BF3020700D81897 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18C34531BF3020700D81897 /* Launch Screen.storyboard */; };
 		F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
 		F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */; };
@@ -85,6 +86,7 @@
 		F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11B92BA1BB3652200A37EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18C34531BF3020700D81897 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient.jpg; sourceTree = "<group>"; };
 		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 			children = (
 				F11B92BA1BB3652200A37EE6 /* Info.plist */,
 				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
+				F18C34531BF3020700D81897 /* Launch Screen.storyboard */,
 				F11B92B51BB3652200A37EE6 /* Assets.xcassets */,
 				06609F231BD0410C00981605 /* Main */,
 				06609F241BD0413400981605 /* MainMenuControllers */,
@@ -376,6 +379,7 @@
 				F1F59D801BF156A00078CA5C /* whiteLogo.png in Resources */,
 				318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */,
 				F1F59D7A1BF156A00078CA5C /* quietRoom.jpg in Resources */,
+				F18C34541BF3020700D81897 /* Launch Screen.storyboard in Resources */,
 				06D8B1111BB8EFE000A42ECC /* Main.storyboard in Resources */,
 				F1F59D7B1BF156A00078CA5C /* rooftopGarden.jpg in Resources */,
 				F1F59D791BF156A00078CA5C /* petTherapy.jpg in Resources */,
