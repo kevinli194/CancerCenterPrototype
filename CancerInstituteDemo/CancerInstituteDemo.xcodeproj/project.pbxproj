@@ -18,6 +18,7 @@
 		318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
+		F18BDE0D1BF5D05C0057D92B /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BDE0C1BF5D05C0057D92B /* Provider.swift */; };
 		F18C34541BF3020700D81897 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18C34531BF3020700D81897 /* Launch Screen.storyboard */; };
 		F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */; };
 		F1BFF1251BF317ED00328712 /* writeForYou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1BFF1241BF317ED00328712 /* writeForYou.jpg */; };
@@ -27,6 +28,7 @@
 		F1C0F35A1BC2053D006A3D23 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3591BC2053D006A3D23 /* CalendarViewController.swift */; };
 		F1C0F3681BC22B01006A3D23 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */; };
 		F1C0F36A1BC22B42006A3D23 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */; };
+		F1E886361BF3F236002315AA /* AppointmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E886351BF3F236002315AA /* AppointmentTableViewController.swift */; };
 		F1F59D311BF14FC50078CA5C /* RestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D301BF14FC50078CA5C /* RestTableViewController.swift */; };
 		F1F59D331BF14FEE0078CA5C /* RestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D321BF14FEE0078CA5C /* RestDetailViewController.swift */; };
 		F1F59D351BF1500F0078CA5C /* RestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F59D341BF1500F0078CA5C /* RestTableViewCell.swift */; };
@@ -87,6 +89,7 @@
 		F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F11B92BA1BB3652200A37EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F18BDE0C1BF5D05C0057D92B /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		F18C34531BF3020700D81897 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient.jpg; sourceTree = "<group>"; };
 		F1BFF1241BF317ED00328712 /* writeForYou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = writeForYou.jpg; sourceTree = "<group>"; };
@@ -97,6 +100,7 @@
 		F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CancerInstituteDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F1E886351BF3F236002315AA /* AppointmentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppointmentTableViewController.swift; sourceTree = "<group>"; };
 		F1F59D301BF14FC50078CA5C /* RestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestTableViewController.swift; path = Resources/RestTableViewController.swift; sourceTree = "<group>"; };
 		F1F59D321BF14FEE0078CA5C /* RestDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestDetailViewController.swift; path = Resources/RestDetailViewController.swift; sourceTree = "<group>"; };
 		F1F59D341BF1500F0078CA5C /* RestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RestTableViewCell.swift; path = Resources/RestTableViewCell.swift; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				06D8B1141BB8F02400A42ECC /* AppointmentController.swift */,
+				F1E886351BF3F236002315AA /* AppointmentTableViewController.swift */,
+				F18BDE0C1BF5D05C0057D92B /* Provider.swift */,
 				F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */,
 				F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */,
 				06D8B1121BB8F01800A42ECC /* MapController.swift */,
@@ -472,6 +478,7 @@
 				F1F59D3F1BF150CA0078CA5C /* POIDetailViewController.swift in Sources */,
 				31449D721BD56272002D4C20 /* CardView.swift in Sources */,
 				F1C0F3481BC1F130006A3D23 /* MoreViewController.swift in Sources */,
+				F18BDE0D1BF5D05C0057D92B /* Provider.swift in Sources */,
 				F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */,
 				06D8B1151BB8F02400A42ECC /* AppointmentController.swift in Sources */,
 				F1F59D4F1BF151F60078CA5C /* TravelTableViewController.swift in Sources */,
@@ -482,6 +489,7 @@
 				F1F59D3B1BF150890078CA5C /* EducationTableViewCell.swift in Sources */,
 				F1C0F3581BC20513006A3D23 /* SettingsViewController.swift in Sources */,
 				F1C0F35A1BC2053D006A3D23 /* CalendarViewController.swift in Sources */,
+				F1E886361BF3F236002315AA /* AppointmentTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
