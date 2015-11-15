@@ -9,4 +9,5 @@
 struct Provider {
     let name : String
     let clinic: String
+    let time: String
 }

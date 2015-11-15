@@ -12,31 +12,30 @@ class AppointmentTableViewController : UITableViewController, UISearchBarDelegat
 
     var providers = [Provider]()
     var filteredProviders = [Provider]()
-    var time = ["On Time", "10min Late", "On Time", "On Time", "15min Late", "On Time", "On Time", "20min Late", "On Time", "On Time", "60min Late", "10min Late", "On Time", "On Time", "On Time", "30min Late", "On Time", "On Time", "On Time", "On Time"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.providers = [Provider(name:"Dr. Edward Dale", clinic:"Clinic 1"),
-            Provider(name:"Dr. Anderson Bishop", clinic:"Clinic 2"),
-            Provider(name:"Dr. Bjorn-Steffansson", clinic:"Clinic 5"),
-            Provider(name:"Dr. Elsie Edith", clinic:"Clinic 1"),
-            Provider(name:"Dr. Arthur Jackson", clinic:"Clinic 1"),
-            Provider(name:"Dr. Helen Hungerford", clinic:"Clinic 1"),
-            Provider(name:"Dr. Drake Martinez", clinic:"Clinic 1"),
-            Provider(name:"Dr. William Ernest", clinic:"Clinic 3"),
-            Provider(name:"Dr. Norman Campbell", clinic:"Clinic 1"),
-            Provider(name:"Dr. Edward Gifford", clinic:"Clinic 1"),
-            Provider(name:"Dr. Albert Adrian", clinic:"Clinic 1"),
-            Provider(name:"Dr. Edith Corse", clinic:"Clinic 2"),
-            Provider(name:"Dr. Henry William", clinic:"Clinic 3"),
-            Provider(name:"Dr. George Achilles", clinic:"Clinic 1"),
-            Provider(name:"Dr. Frederick Maxfield", clinic:"Clinic 2"),
-            Provider(name:"Dr. Charles Cresson", clinic:"Clinic 4"),
-            Provider(name:"Dr. Edwin Nelson", clinic:"Clinic 1"),
-            Provider(name:"Dr. Lindsey James", clinic:"Clinic 1"),
-            Provider(name:"Dr. Georgette Alexandra", clinic:"Clinic 1"),
-            Provider(name:"Dr. Clarence Bloomfield", clinic:"Clinic 1"),
-            Provider(name:"Dr. Helen Monypeny", clinic:"Clinic 2")]
+        self.providers = [Provider(name:"Dr. Edward Dale", clinic:"Clinic 1", time:"20min Late"),
+            Provider(name:"Dr. Anderson Bishop", clinic:"Clinic 2", time:"20min Late"),
+            Provider(name:"Dr. Bjorn-Steffansson", clinic:"Clinic 5", time:"On Time"),
+            Provider(name:"Dr. Elsie Edith", clinic:"Clinic 1", time:"10min Late"),
+            Provider(name:"Dr. Arthur Jackson", clinic:"Clinic 1", time:"On Time"),
+            Provider(name:"Dr. Helen Hungerford", clinic:"Clinic 1", time:"45min Late"),
+            Provider(name:"Dr. Drake Martinez", clinic:"Clinic 1", time:"On Time"),
+            Provider(name:"Dr. William Ernest", clinic:"Clinic 3", time:"10min Late"),
+            Provider(name:"Dr. Norman Campbell", clinic:"Clinic 1", time:"On Time"),
+            Provider(name:"Dr. Edward Gifford", clinic:"Clinic 1", time:"30min Late"),
+            Provider(name:"Dr. Albert Adrian", clinic:"Clinic 1", time:"On Time"),
+            Provider(name:"Dr. Edith Corse", clinic:"Clinic 2", time:"10min Late"),
+            Provider(name:"Dr. Henry William", clinic:"Clinic 3", time:"45min Late"),
+            Provider(name:"Dr. George Achilles", clinic:"Clinic 1", time:"On Time"),
+            Provider(name:"Dr. Frederick Maxfield", clinic:"Clinic 2", time:"10min Late"),
+            Provider(name:"Dr. Charles Cresson", clinic:"Clinic 4", time:"30min Late"),
+            Provider(name:"Dr. Edwin Nelson", clinic:"Clinic 1", time:"20min Late"),
+            Provider(name:"Dr. Lindsey James", clinic:"Clinic 1", time:"On Time"),
+            Provider(name:"Dr. Georgette Alexandra", clinic:"Clinic 1", time:"On Time"),
+            Provider(name:"Dr. Clarence Bloomfield", clinic:"Clinic 1", time:"20min Late"),
+            Provider(name:"Dr. Helen Monypeny", clinic:"Clinic 2", time:"45min Late")]
         self.tableView.reloadData()
     }
     
@@ -79,11 +78,13 @@ class AppointmentTableViewController : UITableViewController, UISearchBarDelegat
             if sender as! UITableView == self.searchDisplayController!.searchResultsTableView {
                 let indexPath = self.searchDisplayController!.searchResultsTableView.indexPathForSelectedRow!
                 appointmentDetailViewController.myProvider = self.providers[indexPath.row].name
-                appointmentDetailViewController.myTime = time[indexPath.row]
+                appointmentDetailViewController.myClinic = self.providers[indexPath.row].clinic
+                appointmentDetailViewController.myTime = self.providers[indexPath.row].time
             } else {
                 let indexPath = self.tableView.indexPathForSelectedRow!
                 appointmentDetailViewController.myProvider = self.providers[indexPath.row].name
-                appointmentDetailViewController.myTime = time[indexPath.row]
+                appointmentDetailViewController.myClinic = self.providers[indexPath.row].clinic
+                appointmentDetailViewController.myTime = self.providers[indexPath.row].time
             }
         }
     }

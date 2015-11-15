@@ -1201,7 +1201,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Provider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hAB-1S-YrZ">
-                                <rect key="frame" x="20" y="72" width="450" height="52"/>
+                                <rect key="frame" x="20" y="72" width="560" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="gV9-q5-Xtb"/>
                                 </constraints>
@@ -1209,8 +1209,17 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clinic" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RWk-5H-RMB">
+                                <rect key="frame" x="20" y="124" width="450" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="fVf-Pm-pWa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="se2-Uj-Hdj">
-                                <rect key="frame" x="470" y="72" width="110" height="52"/>
+                                <rect key="frame" x="470" y="124" width="110" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="110" id="PuG-XW-DBS"/>
                                     <constraint firstAttribute="height" constant="52" id="Vhi-Vc-9HN"/>
@@ -1223,15 +1232,20 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="se2-Uj-Hdj" firstAttribute="leading" secondItem="hAB-1S-YrZ" secondAttribute="trailing" id="Tjv-qf-sYF"/>
-                            <constraint firstItem="se2-Uj-Hdj" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="aIR-0r-rkt"/>
-                            <constraint firstItem="hAB-1S-YrZ" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="k5g-zq-hU1"/>
-                            <constraint firstItem="hAB-1S-YrZ" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="qM0-P9-VF5"/>
-                            <constraint firstItem="se2-Uj-Hdj" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="r0l-VD-zMd"/>
+                            <constraint firstItem="RWk-5H-RMB" firstAttribute="top" secondItem="hAB-1S-YrZ" secondAttribute="bottom" id="1f6-w6-oAS"/>
+                            <constraint firstItem="hAB-1S-YrZ" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="BCa-Kz-Z0b"/>
+                            <constraint firstItem="hAB-1S-YrZ" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="Lkm-qt-p86"/>
+                            <constraint firstItem="RWk-5H-RMB" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" id="M8W-JK-Qse"/>
+                            <constraint firstItem="hAB-1S-YrZ" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="PxW-sj-IpK"/>
+                            <constraint firstItem="se2-Uj-Hdj" firstAttribute="top" secondItem="hAB-1S-YrZ" secondAttribute="bottom" id="X2T-90-2H5"/>
+                            <constraint firstItem="se2-Uj-Hdj" firstAttribute="leading" secondItem="RWk-5H-RMB" secondAttribute="trailing" id="mls-cy-4lz"/>
+                            <constraint firstItem="se2-Uj-Hdj" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailingMargin" id="rjI-dy-2b3"/>
+                            <constraint firstItem="se2-Uj-Hdj" firstAttribute="leading" secondItem="RWk-5H-RMB" secondAttribute="trailing" id="zYx-RB-dMD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="uXz-ml-GtP"/>
                     <connections>
+                        <outlet property="curClinic" destination="RWk-5H-RMB" id="Ped-Ks-VfM"/>
                         <outlet property="curProvider" destination="hAB-1S-YrZ" id="YYy-th-K1I"/>
                         <outlet property="curTime" destination="se2-Uj-Hdj" id="JB5-RI-rg9"/>
                         <outlet property="searchDisplayController" destination="MVX-NN-KcB" id="w6b-du-hmd"/>
