@@ -77,9 +77,9 @@ class AppointmentTableViewController : UITableViewController, UISearchBarDelegat
             let appointmentDetailViewController = segue.destinationViewController as! AppointmentController
             if sender as! UITableView == self.searchDisplayController!.searchResultsTableView {
                 let indexPath = self.searchDisplayController!.searchResultsTableView.indexPathForSelectedRow!
-                appointmentDetailViewController.myProvider = self.providers[indexPath.row].name
-                appointmentDetailViewController.myClinic = self.providers[indexPath.row].clinic
-                appointmentDetailViewController.myTime = self.providers[indexPath.row].time
+                appointmentDetailViewController.myProvider = self.filteredProviders[indexPath.row].name
+                appointmentDetailViewController.myClinic = self.filteredProviders[indexPath.row].clinic
+                appointmentDetailViewController.myTime = self.filteredProviders[indexPath.row].time
             } else {
                 let indexPath = self.tableView.indexPathForSelectedRow!
                 appointmentDetailViewController.myProvider = self.providers[indexPath.row].name
