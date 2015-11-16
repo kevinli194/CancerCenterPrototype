@@ -18,6 +18,7 @@ class RestDetailViewController: UIViewController {
     @IBOutlet weak var curTitle: UILabel!
     @IBOutlet weak var curDescription: UILabel!
     @IBOutlet weak var curImage: UIImageView!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,5 +34,5 @@ class RestDetailViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
 }
+

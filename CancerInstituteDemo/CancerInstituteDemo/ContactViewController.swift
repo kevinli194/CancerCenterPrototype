@@ -46,4 +46,30 @@ class ContactViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+//    override func shouldAutorotate() -> Bool {
+//        if (UIDevice.currentDevice().orientation == UIDeviceOrientation.LandscapeLeft ||
+//            UIDevice.currentDevice().orientation == UIDeviceOrientation.LandscapeRight ||
+//            UIDevice.currentDevice().orientation == UIDeviceOrientation.Unknown) {
+//                return false;
+//        }
+//        else {
+//            return true;
+//        }
+//    }
+    //    override func shouldAutorotate() -> Bool {
+    //        return false
+    //    }
+    
+    //    override func supportedInterfaceOrientations() -> Int {
+    //        return UIInterfaceOrientation.Portrait.rawValue
+    //    }
+    
+    //    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+    //        return [UIInterfaceOrientationMask.LandscapeLeft,UIInterfaceOrientationMask.LandscapeRight]
+    //    }
+    
+    //    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+    //        return UIInterfaceOrientation.Portrait.rawValue
+    //    }
 }

@@ -462,7 +462,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6HA-nP-2Zf">
-                                <rect key="frame" x="20" y="64" width="560" height="21"/>
+                                <rect key="frame" x="20" y="64" width="560" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -825,6 +825,10 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
                     </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="nm0-oj-UZh">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="m2K-dS-4OK" kind="relationship" relationship="rootViewController" id="2P0-eX-LFQ"/>
                     </connections>
@@ -1099,8 +1103,10 @@
         <scene sceneID="DzW-nB-prP">
             <objects>
                 <navigationController id="7ff-qa-XVk" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
                     <tabBarItem key="tabBarItem" systemItem="more" id="n90-jc-7fA"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="msi-Tv-Af2">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="msi-Tv-Af2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
@@ -1408,10 +1414,10 @@
             </objects>
             <point key="canvasLocation" x="313" y="-283"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Travel & Lodging-->
         <scene sceneID="fc9-0Y-YCi">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Hou-ji-JO1" sceneMemberID="viewController">
+                <tabBarController title="Travel &amp; Lodging" automaticallyAdjustsScrollViewInsets="NO" id="Hou-ji-JO1" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="gq2-eS-eKz">
                         <autoresizingMask key="autoresizingMask"/>
@@ -1426,10 +1432,10 @@
             </objects>
             <point key="canvasLocation" x="1921" y="-2819"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Special Events-->
         <scene sceneID="4Ir-s1-DHe">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="2r5-60-K20" sceneMemberID="viewController">
+                <tabBarController title="Special Events" automaticallyAdjustsScrollViewInsets="NO" id="2r5-60-K20" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="QPf-7X-1bJ">
                         <autoresizingMask key="autoresizingMask"/>
@@ -1444,10 +1450,10 @@
             </objects>
             <point key="canvasLocation" x="1921" y="-3463"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Rest, Renew & Relax-->
         <scene sceneID="kST-xf-xnv">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="06v-H3-dNe" sceneMemberID="viewController">
+                <tabBarController title="Rest, Renew &amp; Relax" automaticallyAdjustsScrollViewInsets="NO" id="06v-H3-dNe" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="ryQ-d7-s5a">
                         <autoresizingMask key="autoresizingMask"/>
@@ -1462,10 +1468,10 @@
             </objects>
             <point key="canvasLocation" x="1921" y="-4107"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Educational Classes-->
         <scene sceneID="E4w-Mv-OPA">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="fs5-uE-bt2" sceneMemberID="viewController">
+                <tabBarController title="Educational Classes" automaticallyAdjustsScrollViewInsets="NO" id="fs5-uE-bt2" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="jR6-3g-5qM">
                         <autoresizingMask key="autoresizingMask"/>
@@ -1480,10 +1486,10 @@
             </objects>
             <point key="canvasLocation" x="1921" y="-4749"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Support Groups-->
         <scene sceneID="dZc-m9-jgE">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="eH1-pr-gIP" sceneMemberID="viewController">
+                <tabBarController title="Support Groups" automaticallyAdjustsScrollViewInsets="NO" id="eH1-pr-gIP" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="UBW-Vd-URJ">
                         <autoresizingMask key="autoresizingMask"/>
@@ -1498,10 +1504,10 @@
             </objects>
             <point key="canvasLocation" x="1921" y="-5393"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Points of Interest-->
         <scene sceneID="Ba4-94-h3t">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="G09-np-ts9" sceneMemberID="viewController">
+                <tabBarController title="Points of Interest" automaticallyAdjustsScrollViewInsets="NO" id="G09-np-ts9" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="fB8-Fm-QsQ">
                         <autoresizingMask key="autoresizingMask"/>
