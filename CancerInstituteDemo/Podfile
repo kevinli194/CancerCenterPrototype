@@ -5,6 +5,6 @@ use_frameworks!
 target 'CancerInstituteDemo' do
 pod 'Alamofire', '~> 3.0'
 pod 'CVCalendar', '~> 1.2.7'
-
+pod 'GoogleMaps'
 end
 
