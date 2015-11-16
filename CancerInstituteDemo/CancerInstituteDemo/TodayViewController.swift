@@ -55,7 +55,7 @@ class TodayViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         let calendarView = self.storyboard?.instantiateViewControllerWithIdentifier("Calendar") as? CalendarViewController
-        calendarView!.displayData(tableData[indexPath.row].eventDetails)
+        calendarView!.displayData(indexPath.row)
         
         self.navigationController?.pushViewController(calendarView!, animated: true)
         
