@@ -53,14 +53,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Duke Orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="995-gU-S0b">
-                                <rect key="frame" x="20" y="370" width="560" height="167"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Duke Yellow.png" translatesAutoresizingMaskIntoConstraints="NO" id="rbB-7w-HMZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient-dark.jpg" highlightedImage="Duke Orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="rbB-7w-HMZ">
                                 <rect key="frame" x="20" y="20" width="560" height="167"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Duke Red.png" translatesAutoresizingMaskIntoConstraints="NO" id="oc9-Jo-kWa">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oc9-Jo-kWa">
                                 <rect key="frame" x="20" y="195" width="560" height="167"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient-light.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="995-gU-S0b">
+                                <rect key="frame" x="20" y="370" width="560" height="167"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="Oncology Triage Service" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DP0-1n-jp5">
                                 <rect key="frame" x="20" y="20" width="560" height="69.5"/>
@@ -144,7 +144,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="Qri-L8-wr7">
                                 <rect key="frame" x="20" y="439" width="560" height="29"/>
-                                <string key="text">Need assistance parking? Contact the concierge services or valet parking services. Valet parking is available Monday though Friday, 7am to 10pm, and Saturday through Sunday 10am to 6pm. </string>
+                                <string key="text">Need assistance parking? Contact the concierge services. Valet parking is available Monday though Friday, 7am to 10pm, and Saturday through Sunday 10am to 6pm. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <color key="textColor" red="0.99781013259999995" green="0.99781013259999995" blue="0.99781013259999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1502,9 +1502,10 @@
     </scenes>
     <resources>
         <image name="Duke Orange.png" width="120" height="64"/>
-        <image name="Duke Red.png" width="126" height="64"/>
         <image name="Duke Site Plan_F3" width="9402" height="7829"/>
-        <image name="Duke Yellow.png" width="126" height="68"/>
+        <image name="blueGradient-dark.jpg" width="1920" height="1080"/>
+        <image name="blueGradient-light.jpg" width="1805" height="1016"/>
+        <image name="blueGradient2.jpg" width="1920" height="1080"/>
         <image name="calendar" width="30" height="30"/>
         <image name="clock" width="30" height="30"/>
         <image name="contact" width="30" height="30"/>

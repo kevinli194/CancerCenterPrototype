@@ -17,6 +17,12 @@
 		318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF21BEAA4D5004F6E38 /* taichi.jpg */; };
 		318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */; };
 		F11414991BF96B8A00FE0532 /* DukeFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F11414981BF96B8A00FE0532 /* DukeFont.ttf */; };
+		F114149F1BF9809600FE0532 /* blueStripes3.png in Resources */ = {isa = PBXBuildFile; fileRef = F114149C1BF9809600FE0532 /* blueStripes3.png */; };
+		F11414A01BF9809600FE0532 /* blueStripes2.png in Resources */ = {isa = PBXBuildFile; fileRef = F114149D1BF9809600FE0532 /* blueStripes2.png */; };
+		F11414A11BF9809600FE0532 /* blueStripes1.png in Resources */ = {isa = PBXBuildFile; fileRef = F114149E1BF9809600FE0532 /* blueStripes1.png */; };
+		F11414AD1BF9842A00FE0532 /* blueGradient2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11414AA1BF9842A00FE0532 /* blueGradient2.jpg */; };
+		F11414AE1BF9842A00FE0532 /* blueGradient-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11414AB1BF9842A00FE0532 /* blueGradient-light.jpg */; };
+		F11414AF1BF9842A00FE0532 /* blueGradient-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11414AC1BF9842A00FE0532 /* blueGradient-dark.jpg */; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
 		F18BDE0D1BF5D05C0057D92B /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BDE0C1BF5D05C0057D92B /* Provider.swift */; };
@@ -86,6 +92,12 @@
 		C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CancerInstituteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9E4493ACC11DA87670C4DE /* Pods-CancerInstituteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.release.xcconfig"; sourceTree = "<group>"; };
 		F11414981BF96B8A00FE0532 /* DukeFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DukeFont.ttf; sourceTree = "<group>"; };
+		F114149C1BF9809600FE0532 /* blueStripes3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueStripes3.png; sourceTree = "<group>"; };
+		F114149D1BF9809600FE0532 /* blueStripes2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueStripes2.png; sourceTree = "<group>"; };
+		F114149E1BF9809600FE0532 /* blueStripes1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueStripes1.png; sourceTree = "<group>"; };
+		F11414AA1BF9842A00FE0532 /* blueGradient2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient2.jpg; sourceTree = "<group>"; };
+		F11414AB1BF9842A00FE0532 /* blueGradient-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blueGradient-light.jpg"; sourceTree = "<group>"; };
+		F11414AC1BF9842A00FE0532 /* blueGradient-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blueGradient-dark.jpg"; sourceTree = "<group>"; };
 		F11B92A91BB3652200A37EE6 /* CancerInstituteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CancerInstituteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -281,7 +293,13 @@
 		F1F59D541BF153780078CA5C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F114149C1BF9809600FE0532 /* blueStripes3.png */,
+				F114149D1BF9809600FE0532 /* blueStripes2.png */,
+				F114149E1BF9809600FE0532 /* blueStripes1.png */,
 				F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */,
+				F11414AA1BF9842A00FE0532 /* blueGradient2.jpg */,
+				F11414AB1BF9842A00FE0532 /* blueGradient-light.jpg */,
+				F11414AC1BF9842A00FE0532 /* blueGradient-dark.jpg */,
 				F1F59D6A1BF156A00078CA5C /* whiteLogo.png */,
 				F1F59D5C1BF156A00078CA5C /* Duke Green.png */,
 				F1F59D5D1BF156A00078CA5C /* Duke Orange.png */,
@@ -375,6 +393,7 @@
 				F1F59D6B1BF156A00078CA5C /* boutique.jpg in Resources */,
 				F1F59D6E1BF156A00078CA5C /* commonArea.jpg in Resources */,
 				F1F59D761BF156A00078CA5C /* Duke Yellow.png in Resources */,
+				F11414AE1BF9842A00FE0532 /* blueGradient-light.jpg in Resources */,
 				F1F59D771BF156A00078CA5C /* lawServices.jpg in Resources */,
 				F1F59D741BF156A00078CA5C /* Duke Red.png in Resources */,
 				F11414991BF96B8A00FE0532 /* DukeFont.ttf in Resources */,
@@ -384,18 +403,23 @@
 				F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */,
 				F1F59D751BF156A00078CA5C /* Duke Sky Blue.png in Resources */,
 				F1F59D7C1BF156A00078CA5C /* spaDay.jpg in Resources */,
+				F11414A11BF9809600FE0532 /* blueStripes1.png in Resources */,
 				F1F59D721BF156A00078CA5C /* Duke Green.png in Resources */,
 				F1F59D7E1BF156A00078CA5C /* strikeoutSarcoma.png in Resources */,
 				F1F59D801BF156A00078CA5C /* whiteLogo.png in Resources */,
 				318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */,
 				F1F59D7A1BF156A00078CA5C /* quietRoom.jpg in Resources */,
 				F18C34541BF3020700D81897 /* Launch Screen.storyboard in Resources */,
+				F114149F1BF9809600FE0532 /* blueStripes3.png in Resources */,
 				06D8B1111BB8EFE000A42ECC /* Main.storyboard in Resources */,
 				F1F59D7B1BF156A00078CA5C /* rooftopGarden.jpg in Resources */,
+				F11414A01BF9809600FE0532 /* blueStripes2.png in Resources */,
 				F1F59D791BF156A00078CA5C /* petTherapy.jpg in Resources */,
 				F1F59D6F1BF156A00078CA5C /* crushColorectal.jpg in Resources */,
 				F1F59D6C1BF156A00078CA5C /* chapel.jpg in Resources */,
+				F11414AD1BF9842A00FE0532 /* blueGradient2.jpg in Resources */,
 				F1F59D7D1BF156A00078CA5C /* springSupport.png in Resources */,
+				F11414AF1BF9842A00FE0532 /* blueGradient-dark.jpg in Resources */,
 				F1BFF1251BF317ED00328712 /* writeForYou.jpg in Resources */,
 				318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */,
 				F1F59D711BF156A00078CA5C /* doctor.jpg in Resources */,
