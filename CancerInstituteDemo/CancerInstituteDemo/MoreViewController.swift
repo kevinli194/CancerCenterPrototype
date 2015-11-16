@@ -16,6 +16,10 @@ class MoreViewController: UITableViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         self.resources = [Resource(item: "Calendar"), Resource(item: "Points of Interest"), Resource(item: "Support Groups"), Resource(item: "Educational Classes"), Resource(item: "Rest, Renew & Relax"), Resource(item: "Special Events"), Resource(item: "Travel & Lodging")]
+        //self.navigationController?.navigationBar.backgroundColor = UIColor.blueColor()
+        self.navigationController?.navigationBar.barTintColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
+        //self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        //self.navigationController?.navigationBar.translucent = false
     }
 
     override func didReceiveMemoryWarning() {
