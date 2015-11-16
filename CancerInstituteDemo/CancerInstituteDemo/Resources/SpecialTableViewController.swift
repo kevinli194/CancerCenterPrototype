@@ -27,6 +27,7 @@ class SpecialTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
     }
     
     override func didReceiveMemoryWarning() {
@@ -42,7 +43,6 @@ class SpecialTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
         let cell = self.tableView.dequeueReusableCellWithIdentifier("SpecialTableViewCell", forIndexPath: indexPath) as! SpecialTableViewCell
         let row = indexPath.row
         cell.specialLabel.text = specialTitles[row]

@@ -16,6 +16,7 @@ class TravelTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
     }
     
     override func didReceiveMemoryWarning() {
