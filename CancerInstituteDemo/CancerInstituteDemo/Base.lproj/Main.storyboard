@@ -246,7 +246,6 @@
                     <navigationItem key="navigationItem" title="Resources" id="Oip-xA-DpL"/>
                     <connections>
                         <segue destination="4dB-xB-hnV" kind="show" identifier="CalendarSegue" id="ohU-eD-iCf"/>
-                        <segue destination="sAV-QM-7MK" kind="show" identifier="SettingsSegue" id="7qw-yZ-VWp"/>
                         <segue destination="Hou-ji-JO1" kind="show" identifier="TravelSegue" id="OGD-5G-kOo"/>
                         <segue destination="2r5-60-K20" kind="show" identifier="SpecialEventsSegue" id="qG6-cu-ZXY"/>
                         <segue destination="06v-H3-dNe" kind="show" identifier="RestSegue" id="m3p-aD-OnQ"/>
@@ -496,33 +495,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vIt-R9-ck3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3929" y="-3463"/>
-        </scene>
-        <!--Settings View Controller-->
-        <scene sceneID="V8J-9m-nu5">
-            <objects>
-                <viewController id="sAV-QM-7MK" customClass="SettingsViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="cIL-JK-cAw"/>
-                        <viewControllerLayoutGuide type="bottom" id="Uj6-G7-syv"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="2Pe-Ne-hXJ">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Settings" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X8u-zc-et1">
-                                <rect key="frame" x="151" y="231" width="97" height="30"/>
-                                <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tbh-HK-YvS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1921" y="-2184"/>
         </scene>
         <!--Points of Interest-->
         <scene sceneID="ekE-os-z8D">
