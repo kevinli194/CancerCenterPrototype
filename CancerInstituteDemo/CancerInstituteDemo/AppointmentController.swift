@@ -11,7 +11,7 @@ import UIKit
 class AppointmentController: UIViewController {
     
     var myProvider: String?
-    var myTime: String?
+    var myTime: Int = 0
     var myClinic: String?
     
     @IBOutlet weak var curProvider: UILabel!
@@ -22,13 +22,17 @@ class AppointmentController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         curProvider.text = myProvider
-        curTime.text = myTime
-        if myTime!.lowercaseString == "on time" {
+        if myTime == 0 {
             curTime.textColor = UIColor.greenColor()
-        } else if myTime!.lowercaseString.containsString("hr") || myTime!.lowercaseString.containsString("hour") {
+            curTime.text = "On Time"
+        }
+        else if myTime > 30 {
             curTime.textColor = UIColor.redColor()
-        } else {
+            curTime.text = String(myTime) + "min Late"
+        }
+        else {
             curTime.textColor = UIColor.yellowColor()
+            curTime.text = String(myTime) + "min Late"
         }
         curClinic.text = myClinic
     }

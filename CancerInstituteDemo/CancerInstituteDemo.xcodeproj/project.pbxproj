@@ -16,6 +16,7 @@
 		318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF01BEAA4C9004F6E38 /* spiritual.jpg */; };
 		318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF21BEAA4D5004F6E38 /* taichi.jpg */; };
 		318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */; };
+		F11414991BF96B8A00FE0532 /* DukeFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F11414981BF96B8A00FE0532 /* DukeFont.ttf */; };
 		F11B92AD1BB3652200A37EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */; };
 		F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F11B92B51BB3652200A37EE6 /* Assets.xcassets */; };
 		F18BDE0D1BF5D05C0057D92B /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BDE0C1BF5D05C0057D92B /* Provider.swift */; };
@@ -84,6 +85,7 @@
 		6BF8ED8034DB39B4F8EF216F /* Pods-CancerInstituteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CancerInstituteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9E4493ACC11DA87670C4DE /* Pods-CancerInstituteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F11414981BF96B8A00FE0532 /* DukeFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DukeFont.ttf; sourceTree = "<group>"; };
 		F11B92A91BB3652200A37EE6 /* CancerInstituteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CancerInstituteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11B92AC1BB3652200A37EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F11B92B51BB3652200A37EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -240,6 +242,7 @@
 				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
 				F18C34531BF3020700D81897 /* Launch Screen.storyboard */,
 				F11B92B51BB3652200A37EE6 /* Assets.xcassets */,
+				F11414981BF96B8A00FE0532 /* DukeFont.ttf */,
 				06609F231BD0410C00981605 /* Main */,
 				06609F241BD0413400981605 /* MainMenuControllers */,
 				F1A96F491BD03A8D008446CE /* ResourcesControllers */,
@@ -374,6 +377,7 @@
 				F1F59D761BF156A00078CA5C /* Duke Yellow.png in Resources */,
 				F1F59D771BF156A00078CA5C /* lawServices.jpg in Resources */,
 				F1F59D741BF156A00078CA5C /* Duke Red.png in Resources */,
+				F11414991BF96B8A00FE0532 /* DukeFont.ttf in Resources */,
 				F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */,
 				318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */,
 				318AECEF1BEAA4C3004F6E38 /* writing.jpg in Resources */,
