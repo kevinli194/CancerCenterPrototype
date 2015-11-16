@@ -14,6 +14,7 @@ class MoreViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         self.resources = [Resource(item: "Calendar"), Resource(item: "Points of Interest"), Resource(item: "Support Groups"), Resource(item: "Educational Classes"), Resource(item: "Rest, Renew & Relax"), Resource(item: "Special Events"), Resource(item: "Travel & Lodging"), Resource(item: "Settings")]
     }
 
@@ -27,13 +28,10 @@ class MoreViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
-    
         var resource : Resource
-        
         resource = resources[indexPath.row]
-        
         cell.textLabel?.text = resource.item
-        
+        cell.textLabel?.textColor = UIColor.whiteColor()
         return cell
     }
     
