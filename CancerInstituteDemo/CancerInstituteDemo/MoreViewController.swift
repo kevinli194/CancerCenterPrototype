@@ -15,7 +15,7 @@ class MoreViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
-        self.resources = [Resource(item: "Calendar"), Resource(item: "Points of Interest"), Resource(item: "Support Groups"), Resource(item: "Educational Classes"), Resource(item: "Rest, Renew & Relax"), Resource(item: "Special Events"), Resource(item: "Travel & Lodging")]
+        self.resources = [Resource(item: "Calendar"), Resource(item: "Points of Interest"), Resource(item: "Support Groups"), Resource(item: "Educational Classes"), Resource(item: "Rest, Renew & Relax"), Resource(item: "Special Events"), Resource(item: "Travel & Lodging"), Resource(item: "About")]
         //self.navigationController?.navigationBar.backgroundColor = UIColor.blueColor()
         self.navigationController?.navigationBar.barTintColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         //self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
@@ -60,6 +60,9 @@ class MoreViewController: UITableViewController {
         }
         if indexPath.row == 6 {
             self.performSegueWithIdentifier("TravelSegue", sender: self)
+        }
+        if indexPath.row == 7 {
+            self.performSegueWithIdentifier("AboutSegue", sender: self)
         }
     }
 }
