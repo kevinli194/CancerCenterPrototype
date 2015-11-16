@@ -23,6 +23,13 @@ class AppointmentController: UIViewController {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         curProvider.text = myProvider
         curTime.text = myTime
+        if myTime!.lowercaseString == "on time" {
+            curTime.textColor = UIColor.greenColor()
+        } else if myTime!.lowercaseString.containsString("hr") || myTime!.lowercaseString.containsString("hour") {
+            curTime.textColor = UIColor.redColor()
+        } else {
+            curTime.textColor = UIColor.yellowColor()
+        }
         curClinic.text = myClinic
     }
     
