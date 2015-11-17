@@ -28,6 +28,8 @@
 		F18BDE0D1BF5D05C0057D92B /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F18BDE0C1BF5D05C0057D92B /* Provider.swift */; };
 		F18C34541BF3020700D81897 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F18C34531BF3020700D81897 /* Launch Screen.storyboard */; };
 		F19EB4881BFA8BD80039D0DC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EB4871BFA8BD80039D0DC /* AboutViewController.swift */; };
+		F1A447D41BFB279F0097D888 /* HFriedman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D31BFB279F0097D888 /* HFriedman.jpg */; };
+		F1A447D61BFB27E20097D888 /* AFriedman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D51BFB27E20097D888 /* AFriedman.jpg */; };
 		F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */; };
 		F1BFF1251BF317ED00328712 /* writeForYou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1BFF1241BF317ED00328712 /* writeForYou.jpg */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
@@ -106,6 +108,8 @@
 		F18BDE0C1BF5D05C0057D92B /* Provider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		F18C34531BF3020700D81897 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		F19EB4871BFA8BD80039D0DC /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F1A447D31BFB279F0097D888 /* HFriedman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HFriedman.jpg; sourceTree = "<group>"; };
+		F1A447D51BFB27E20097D888 /* AFriedman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AFriedman.jpg; sourceTree = "<group>"; };
 		F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient.jpg; sourceTree = "<group>"; };
 		F1BFF1241BF317ED00328712 /* writeForYou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = writeForYou.jpg; sourceTree = "<group>"; };
 		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
@@ -326,6 +330,8 @@
 				F1F59D681BF156A00078CA5C /* strikeoutSarcoma.png */,
 				F1F59D691BF156A00078CA5C /* treeHope.jpg */,
 				F1BFF1241BF317ED00328712 /* writeForYou.jpg */,
+				F1A447D31BFB279F0097D888 /* HFriedman.jpg */,
+				F1A447D51BFB27E20097D888 /* AFriedman.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -366,6 +372,11 @@
 					F11B92A81BB3652200A37EE6 = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = HNACG3848H;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -395,6 +406,7 @@
 				F1F59D781BF156A00078CA5C /* mainEntrance.jpg in Resources */,
 				F1F59D731BF156A00078CA5C /* Duke Orange.png in Resources */,
 				F1F59D6B1BF156A00078CA5C /* boutique.jpg in Resources */,
+				F1A447D61BFB27E20097D888 /* AFriedman.jpg in Resources */,
 				F1F59D6E1BF156A00078CA5C /* commonArea.jpg in Resources */,
 				F1F59D761BF156A00078CA5C /* Duke Yellow.png in Resources */,
 				F11414AE1BF9842A00FE0532 /* blueGradient-light.jpg in Resources */,
@@ -409,6 +421,7 @@
 				F1F59D7C1BF156A00078CA5C /* spaDay.jpg in Resources */,
 				F11414A11BF9809600FE0532 /* blueStripes1.png in Resources */,
 				F1F59D721BF156A00078CA5C /* Duke Green.png in Resources */,
+				F1A447D41BFB279F0097D888 /* HFriedman.jpg in Resources */,
 				F1F59D7E1BF156A00078CA5C /* strikeoutSarcoma.png in Resources */,
 				F1F59D801BF156A00078CA5C /* whiteLogo.png in Resources */,
 				318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */,
