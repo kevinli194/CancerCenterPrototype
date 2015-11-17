@@ -249,6 +249,7 @@
                         <segue destination="fs5-uE-bt2" kind="show" identifier="EducationSegue" id="LMx-Mi-Aeh"/>
                         <segue destination="eH1-pr-gIP" kind="show" identifier="SupportGroupsSegue" id="IqL-wV-zUm"/>
                         <segue destination="G09-np-ts9" kind="show" identifier="POISegue" id="EXm-yL-Men"/>
+                        <segue destination="Kld-1s-uue" kind="show" identifier="AboutSegue" id="Eal-Xr-Yso"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HIj-R8-bZA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1570,6 +1571,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vCB-sO-sbV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1921" y="-2819"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="ylU-6J-cRS">
+            <objects>
+                <viewController id="Kld-1s-uue" customClass="AboutViewController" customModule="CancerInstituteDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l4f-ns-AJp"/>
+                        <viewControllerLayoutGuide type="bottom" id="IFf-Ou-IJJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U8I-0G-wuE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hg6-EO-BiW">
+                                <rect key="frame" x="40" y="84" width="520" height="447"/>
+                                <string key="text">- ABOUT: include a page in your app with 
+   - your names, 
+   - clients names, 
+   - Duke University 
+   - any other supporters your client has had in their research</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IFf-Ou-IJJ" firstAttribute="top" secondItem="hg6-EO-BiW" secondAttribute="bottom" constant="20" id="K9W-rF-goK"/>
+                            <constraint firstItem="hg6-EO-BiW" firstAttribute="leading" secondItem="U8I-0G-wuE" secondAttribute="leadingMargin" constant="20" id="kwF-k9-Xzb"/>
+                            <constraint firstItem="hg6-EO-BiW" firstAttribute="top" secondItem="l4f-ns-AJp" secondAttribute="bottom" constant="20" id="nNE-wS-HiG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hg6-EO-BiW" secondAttribute="trailing" constant="20" id="vr8-eR-xs6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uj8-Wt-ZmI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1921" y="-2184"/>
         </scene>
         <!--Special Events-->
         <scene sceneID="4Ir-s1-DHe">
