@@ -21,7 +21,7 @@ class AppointmentController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
-        curProvider.text = myProvider
+        curProvider.text = "Dr. " + myProvider!
         if myTime == 0 {
             curTime.textColor = UIColor.greenColor()
             curTime.text = "On Time"
