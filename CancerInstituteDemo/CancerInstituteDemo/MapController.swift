@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import GoogleMaps
 
 class MapController: UIViewController {
-
+    @IBOutlet weak var mapView: GMSMapView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         //self.view.backgroundColor = UIColor.blackColor();
+        var overlay = GMSGroundOverlay()
+        let icon = UIImage(named: "newark_nj_1922.jpg")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -22,5 +26,6 @@ class MapController: UIViewController {
     }
 
 
+    
 }
 

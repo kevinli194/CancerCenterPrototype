@@ -18,24 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Duke Site Plan_F3" translatesAutoresizingMaskIntoConstraints="NO" id="OKw-V0-U1B">
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6jV-uB-uG0" customClass="GMSMapView">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
                                 <animations/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="OKw-V0-U1B" secondAttribute="height" multiplier="600:551" id="im0-0i-qDW"/>
-                                </constraints>
-                            </imageView>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="OKw-V0-U1B" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="FkJ-TF-eAV"/>
-                            <constraint firstItem="OKw-V0-U1B" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="topMargin" id="XHI-s2-OCK"/>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="OKw-V0-U1B" secondAttribute="bottom" id="hBa-XK-d4c"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="map30px" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="mapView" destination="6jV-uB-uG0" id="9HX-D9-JEB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,9 +50,11 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient-dark.jpg" highlightedImage="Duke Orange.png" translatesAutoresizingMaskIntoConstraints="NO" id="rbB-7w-HMZ">
                                 <rect key="frame" x="20" y="20" width="560" height="167"/>
+                                <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oc9-Jo-kWa">
                                 <rect key="frame" x="20" y="195" width="560" height="167"/>
+                                <animations/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient-light.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="995-gU-S0b">
                                 <rect key="frame" x="20" y="370" width="560" height="167"/>
@@ -265,6 +262,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="tdk-nv-rVO">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SupportTableViewCell" id="Vk4-b0-mnC" customClass="SupportTableViewCell" customModule="CancerInstituteDemo" customModuleProvider="target">
@@ -281,6 +279,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstItem="mpc-BA-gI0" firstAttribute="leading" secondItem="KBf-Xx-MIU" secondAttribute="leadingMargin" id="QbD-4b-Di0"/>
                                         <constraint firstItem="mpc-BA-gI0" firstAttribute="trailing" secondItem="KBf-Xx-MIU" secondAttribute="trailingMargin" id="a0C-4K-yAf"/>
@@ -315,6 +314,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cwx-be-KxS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="gX2-va-kmA" kind="relationship" relationship="rootViewController" id="47d-JI-6BD"/>
@@ -350,6 +350,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="JBh-ch-Jva">
                                 <rect key="frame" x="189" y="328" width="222" height="222"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" priority="750" constant="222" id="A0l-iM-9PV"/>
                                     <constraint firstAttribute="height" priority="750" constant="222" id="E6a-Mh-uaU"/>
@@ -407,6 +408,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="V3p-LE-dFi">
                                 <rect key="frame" x="189" y="329" width="222" height="222"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" priority="750" constant="222" id="Qx9-id-96E"/>
                                     <constraint firstAttribute="width" secondItem="V3p-LE-dFi" secondAttribute="height" multiplier="1:1" id="dds-ae-UA2"/>
@@ -503,6 +505,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="tpz-Mv-oix">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="POITableViewCell" id="mJ0-IQ-n6S" customClass="POITableViewCell" customModule="CancerInstituteDemo" customModuleProvider="target">
@@ -519,6 +522,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstItem="1ct-z5-Unp" firstAttribute="leading" secondItem="fuz-1a-43E" secondAttribute="leadingMargin" id="GLh-aG-A14"/>
                                         <constraint firstItem="1ct-z5-Unp" firstAttribute="trailing" secondItem="fuz-1a-43E" secondAttribute="trailingMargin" id="R0d-ds-cy1"/>
@@ -553,6 +557,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Xzp-Vk-aIQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="ThM-z5-4Ts" kind="relationship" relationship="rootViewController" id="UCO-xF-bXB"/>
@@ -569,6 +574,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="4mV-gI-vrc">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="EducationTableViewCell" id="ql5-yH-2Y4" customClass="EducationTableViewCell" customModule="CancerInstituteDemo" customModuleProvider="target">
@@ -585,6 +591,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstItem="w3D-gC-63G" firstAttribute="bottom" secondItem="OiZ-5F-w6E" secondAttribute="bottomMargin" id="1xJ-n8-iyc"/>
                                         <constraint firstItem="w3D-gC-63G" firstAttribute="top" secondItem="OiZ-5F-w6E" secondAttribute="topMargin" id="2iL-KW-W7C"/>
@@ -619,6 +626,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MS3-Hr-v4G">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="Thm-vz-gUF" kind="relationship" relationship="rootViewController" id="SQ9-di-CAM"/>
@@ -635,6 +643,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="gnV-hC-7y7">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="RestTableViewCell" id="hAb-30-SRW" customClass="RestTableViewCell" customModule="CancerInstituteDemo" customModuleProvider="target">
@@ -651,6 +660,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstItem="ddV-1i-Z5f" firstAttribute="leading" secondItem="Q7G-p1-fGM" secondAttribute="leadingMargin" id="JUb-H4-SbB"/>
                                         <constraint firstItem="ddV-1i-Z5f" firstAttribute="trailing" secondItem="Q7G-p1-fGM" secondAttribute="trailingMargin" id="NBX-9Z-UYF"/>
@@ -685,6 +695,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="QVl-sT-jTh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="c2N-9I-doN" kind="relationship" relationship="rootViewController" id="EKO-7O-sdF"/>
@@ -701,6 +712,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="F97-hN-TXO">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="TravelTableViewCell" id="JAB-QT-bus" customClass="TravelTableViewCell" customModule="CancerInstituteDemo" customModuleProvider="target">
@@ -717,6 +729,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstItem="gvP-pr-pEj" firstAttribute="top" secondItem="AGl-Uw-0JG" secondAttribute="topMargin" id="GtT-gn-qeQ"/>
                                         <constraint firstItem="gvP-pr-pEj" firstAttribute="trailing" secondItem="AGl-Uw-0JG" secondAttribute="trailingMargin" id="Xxl-vp-l2S"/>
@@ -750,6 +763,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Jmn-Qp-kfB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SpecialTableViewCell" id="LWo-dc-hV8" customClass="SpecialTableViewCell" customModule="CancerInstituteDemo" customModuleProvider="target">
@@ -766,6 +780,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <animations/>
                                     <constraints>
                                         <constraint firstItem="ql6-0O-gHM" firstAttribute="leading" secondItem="Vsc-4x-VIi" secondAttribute="leadingMargin" id="9Gg-1P-N0Q"/>
                                         <constraint firstItem="ql6-0O-gHM" firstAttribute="top" secondItem="Vsc-4x-VIi" secondAttribute="topMargin" id="Qid-Ll-rFL"/>
@@ -800,6 +815,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Q1J-2Q-776">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="nm0-oj-UZh">
                         <rect key="frame" x="0.0" y="556" width="600" height="44"/>
@@ -821,6 +837,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="62W-eh-Rrf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                     </navigationBar>
                     <connections>
                         <segue destination="HTH-pb-Ixo" kind="relationship" relationship="rootViewController" id="CEw-cE-ekD"/>
@@ -850,12 +867,14 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="mIX-Ap-Rte">
                                 <rect key="frame" x="20" y="92" width="560" height="229"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="ymt-5c-dLW">
                                 <rect key="frame" x="189" y="329" width="222" height="222"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="ymt-5c-dLW" secondAttribute="height" multiplier="1:1" id="51t-De-qgO"/>
                                     <constraint firstAttribute="height" priority="750" constant="222" id="ScG-Jr-hcq"/>
@@ -863,6 +882,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ymt-5c-dLW" firstAttribute="centerX" secondItem="hpe-f5-pR6" secondAttribute="centerX" id="7CC-Dl-H0C"/>
@@ -912,6 +932,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="rEE-o2-ohg">
                                 <rect key="frame" x="189" y="329" width="222" height="222"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" priority="750" constant="222" id="2s6-nM-dy6"/>
                                     <constraint firstAttribute="width" secondItem="rEE-o2-ohg" secondAttribute="height" multiplier="1:1" id="574-ed-Js7"/>
@@ -974,6 +995,7 @@
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Event Description" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mf5-7x-QQx">
                                 <rect key="frame" x="0.0" y="449" width="600" height="33"/>
+                                <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1038,6 +1060,7 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="lOV-dp-IL5">
                                 <rect key="frame" x="189" y="329" width="222" height="222"/>
+                                <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" priority="750" constant="222" id="Iyi-E8-vlz"/>
                                     <constraint firstAttribute="width" priority="750" constant="222" id="JCH-qW-RjN"/>
@@ -1391,6 +1414,7 @@
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="gq2-eS-eKz">
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -1408,6 +1432,7 @@
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="QPf-7X-1bJ">
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -1425,6 +1450,7 @@
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="ryQ-d7-s5a">
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -1442,6 +1468,7 @@
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="jR6-3g-5qM">
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -1459,6 +1486,7 @@
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="UBW-Vd-URJ">
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -1476,6 +1504,7 @@
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="fB8-Fm-QsQ">
                         <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -1508,7 +1537,6 @@
     </scenes>
     <resources>
         <image name="Duke Orange.png" width="120" height="64"/>
-        <image name="Duke Site Plan_F3" width="9402" height="7829"/>
         <image name="blueGradient-dark.jpg" width="1920" height="1080"/>
         <image name="blueGradient-light.jpg" width="1805" height="1016"/>
         <image name="blueGradient2.jpg" width="1920" height="1080"/>
