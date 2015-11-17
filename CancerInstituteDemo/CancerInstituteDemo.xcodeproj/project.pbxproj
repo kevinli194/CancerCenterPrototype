@@ -30,6 +30,7 @@
 		F19EB4881BFA8BD80039D0DC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19EB4871BFA8BD80039D0DC /* AboutViewController.swift */; };
 		F1A447D41BFB279F0097D888 /* HFriedman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D31BFB279F0097D888 /* HFriedman.jpg */; };
 		F1A447D61BFB27E20097D888 /* AFriedman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D51BFB27E20097D888 /* AFriedman.jpg */; };
+		F1A447DA1BFBDF050097D888 /* defultPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D91BFBDF050097D888 /* defultPhoto.jpg */; };
 		F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */; };
 		F1BFF1251BF317ED00328712 /* writeForYou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1BFF1241BF317ED00328712 /* writeForYou.jpg */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
@@ -110,6 +111,7 @@
 		F19EB4871BFA8BD80039D0DC /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		F1A447D31BFB279F0097D888 /* HFriedman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HFriedman.jpg; sourceTree = "<group>"; };
 		F1A447D51BFB27E20097D888 /* AFriedman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AFriedman.jpg; sourceTree = "<group>"; };
+		F1A447D91BFBDF050097D888 /* defultPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defultPhoto.jpg; sourceTree = "<group>"; };
 		F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient.jpg; sourceTree = "<group>"; };
 		F1BFF1241BF317ED00328712 /* writeForYou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = writeForYou.jpg; sourceTree = "<group>"; };
 		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
@@ -330,6 +332,7 @@
 				F1F59D681BF156A00078CA5C /* strikeoutSarcoma.png */,
 				F1F59D691BF156A00078CA5C /* treeHope.jpg */,
 				F1BFF1241BF317ED00328712 /* writeForYou.jpg */,
+				F1A447D91BFBDF050097D888 /* defultPhoto.jpg */,
 				F1A447D31BFB279F0097D888 /* HFriedman.jpg */,
 				F1A447D51BFB27E20097D888 /* AFriedman.jpg */,
 			);
@@ -413,6 +416,7 @@
 				F1F59D771BF156A00078CA5C /* lawServices.jpg in Resources */,
 				F1F59D741BF156A00078CA5C /* Duke Red.png in Resources */,
 				F11414991BF96B8A00FE0532 /* DukeFont.ttf in Resources */,
+				F1A447DA1BFBDF050097D888 /* defultPhoto.jpg in Resources */,
 				F11B92B61BB3652200A37EE6 /* Assets.xcassets in Resources */,
 				318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */,
 				318AECEF1BEAA4C3004F6E38 /* writing.jpg in Resources */,
