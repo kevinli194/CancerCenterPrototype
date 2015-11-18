@@ -1493,7 +1493,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search for Povider" showsScopeBar="YES" id="QZ5-lr-16v">
+                        <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search for Provider" showsScopeBar="YES" id="QZ5-lr-16v">
                             <rect key="frame" x="0.0" y="64" width="600" height="88"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <animations/>
@@ -1623,24 +1623,103 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hg6-EO-BiW">
-                                <rect key="frame" x="40" y="84" width="520" height="447"/>
-                                <string key="text">Kevin Li
-Anna Marie Keppel Benson
-Georgia Tse
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hg6-EO-BiW">
+                                <rect key="frame" x="40" y="84" width="520" height="373"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Duke University 
+Computer Science Dept.
 
-Jon Nicolla 
-Karen Butler
-Kristy Everette
-Fred Friedman</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Developers:">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">     Kevin Li 
+     Georgia Tse
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">     Anna Marie Keppel Benson
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Partners:">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue-Bold"/>
+                                            <font key="NSOriginalFont" size="17" name="HelveticaNeue-Bold"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">     Karen Butler
+     Jon Nicolla 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">     Kristy Everette
+     Fred Friedman</string>
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="IFf-Ou-IJJ" firstAttribute="top" secondItem="hg6-EO-BiW" secondAttribute="bottom" constant="20" id="K9W-rF-goK"/>
+                            <constraint firstItem="IFf-Ou-IJJ" firstAttribute="top" secondItem="hg6-EO-BiW" secondAttribute="bottom" constant="94" id="K9W-rF-goK"/>
                             <constraint firstItem="hg6-EO-BiW" firstAttribute="leading" secondItem="U8I-0G-wuE" secondAttribute="leadingMargin" constant="20" id="kwF-k9-Xzb"/>
                             <constraint firstItem="hg6-EO-BiW" firstAttribute="top" secondItem="l4f-ns-AJp" secondAttribute="bottom" constant="20" id="nNE-wS-HiG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="hg6-EO-BiW" secondAttribute="trailing" constant="20" id="vr8-eR-xs6"/>
