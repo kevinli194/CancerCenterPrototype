@@ -31,6 +31,7 @@
 		F1A447D41BFB279F0097D888 /* HFriedman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D31BFB279F0097D888 /* HFriedman.jpg */; };
 		F1A447D61BFB27E20097D888 /* AFriedman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D51BFB27E20097D888 /* AFriedman.jpg */; };
 		F1A447DA1BFBDF050097D888 /* defultPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D91BFBDF050097D888 /* defultPhoto.jpg */; };
+		F1A447DC1BFC31E80097D888 /* duvall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447DB1BFC31E80097D888 /* duvall.jpg */; };
 		F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */; };
 		F1BFF1251BF317ED00328712 /* writeForYou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1BFF1241BF317ED00328712 /* writeForYou.jpg */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
@@ -112,6 +113,7 @@
 		F1A447D31BFB279F0097D888 /* HFriedman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HFriedman.jpg; sourceTree = "<group>"; };
 		F1A447D51BFB27E20097D888 /* AFriedman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AFriedman.jpg; sourceTree = "<group>"; };
 		F1A447D91BFBDF050097D888 /* defultPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defultPhoto.jpg; sourceTree = "<group>"; };
+		F1A447DB1BFC31E80097D888 /* duvall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duvall.jpg; sourceTree = "<group>"; };
 		F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient.jpg; sourceTree = "<group>"; };
 		F1BFF1241BF317ED00328712 /* writeForYou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = writeForYou.jpg; sourceTree = "<group>"; };
 		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
@@ -335,6 +337,7 @@
 				F1A447D91BFBDF050097D888 /* defultPhoto.jpg */,
 				F1A447D31BFB279F0097D888 /* HFriedman.jpg */,
 				F1A447D51BFB27E20097D888 /* AFriedman.jpg */,
+				F1A447DB1BFC31E80097D888 /* duvall.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -427,6 +430,7 @@
 				F1F59D721BF156A00078CA5C /* Duke Green.png in Resources */,
 				F1A447D41BFB279F0097D888 /* HFriedman.jpg in Resources */,
 				F1F59D7E1BF156A00078CA5C /* strikeoutSarcoma.png in Resources */,
+				F1A447DC1BFC31E80097D888 /* duvall.jpg in Resources */,
 				F1F59D801BF156A00078CA5C /* whiteLogo.png in Resources */,
 				318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */,
 				F1F59D7A1BF156A00078CA5C /* quietRoom.jpg in Resources */,
@@ -644,6 +648,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CancerInstituteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kag.CancerInstituteDemo;
@@ -662,6 +667,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CancerInstituteDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kag.CancerInstituteDemo;

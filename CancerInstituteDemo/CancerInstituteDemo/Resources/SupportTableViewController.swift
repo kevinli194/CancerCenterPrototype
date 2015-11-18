@@ -14,7 +14,7 @@ class SupportTableViewController: UITableViewController {
     var supportDescriptions = [
         "This support group is for families and individuals experiencing leukemia, lymphoma, and multiple myeloma.",
         "Individuals with breast and gynecologic cancer are invited to join this support group.",
-        "Are you the primary caring care for loved one battling cancer? Join the Caregiver support group. Our meetings are held the first and third Wednesdays of every month from 4:00 to 5:30 p.m.",
+        "Are you the primary caregiver for loved one battling cancer? Join the Caregiver support group. Our meetings are held the first and third Wednesdays of every month from 4:00 to 5:30 p.m.",
         "This support group is for gastrointestinal and pancreatic cancer patients and their family members.",
         "This support group is for patients with genitourinary cancers and their family members.",
         "This group is for patients and families coping with lung cancer.",
