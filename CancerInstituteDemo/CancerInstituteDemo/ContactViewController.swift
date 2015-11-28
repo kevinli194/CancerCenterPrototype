@@ -16,11 +16,12 @@ class ContactViewController: UIViewController {
     @IBOutlet weak var box3: UIImageView!
     
     
+
     @IBAction func callTriage(sender: AnyObject) {
         let url:NSURL = NSURL(string: "tel://9196686608")!
         UIApplication.sharedApplication().openURL(url)
     }
-    
+
     @IBAction func callResourceCenter(sender: AnyObject) {
         let url:NSURL = NSURL(string:"tel://9196846955")!
         UIApplication.sharedApplication().openURL(url)
@@ -34,6 +35,8 @@ class ContactViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.barTintColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         box1.layer.cornerRadius = 10
         box1.clipsToBounds = true
         box2.layer.cornerRadius = 10
