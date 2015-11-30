@@ -48,7 +48,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient-light.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="995-gU-S0b">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="blueGradient2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="995-gU-S0b">
                                 <rect key="frame" x="20" y="72" width="560" height="150"/>
                                 <animations/>
                             </imageView>
@@ -1896,7 +1896,6 @@ Cg
     <resources>
         <image name="Duke Orange.png" width="120" height="64"/>
         <image name="blueGradient-dark.jpg" width="1920" height="1080"/>
-        <image name="blueGradient-light.jpg" width="1805" height="1016"/>
         <image name="blueGradient2.jpg" width="1920" height="1080"/>
         <image name="calendar" width="30" height="30"/>
         <image name="clock" width="30" height="30"/>
