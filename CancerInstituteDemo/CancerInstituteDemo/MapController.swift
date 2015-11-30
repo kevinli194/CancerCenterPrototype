@@ -15,7 +15,7 @@ class MapController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.navigationController?.navigationBar.barTintColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         self.locationManager.requestWhenInUseAuthorization()
         
         let camera = GMSCameraPosition.cameraWithLatitude(36.006725,

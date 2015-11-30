@@ -24,9 +24,7 @@ class AppointmentTableViewController : UITableViewController, UISearchBarDelegat
             Provider(name:"K. Blackwell", clinic:"Clinic 2-2", time:0),
             Provider(name:"D. Blazer", clinic:"Clinic 3-2", time:0),
             Provider(name:"R. Blitzblau", clinic:"Clinic 2-2", time:15),
-            Provider(name:"B. Bohinc", clinic:"Clinic 2-2", time:40),
             Provider(name:"A. Desjardins", clinic:"Clinic 3-1", time:0),
-            Provider(name:"L. Farkas", clinic:"Clinic 3-2", time:90),
             Provider(name:"A. Friedman", clinic:"Clinic 2-2", time:0),
             Provider(name:"H. Friedman", clinic:"Clinic 3-2", time:60),
             Provider(name:"G. Georgiade", clinic:"Clinic 2-2", time:20),
@@ -47,10 +45,7 @@ class AppointmentTableViewController : UITableViewController, UISearchBarDelegat
             Provider(name:"M. Morse", clinic:"Clinic 3-2", time:0),
             Provider(name:"P. Mosca", clinic:"Clinic 3-2", time:20),
             Provider(name:"M. Onaitis", clinic:"Clinic 3-2", time:10),
-            Provider(name:"J. Peppercorn", clinic:"Clinic 2-2", time:10),
             Provider(name:"J. Perkins", clinic:"Clinic 2-2", time:60),
-            Provider(name:"K. Peters", clinic:"Clinic 3-1", time:15),
-            Provider(name:"T. Ranjan", clinic:"Clinic 3-1", time:0),
             Provider(name:"N. Ready", clinic:"Clinic 3-2", time:0),
             Provider(name:"S. Roman", clinic:"Clinic 2-2", time:0),
             Provider(name:"A. Salama", clinic:"Clinic 3-2", time:0),
@@ -58,11 +53,9 @@ class AppointmentTableViewController : UITableViewController, UISearchBarDelegat
             Provider(name:"R. Scheri", clinic:"Clinic 2-2", time:20),
             Provider(name:"A. Secord", clinic:"Clinic 2-2", time:0),
             Provider(name:"J. Sosa", clinic:"Clinic 2-2", time:40),
-            Provider(name:"D. Tyler", clinic:"Clinic 3-2", time:0),
             Provider(name:"G. Vlahovic", clinic:"Clinic 3-1", time:10),
             Provider(name:"M. Wahidi", clinic:"Clinic 3-2", time:90),
             Provider(name:"K. Westbrook", clinic:"Clinic 2-2", time:15),
-            Provider(name:"B. White", clinic:"Clinic 3-2", time:0),
             Provider(name:"M. Zenn", clinic:"Clinic 2-2", time:0)]
         self.tableView.reloadData()
     }
