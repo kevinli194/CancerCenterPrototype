@@ -2,7 +2,7 @@
 //  TodayViewController.swift
 //  CancerInstituteDemo
 //
-//  Created by Anna Benson on 10/4/15.
+//  Created by Kevin Li on 10/4/15.
 //  Copyright © 2015 KAG. All rights reserved.
 //
 

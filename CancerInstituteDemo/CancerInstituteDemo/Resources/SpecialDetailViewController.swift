@@ -26,6 +26,7 @@ class SpecialDetailViewController: UIViewController {
         curDescription.text = myDescription
         curImage.image = UIImage(named: myImage!)
         
+        //make images circular
         curImage.layer.cornerRadius = curImage.frame.size.width/2
         curImage.clipsToBounds = true
     }

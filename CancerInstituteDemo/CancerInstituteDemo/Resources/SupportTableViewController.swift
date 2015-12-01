@@ -10,6 +10,7 @@ import UIKit
 
 class SupportTableViewController: UITableViewController {
     
+    //data arrays
     var supportTitles = ["Blood Cancers", "Breast and Gyn Cancers", "Caregiver", "GI and Pancreatic Cancer", "GU Cancers", "Lung Cancer", "Prostate Cancer", "Mind-Body Approaches to Coping", "KidsCan!"]
     var supportDescriptions = [
         "This support group is for families and individuals experiencing leukemia, lymphoma, and multiple myeloma.",
@@ -42,6 +43,7 @@ class SupportTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
+        //set up table view
         let cell = self.tableView.dequeueReusableCellWithIdentifier("SupportTableViewCell", forIndexPath: indexPath) as! SupportTableViewCell
         let row = indexPath.row
         cell.supportLabel.text = supportTitles[row]
@@ -49,6 +51,8 @@ class SupportTableViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        //navigate to new pages via segues
         if segue.identifier == "ShowSupportDetails" {
             let detailViewController = segue.destinationViewController as! SupportDetailViewController
             let myIndexPath = self.tableView.indexPathForSelectedRow!

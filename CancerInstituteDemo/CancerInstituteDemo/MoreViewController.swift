@@ -14,12 +14,15 @@ class MoreViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
+        
+        //table resource items
         self.resources = [Resource(item: "Calendar"), Resource(item: "Points of Interest"), Resource(item: "Support Groups"), Resource(item: "Educational Classes"), Resource(item: "Rest, Renew & Relax"), Resource(item: "Special Events"), Resource(item: "Travel & Lodging"), Resource(item: "About")]
-        //self.navigationController?.navigationBar.backgroundColor = UIColor.blueColor()
+        
+        //navigation bar background
         self.navigationController?.navigationBar.barTintColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
-        //self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-        //self.navigationController?.navigationBar.translucent = false
+        
+        //full view background
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,6 +34,8 @@ class MoreViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        //set up the tabel view
         let cell = self.tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
         var resource : Resource
         resource = resources[indexPath.row]
@@ -40,6 +45,9 @@ class MoreViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+       
+        //navigate to each of the next pages after element in table has been chosen 
+        
         if indexPath.row == 0 {
             self.performSegueWithIdentifier("CalendarSegue", sender: self)
         }
