@@ -3,7 +3,7 @@
 //  DCI
 //
 //  Created by Georgia Tse on 9/24/15.
-//  Copyright © 2015 Georgia Tse. All rights reserved.
+//  Copyright © 2015 KAG. All rights reserved.
 //
 
 import UIKit

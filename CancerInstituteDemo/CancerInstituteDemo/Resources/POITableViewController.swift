@@ -10,6 +10,8 @@ import UIKit
 
 class POITableViewController: UITableViewController {
     
+    
+    //data arrays
     var POITitles = ["Rooftop Garden", "Belk Boutique",
         "Café", "Quiet Room", "Resource Center",
         "Specialty Pharmacy", "Common Areas", "Duke Chapel"]
@@ -44,6 +46,7 @@ class POITableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
+        //set up table view
         let cell = self.tableView.dequeueReusableCellWithIdentifier("POITableViewCell", forIndexPath: indexPath) as! POITableViewCell
         let row = indexPath.row
         cell.POILabel.text = POITitles[row]
@@ -51,6 +54,8 @@ class POITableViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        //navigate to new pages via segues
         if segue.identifier == "ShowPOIDetails" {
             let detailViewController = segue.destinationViewController as! POIDetailViewController
             let myIndexPath = self.tableView.indexPathForSelectedRow!

@@ -10,6 +10,7 @@ import UIKit
 
 class SpecialTableViewController: UITableViewController {
     
+    //data arrays
     var specialTitles = ["CRUSH colorectal Cancer 5K & Fun Walk", "Spring For Support 5K", "Spa Day", "Strike Out Sarcoma 5K & Fun Walk", "Komen Race For The Cure", "Pink Ribbon Yoga Retreat", "Gail Parkins Memorial Ovarian Cancer Walk & 5K", "Boyette Family Farm Corn Maze", "Making Strides Against Breast Cancer", "Light The Night", "Tree of Hope Lighting Ceremony"]
     var specialDescriptions = [
         "Held March 14 at the American Tobacco Trail in Durham, NC. For more information, visit sites.duke.edu",
@@ -43,6 +44,8 @@ class SpecialTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        
+        //set up table view
         let cell = self.tableView.dequeueReusableCellWithIdentifier("SpecialTableViewCell", forIndexPath: indexPath) as! SpecialTableViewCell
         let row = indexPath.row
         cell.specialLabel.text = specialTitles[row]
@@ -50,6 +53,8 @@ class SpecialTableViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        //navigate to new pages via segues
         if segue.identifier == "ShowSpecialDetails" {
             let detailViewController = segue.destinationViewController as! SpecialDetailViewController
             let myIndexPath = self.tableView.indexPathForSelectedRow!

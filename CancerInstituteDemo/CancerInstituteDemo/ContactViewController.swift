@@ -10,13 +10,13 @@ import UIKit
 
 class ContactViewController: UIViewController {
     
-    
+    //UI boxes for each contact
     @IBOutlet weak var box1: UIImageView!
     @IBOutlet weak var box2: UIImageView!
     @IBOutlet weak var box3: UIImageView!
     
     
-
+    //implimenting calling functions
     @IBAction func callTriage(sender: AnyObject) {
         let url:NSURL = NSURL(string: "tel://9196686608")!
         UIApplication.sharedApplication().openURL(url)
@@ -32,11 +32,16 @@ class ContactViewController: UIViewController {
         UIApplication.sharedApplication().openURL(url)
     }
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //navigation bar background
         self.navigationController?.navigationBar.barTintColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
+        
+        //full view background
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
+       
+        //rounded edges for the boxes
         box1.layer.cornerRadius = 10
         box1.clipsToBounds = true
         box2.layer.cornerRadius = 10
@@ -49,30 +54,4 @@ class ContactViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-    
-//    override func shouldAutorotate() -> Bool {
-//        if (UIDevice.currentDevice().orientation == UIDeviceOrientation.LandscapeLeft ||
-//            UIDevice.currentDevice().orientation == UIDeviceOrientation.LandscapeRight ||
-//            UIDevice.currentDevice().orientation == UIDeviceOrientation.Unknown) {
-//                return false;
-//        }
-//        else {
-//            return true;
-//        }
-//    }
-    //    override func shouldAutorotate() -> Bool {
-    //        return false
-    //    }
-    
-    //    override func supportedInterfaceOrientations() -> Int {
-    //        return UIInterfaceOrientation.Portrait.rawValue
-    //    }
-    
-    //    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-    //        return [UIInterfaceOrientationMask.LandscapeLeft,UIInterfaceOrientationMask.LandscapeRight]
-    //    }
-    
-    //    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
-    //        return UIInterfaceOrientation.Portrait.rawValue
-    //    }
 }

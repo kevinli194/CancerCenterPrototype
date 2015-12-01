@@ -16,10 +16,6 @@
 		318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF01BEAA4C9004F6E38 /* spiritual.jpg */; };
 		318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF21BEAA4D5004F6E38 /* taichi.jpg */; };
 		318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */; };
-		F11414991BF96B8A00FE0532 /* DukeFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F11414981BF96B8A00FE0532 /* DukeFont.ttf */; };
-		F114149F1BF9809600FE0532 /* blueStripes3.png in Resources */ = {isa = PBXBuildFile; fileRef = F114149C1BF9809600FE0532 /* blueStripes3.png */; };
-		F11414A01BF9809600FE0532 /* blueStripes2.png in Resources */ = {isa = PBXBuildFile; fileRef = F114149D1BF9809600FE0532 /* blueStripes2.png */; };
-		F11414A11BF9809600FE0532 /* blueStripes1.png in Resources */ = {isa = PBXBuildFile; fileRef = F114149E1BF9809600FE0532 /* blueStripes1.png */; };
 		F11414AD1BF9842A00FE0532 /* blueGradient2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11414AA1BF9842A00FE0532 /* blueGradient2.jpg */; };
 		F11414AE1BF9842A00FE0532 /* blueGradient-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11414AB1BF9842A00FE0532 /* blueGradient-light.jpg */; };
 		F11414AF1BF9842A00FE0532 /* blueGradient-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11414AC1BF9842A00FE0532 /* blueGradient-dark.jpg */; };
@@ -69,7 +65,6 @@
 		F1A447D41BFB279F0097D888 /* HFriedman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D31BFB279F0097D888 /* HFriedman.jpg */; };
 		F1A447D61BFB27E20097D888 /* AFriedman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D51BFB27E20097D888 /* AFriedman.jpg */; };
 		F1A447DA1BFBDF050097D888 /* defultPhoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447D91BFBDF050097D888 /* defultPhoto.jpg */; };
-		F1A447DC1BFC31E80097D888 /* duvall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1A447DB1BFC31E80097D888 /* duvall.jpg */; };
 		F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */; };
 		F1BFF1251BF317ED00328712 /* writeForYou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1BFF1241BF317ED00328712 /* writeForYou.jpg */; };
 		F1C0F3461BC1E9B6006A3D23 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C0F3451BC1E9B6006A3D23 /* Resources.swift */; };
@@ -103,11 +98,6 @@
 		F1F59D6F1BF156A00078CA5C /* crushColorectal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D591BF156A00078CA5C /* crushColorectal.jpg */; };
 		F1F59D701BF156A00078CA5C /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5A1BF156A00078CA5C /* default.jpg */; };
 		F1F59D711BF156A00078CA5C /* doctor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5B1BF156A00078CA5C /* doctor.jpg */; };
-		F1F59D721BF156A00078CA5C /* Duke Green.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5C1BF156A00078CA5C /* Duke Green.png */; };
-		F1F59D731BF156A00078CA5C /* Duke Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5D1BF156A00078CA5C /* Duke Orange.png */; };
-		F1F59D741BF156A00078CA5C /* Duke Red.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5E1BF156A00078CA5C /* Duke Red.png */; };
-		F1F59D751BF156A00078CA5C /* Duke Sky Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D5F1BF156A00078CA5C /* Duke Sky Blue.png */; };
-		F1F59D761BF156A00078CA5C /* Duke Yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D601BF156A00078CA5C /* Duke Yellow.png */; };
 		F1F59D771BF156A00078CA5C /* lawServices.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D611BF156A00078CA5C /* lawServices.jpg */; };
 		F1F59D781BF156A00078CA5C /* mainEntrance.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D621BF156A00078CA5C /* mainEntrance.jpg */; };
 		F1F59D791BF156A00078CA5C /* petTherapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F1F59D631BF156A00078CA5C /* petTherapy.jpg */; };
@@ -134,10 +124,6 @@
 		6BF8ED8034DB39B4F8EF216F /* Pods-CancerInstituteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CancerInstituteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9E4493ACC11DA87670C4DE /* Pods-CancerInstituteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.release.xcconfig"; sourceTree = "<group>"; };
-		F11414981BF96B8A00FE0532 /* DukeFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DukeFont.ttf; sourceTree = "<group>"; };
-		F114149C1BF9809600FE0532 /* blueStripes3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueStripes3.png; sourceTree = "<group>"; };
-		F114149D1BF9809600FE0532 /* blueStripes2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueStripes2.png; sourceTree = "<group>"; };
-		F114149E1BF9809600FE0532 /* blueStripes1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueStripes1.png; sourceTree = "<group>"; };
 		F11414AA1BF9842A00FE0532 /* blueGradient2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient2.jpg; sourceTree = "<group>"; };
 		F11414AB1BF9842A00FE0532 /* blueGradient-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blueGradient-light.jpg"; sourceTree = "<group>"; };
 		F11414AC1BF9842A00FE0532 /* blueGradient-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blueGradient-dark.jpg"; sourceTree = "<group>"; };
@@ -189,7 +175,6 @@
 		F1A447D31BFB279F0097D888 /* HFriedman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HFriedman.jpg; sourceTree = "<group>"; };
 		F1A447D51BFB27E20097D888 /* AFriedman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AFriedman.jpg; sourceTree = "<group>"; };
 		F1A447D91BFBDF050097D888 /* defultPhoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = defultPhoto.jpg; sourceTree = "<group>"; };
-		F1A447DB1BFC31E80097D888 /* duvall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = duvall.jpg; sourceTree = "<group>"; };
 		F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient.jpg; sourceTree = "<group>"; };
 		F1BFF1241BF317ED00328712 /* writeForYou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = writeForYou.jpg; sourceTree = "<group>"; };
 		F1C0F3451BC1E9B6006A3D23 /* Resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
@@ -224,11 +209,6 @@
 		F1F59D591BF156A00078CA5C /* crushColorectal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crushColorectal.jpg; sourceTree = "<group>"; };
 		F1F59D5A1BF156A00078CA5C /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
 		F1F59D5B1BF156A00078CA5C /* doctor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doctor.jpg; sourceTree = "<group>"; };
-		F1F59D5C1BF156A00078CA5C /* Duke Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Green.png"; sourceTree = "<group>"; };
-		F1F59D5D1BF156A00078CA5C /* Duke Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Orange.png"; sourceTree = "<group>"; };
-		F1F59D5E1BF156A00078CA5C /* Duke Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Red.png"; sourceTree = "<group>"; };
-		F1F59D5F1BF156A00078CA5C /* Duke Sky Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Sky Blue.png"; sourceTree = "<group>"; };
-		F1F59D601BF156A00078CA5C /* Duke Yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Duke Yellow.png"; sourceTree = "<group>"; };
 		F1F59D611BF156A00078CA5C /* lawServices.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lawServices.jpg; sourceTree = "<group>"; };
 		F1F59D621BF156A00078CA5C /* mainEntrance.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainEntrance.jpg; sourceTree = "<group>"; };
 		F1F59D631BF156A00078CA5C /* petTherapy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petTherapy.jpg; sourceTree = "<group>"; };
@@ -265,12 +245,12 @@
 		06609F241BD0413400981605 /* MainMenuControllers */ = {
 			isa = PBXGroup;
 			children = (
-				06D8B1141BB8F02400A42ECC /* AppointmentController.swift */,
-				31449D711BD56272002D4C20 /* CardView.swift */,
-				31449D731BD5681C002D4C20 /* TodayEventCell.swift */,
 				F1E886351BF3F236002315AA /* AppointmentTableViewController.swift */,
+				06D8B1141BB8F02400A42ECC /* AppointmentController.swift */,
 				F18BDE0C1BF5D05C0057D92B /* Provider.swift */,
 				F1C0F3691BC22B42006A3D23 /* TodayViewController.swift */,
+				31449D731BD5681C002D4C20 /* TodayEventCell.swift */,
+				31449D711BD56272002D4C20 /* CardView.swift */,
 				F1C0F3671BC22B01006A3D23 /* ContactViewController.swift */,
 				06D8B1121BB8F01800A42ECC /* MapController.swift */,
 				F1C0F3471BC1F130006A3D23 /* MoreViewController.swift */,
@@ -340,7 +320,6 @@
 				F1C0F3611BC215D2006A3D23 /* CancerInstituteDemo-Bridging-Header.h */,
 				F18C34531BF3020700D81897 /* Launch Screen.storyboard */,
 				F11B92B51BB3652200A37EE6 /* Assets.xcassets */,
-				F11414981BF96B8A00FE0532 /* DukeFont.ttf */,
 				06609F231BD0410C00981605 /* Main */,
 				06609F241BD0413400981605 /* MainMenuControllers */,
 				F1A96F491BD03A8D008446CE /* ResourcesControllers */,
@@ -390,6 +369,8 @@
 				F11C4A501C07EDC2005C054D /* RScheri.jpg */,
 				F11C4A511C07EDC2005C054D /* SHwang.jpg */,
 				F11C4A521C07EDC2005C054D /* SRoman.jpg */,
+				F1A447D31BFB279F0097D888 /* HFriedman.jpg */,
+				F1A447D51BFB27E20097D888 /* AFriedman.jpg */,
 			);
 			name = Providers;
 			sourceTree = "<group>";
@@ -426,19 +407,11 @@
 			isa = PBXGroup;
 			children = (
 				F11C4A2C1C07EDA7005C054D /* Providers */,
-				F114149C1BF9809600FE0532 /* blueStripes3.png */,
-				F114149D1BF9809600FE0532 /* blueStripes2.png */,
-				F114149E1BF9809600FE0532 /* blueStripes1.png */,
 				F1AF80E51BF2E27B00CDED94 /* blueGradient.jpg */,
 				F11414AA1BF9842A00FE0532 /* blueGradient2.jpg */,
 				F11414AB1BF9842A00FE0532 /* blueGradient-light.jpg */,
 				F11414AC1BF9842A00FE0532 /* blueGradient-dark.jpg */,
 				F1F59D6A1BF156A00078CA5C /* whiteLogo.png */,
-				F1F59D5C1BF156A00078CA5C /* Duke Green.png */,
-				F1F59D5D1BF156A00078CA5C /* Duke Orange.png */,
-				F1F59D5E1BF156A00078CA5C /* Duke Red.png */,
-				F1F59D5F1BF156A00078CA5C /* Duke Sky Blue.png */,
-				F1F59D601BF156A00078CA5C /* Duke Yellow.png */,
 				F1F59D551BF156A00078CA5C /* boutique.jpg */,
 				F1F59D561BF156A00078CA5C /* chapel.jpg */,
 				F1F59D571BF156A00078CA5C /* chemoEducation.jpg */,
@@ -457,9 +430,6 @@
 				F1F59D691BF156A00078CA5C /* treeHope.jpg */,
 				F1BFF1241BF317ED00328712 /* writeForYou.jpg */,
 				F1A447D91BFBDF050097D888 /* defultPhoto.jpg */,
-				F1A447D31BFB279F0097D888 /* HFriedman.jpg */,
-				F1A447D51BFB27E20097D888 /* AFriedman.jpg */,
-				F1A447DB1BFC31E80097D888 /* duvall.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -534,20 +504,16 @@
 				F11C4A581C07EDC2005C054D /* BHanks.jpg in Resources */,
 				F11C4A661C07EDC2005C054D /* KBlackwell.jpg in Resources */,
 				F1F59D781BF156A00078CA5C /* mainEntrance.jpg in Resources */,
-				F1F59D731BF156A00078CA5C /* Duke Orange.png in Resources */,
 				F11C4A561C07EDC2005C054D /* ASalama.jpg in Resources */,
 				F1F59D6B1BF156A00078CA5C /* boutique.jpg in Resources */,
 				F1A447D61BFB27E20097D888 /* AFriedman.jpg in Resources */,
 				F1F59D6E1BF156A00078CA5C /* commonArea.jpg in Resources */,
-				F1F59D761BF156A00078CA5C /* Duke Yellow.png in Resources */,
 				F11414AE1BF9842A00FE0532 /* blueGradient-light.jpg in Resources */,
 				F1F59D771BF156A00078CA5C /* lawServices.jpg in Resources */,
 				F11C4A6C1C07EDC2005C054D /* MOnaitis.jpg in Resources */,
 				F11C4A641C07EDC2005C054D /* JSampson.jpg in Resources */,
 				F11C4A771C07EDC2005C054D /* SHwang.jpg in Resources */,
-				F1F59D741BF156A00078CA5C /* Duke Red.png in Resources */,
 				F11C4A6B1C07EDC2005C054D /* MMorse.jpg in Resources */,
-				F11414991BF96B8A00FE0532 /* DukeFont.ttf in Resources */,
 				F1A447DA1BFBDF050097D888 /* defultPhoto.jpg in Resources */,
 				F11C4A751C07EDC2005C054D /* RGreenup.jpg in Resources */,
 				F11C4A611C07EDC2005C054D /* JAbbruzzese.jpg in Resources */,
@@ -556,17 +522,13 @@
 				318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */,
 				318AECEF1BEAA4C3004F6E38 /* writing.jpg in Resources */,
 				F1AF80E61BF2E27B00CDED94 /* blueGradient.jpg in Resources */,
-				F1F59D751BF156A00078CA5C /* Duke Sky Blue.png in Resources */,
 				F1F59D7C1BF156A00078CA5C /* spaDay.jpg in Resources */,
 				F11C4A6F1C07EDC2005C054D /* NReady.jpg in Resources */,
-				F11414A11BF9809600FE0532 /* blueStripes1.png in Resources */,
-				F1F59D721BF156A00078CA5C /* Duke Green.png in Resources */,
 				F1A447D41BFB279F0097D888 /* HFriedman.jpg in Resources */,
 				F11C4A711C07EDC2005C054D /* PMarcom.jpg in Resources */,
 				F1F59D7E1BF156A00078CA5C /* strikeoutSarcoma.png in Resources */,
 				F11C4A761C07EDC2005C054D /* RScheri.jpg in Resources */,
 				F11C4A701C07EDC2005C054D /* PLee.jpg in Resources */,
-				F1A447DC1BFC31E80097D888 /* duvall.jpg in Resources */,
 				F1F59D801BF156A00078CA5C /* whiteLogo.png in Resources */,
 				318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */,
 				F1F59D7A1BF156A00078CA5C /* quietRoom.jpg in Resources */,
@@ -578,12 +540,10 @@
 				F11C4A651C07EDC2005C054D /* JSosa.jpg in Resources */,
 				F11C4A631C07EDC2005C054D /* JPerkins.jpg in Resources */,
 				F11C4A5B1C07EDC2005C054D /* DBlazer.jpg in Resources */,
-				F114149F1BF9809600FE0532 /* blueStripes3.png in Resources */,
 				F11C4A671C07EDC2005C054D /* KWestbrook.jpg in Resources */,
 				06D8B1111BB8EFE000A42ECC /* Main.storyboard in Resources */,
 				F11C4A591C07EDC2005C054D /* CKelsey.jpg in Resources */,
 				F1F59D7B1BF156A00078CA5C /* rooftopGarden.jpg in Resources */,
-				F11414A01BF9809600FE0532 /* blueStripes2.png in Resources */,
 				F11C4A5D1C07EDC2005C054D /* DHsu.jpg in Resources */,
 				F11C4A5E1C07EDC2005C054D /* GGeorgiade.jpg in Resources */,
 				F11C4A681C07EDC2005C054D /* LHavrilesky.jpg in Resources */,

@@ -10,6 +10,8 @@ import UIKit
 
 class RestTableViewController: UITableViewController {
     
+    
+    //data arrays
     var restTitles = ["Spiritual Self Care", "Open Meditation", "Write For You", "Tai Chi", "Pet Therapy"]
     var restDescriptions = [
         "Spiritual Self Care is a chaplain-led group for spiritual self-care planning. Sessions include reflection on spiritual health and wellness, tools for spiritual-emotional resilience/coping and care planning. Sessions are also available in-clinic, inpatient or by phone. For inquiries, contact Annette Olsen, Chaplain, at 919.684.2843 or email at annette.olsen@duke.edu.",
@@ -38,6 +40,7 @@ class RestTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
+        //set up table view
         let cell = self.tableView.dequeueReusableCellWithIdentifier("RestTableViewCell", forIndexPath: indexPath) as! RestTableViewCell
         let row = indexPath.row
         cell.restLabel.text = restTitles[row]
@@ -45,6 +48,8 @@ class RestTableViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        //navigate to new pages via segues
         if segue.identifier == "ShowRestDetails" {
             let detailViewController = segue.destinationViewController as! RestDetailViewController
             let myIndexPath = self.tableView.indexPathForSelectedRow!

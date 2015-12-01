@@ -10,6 +10,7 @@ import UIKit
 
 class EducationTableViewController: UITableViewController {
     
+    //data arrays
     var educationTitles = ["Chemotherapy Education Class", "Options For Breast Reconstruction", "Cancer Nutrition Virtual Class", "Quitting Smoking", "Diabetes Education", "Free Legal Services"]
     var educationDescriptions = [
         "Will you be starting chemotherapy in the near future? Do you have questions about the possible side effects? Or do you just want more information about your treatment? Our Chemotherapy Education Class can address these questions and more. This class is led by a nurse or pharmacist and includes a Q&A time. Registration is not required. Family and friends are welcome.",
@@ -39,6 +40,7 @@ class EducationTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
+        //set up table view
         let cell = self.tableView.dequeueReusableCellWithIdentifier("EducationTableViewCell", forIndexPath: indexPath) as! EducationTableViewCell
         let row = indexPath.row
         cell.educationLabel.text = educationTitles[row]
@@ -46,6 +48,8 @@ class EducationTableViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        //navigate to new pages via segues
         if segue.identifier == "ShowEducationDetails" {
             let detailViewController = segue.destinationViewController as! EducationDetailViewController
             let myIndexPath = self.tableView.indexPathForSelectedRow!

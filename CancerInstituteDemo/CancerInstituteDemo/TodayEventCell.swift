@@ -2,7 +2,7 @@
 //  TodayEventCell.swift
 //  CancerInstituteDemo
 //
-//  Created by guest user on 10/19/15.
+//  Created by Kevin Li on 10/19/15.
 //  Copyright © 2015 KAG. All rights reserved.
 //
 

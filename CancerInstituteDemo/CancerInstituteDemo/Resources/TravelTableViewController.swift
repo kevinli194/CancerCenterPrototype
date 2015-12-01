@@ -10,6 +10,7 @@ import UIKit
 
 class TravelTableViewController: UITableViewController {
     
+    //data arrays
     var travelTitles = [""]
     var travelDescriptions = [""]
     var travelImages = [""]
@@ -33,6 +34,7 @@ class TravelTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
+        //set up table view
         let cell = self.tableView.dequeueReusableCellWithIdentifier("TravelTableViewCell", forIndexPath: indexPath) as! TravelTableViewCell
         let row = indexPath.row
         cell.travelLabel.text = travelTitles[row]
@@ -40,6 +42,8 @@ class TravelTableViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        //navigate to new pages via segues
         if segue.identifier == "ShowTravelDetails" {
             let detailViewController = segue.destinationViewController as! TravelDetailViewController
             let myIndexPath = self.tableView.indexPathForSelectedRow!
