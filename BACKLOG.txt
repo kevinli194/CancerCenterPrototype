@@ -1,0 +1,4 @@
+Some of the future features that we would have hoped to develop, or can develop in the future are:
+- push notifications + settings page to toggle notification settings
+- add events to iPhone calendar function
+- getting current location via QR codes and QR code scanner
