@@ -39,8 +39,8 @@ class MapController: UIViewController {
         marker.map = mapView
         
         
-        let northEast = CLLocationCoordinate2DMake(36.005232, -78.937291)
-        let southWest = CLLocationCoordinate2DMake(36.005006, -78.936674)
+        let southWest = CLLocationCoordinate2DMake(36.004910, -78.937428)
+        let northEast = CLLocationCoordinate2DMake(36.004910, -78.936784)
         let overlayBounds = GMSCoordinateBounds(coordinate: southWest, coordinate: northEast)
         
         let icon = UIImage(named: "Image")
