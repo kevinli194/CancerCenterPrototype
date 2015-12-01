@@ -16,6 +16,7 @@
 		318AECF11BEAA4C9004F6E38 /* spiritual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF01BEAA4C9004F6E38 /* spiritual.jpg */; };
 		318AECF31BEAA4D5004F6E38 /* taichi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF21BEAA4D5004F6E38 /* taichi.jpg */; };
 		318AECF51BEAA51B004F6E38 /* pet_therapy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 318AECF41BEAA51B004F6E38 /* pet_therapy.jpg */; };
+		F10F0EF21C0D57E900F865DB /* resourceCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = F10F0EF11C0D57E900F865DB /* resourceCenter.png */; };
 		F11414AD1BF9842A00FE0532 /* blueGradient2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11414AA1BF9842A00FE0532 /* blueGradient2.jpg */; };
 		F11414AE1BF9842A00FE0532 /* blueGradient-light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11414AB1BF9842A00FE0532 /* blueGradient-light.jpg */; };
 		F11414AF1BF9842A00FE0532 /* blueGradient-dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F11414AC1BF9842A00FE0532 /* blueGradient-dark.jpg */; };
@@ -124,6 +125,7 @@
 		6BF8ED8034DB39B4F8EF216F /* Pods-CancerInstituteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		C5AD819B0F9C33532F5E4293 /* Pods_CancerInstituteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CancerInstituteDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9E4493ACC11DA87670C4DE /* Pods-CancerInstituteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CancerInstituteDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-CancerInstituteDemo/Pods-CancerInstituteDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F10F0EF11C0D57E900F865DB /* resourceCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resourceCenter.png; sourceTree = "<group>"; };
 		F11414AA1BF9842A00FE0532 /* blueGradient2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGradient2.jpg; sourceTree = "<group>"; };
 		F11414AB1BF9842A00FE0532 /* blueGradient-light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blueGradient-light.jpg"; sourceTree = "<group>"; };
 		F11414AC1BF9842A00FE0532 /* blueGradient-dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blueGradient-dark.jpg"; sourceTree = "<group>"; };
@@ -427,6 +429,7 @@
 				F1F59D661BF156A00078CA5C /* spaDay.jpg */,
 				F1F59D671BF156A00078CA5C /* springSupport.png */,
 				F1F59D681BF156A00078CA5C /* strikeoutSarcoma.png */,
+				F10F0EF11C0D57E900F865DB /* resourceCenter.png */,
 				F1F59D691BF156A00078CA5C /* treeHope.jpg */,
 				F1BFF1241BF317ED00328712 /* writeForYou.jpg */,
 				F1A447D91BFBDF050097D888 /* defultPhoto.jpg */,
@@ -566,6 +569,7 @@
 				F11C4A551C07EDC2005C054D /* AKamal.jpg in Resources */,
 				F11C4A781C07EDC2005C054D /* SRoman.jpg in Resources */,
 				F11C4A6D1C07EDC2005C054D /* MWahidi.jpg in Resources */,
+				F10F0EF21C0D57E900F865DB /* resourceCenter.png in Resources */,
 				F11C4A5F1C07EDC2005C054D /* GKimmick.jpg in Resources */,
 				F11C4A6E1C07EDC2005C054D /* MZenn.jpg in Resources */,
 				F11C4A691C07EDC2005C054D /* MBerry.jpg in Resources */,
