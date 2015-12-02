@@ -18,8 +18,8 @@ class MapController: UIViewController {
         self.navigationController?.navigationBar.barTintColor = UIColor(patternImage: UIImage(named: "blueGradient.jpg")!)
         self.locationManager.requestWhenInUseAuthorization()
         
-        let camera = GMSCameraPosition.cameraWithLatitude(36.006725,
-            longitude: -78.937257, zoom: 16, bearing: -60, viewingAngle: 30)
+        let camera = GMSCameraPosition.cameraWithLatitude(36.005470,
+            longitude: -78.936115, zoom: 17, bearing: -60, viewingAngle: 30)
         let mapView = GMSMapView.mapWithFrame(CGRectZero, camera: camera)
         mapView.myLocationEnabled = true
         //mapView.settings.myLocationButton = true
@@ -36,15 +36,15 @@ class MapController: UIViewController {
         let marker = GMSMarker()
 
         
-        marker.position = CLLocationCoordinate2DMake(36.005369, -78.934438)
-        marker.title = "Duke Medicine Circle Parking Garage"
+        marker.position = CLLocationCoordinate2DMake(36.005403, -78.934317)
+        marker.title = "Duke Medicine Cir Parking Garage"
         marker.snippet = "302 Trent Drive"
         marker.icon = UIImage(named: "parking")
         marker.map = mapView
         
         
-        let northEast = CLLocationCoordinate2DMake(36.005388, -78.937946)
-        let southWest = CLLocationCoordinate2DMake(36.004415, -78.936993)
+        let northEast = CLLocationCoordinate2DMake(36.005525, -78.937060)
+        let southWest = CLLocationCoordinate2DMake(36.004774, -78.936090)
         let overlayBounds = GMSCoordinateBounds(coordinate: northEast, coordinate: southWest)
         
         let icon = UIImage(named: "Image")
