@@ -1,0 +1,11 @@
+RELEASE_NOTES.txt
+
+Here are the features in this release:
+-an appointment page with a search and filter feature for users to look up their doctor and see if he/she is running late with doctor biographies and pictures
+-a bird's eye view map of the Cancer Center and the surrounding buildings and roads in 3D and a 2D map plan
+-a list of all the resources (educational classes, support groups, points of interest) with their description and pictures
+- a today's event page with clickable links that connects to the calendar of events
+- a contact page with 3 numbers important to the cancer center with click-to-call links
+
+
+Currently compatible with iOS 9.0 and higher
